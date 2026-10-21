@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "scaleupfm",
+  "displayName": "ScaleUp Financial Management",
+  "version": "0.5.1",
+  "description": "Claude Code plugin for ScaleUp Financial Management branded deliverables",
+  "author": {
+    "name": "stromy-org"
+  },
+  "repository": "https://github.com/stromy-org/scaleupfm-plugin",
+  "license": "UNLICENSED",
+  "keywords": []
+}

@@ -1,0 +1,20 @@
+# Changes here will be overwritten by Copier; DO NOT edit manually.
+_commit: v1.10.1
+_src_path: gh:stromy-org/claude-plugin-template
+author_name: William Masquelier
+client_name: ScaleUp Financial Management
+client_slug: scaleupfm
+description: Claude Code plugin for ScaleUp Financial Management branded deliverables
+display_name: ScaleUp Financial Management
+enable_stromy_format: true
+github_org: stromy-org
+include_mcp: false
+include_node: true
+include_python: true
+marketplace_slug: scaleupfm-marketplace
+mcp_servers: []
+plugin_name: ScaleUp Financial Management Deliverables
+plugin_slug: scaleupfm
+provider_targets: claude
+repo_slug: scaleupfm-plugin
+version: 0.1.0

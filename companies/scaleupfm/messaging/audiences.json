@@ -1,0 +1,71 @@
+[
+  {
+    "id": "aud-001",
+    "name": "CEO / Owner-Founder",
+    "type": "external",
+    "description": "Owners and founders of NL-based scale-ups with revenue of €1M–€20M, growing fast but with a finance function that is still informal — built reactively as the company grew.",
+    "priority": "primary",
+    "painPoints": [
+      "Finance grew organically — no structure, no rhythm, no forecast",
+      "Reporting is reactive, not decision-grade",
+      "Owner makes capital and cash decisions on gut feel",
+      "Need a CFO but can't yet justify the permanent hire"
+    ],
+    "decisionCriteria": [
+      "Senior finance experience — not a junior accountant or generic adviser",
+      "Hands-on operator who builds the function, not just recommends",
+      "Plain language — financial findings explained without jargon",
+      "Structured process: diagnosis first, then roadmap, then execution",
+      "Credible handover plan so they are not dependent forever"
+    ],
+    "vocabulary": {
+      "use": ["rust", "overzicht", "financiële grip", "maandafsluiting", "kasstroomprognose", "KPI-dashboard", "boardrapportage", "van intuïtie naar inzicht"],
+      "avoid": ["synergy", "value creation", "leverage", "best-in-class", "strategic fit", "ecosystem"]
+    },
+    "skepticism": "Has heard vague CFO-advisory pitches before. Wants to see a clear process, a concrete deliverable at each step, and a founder who has actually run finance inside a real business under pressure.",
+    "pillarPriority": ["pillar-001", "pillar-003", "pillar-002"],
+    "preferredProofTypes": ["credibility", "capability", "narrative"],
+    "adaptedMessage": "Wij brengen rust, overzicht en financiële grip — met een diagnose die benoemt wat er echt misgaat, een roadmap die laat zien hoe je dat oplost, en een CFO die het ook daadwerkelijk uitvoert.",
+    "topObjection": {
+      "objection": "We hebben al een boekhouder / accountant — waarom hebben we nog een externe CFO nodig?",
+      "response": "Een boekhouder verwerkt de cijfers; een accountant controleert ze. Wat ontbreekt is iemand die de cijfers gebruikt om beslissingen te nemen: wanneer heb je extra financiering nodig, welke klant is onrendabel, hoe ziet je cashflow er over zes maanden uit? Dat is de CFO-laag die de meeste scale-ups missen.",
+      "proofId": null
+    },
+    "channels": ["direct referral", "accountant networks", "ondernemersverenigingen", "LinkedIn", "scale-up communities"],
+    "tags": ["scale-up", "founder-led", "decision-maker", "B2B", "netherlands"]
+  },
+  {
+    "id": "aud-002",
+    "name": "Board Chair / Lead Investor",
+    "type": "external",
+    "description": "Board chairs and lead investors at PE-backed portfolio companies or investor-backed scale-ups requiring interim CFO leadership during transitions — fundraise, M&A, leadership vacancy.",
+    "priority": "secondary",
+    "painPoints": [
+      "Portfolio company in transition — fundraise, M&A, or CFO vacancy — with no senior finance cover",
+      "Board reporting is insufficient for investment-grade decisions",
+      "Finance team lacks a senior leader who can represent the company to investors and banks",
+      "Need a credible CFO face during due diligence or a transaction process"
+    ],
+    "decisionCriteria": [
+      "Senior finance track record that holds up in due diligence",
+      "Experience representing a company to investors and banks",
+      "Speed of mobilization for time-sensitive transitions",
+      "Clear handover plan to a permanent hire"
+    ],
+    "vocabulary": {
+      "use": ["interim CFO", "transaction readiness", "investor reporting", "due diligence", "finance leadership", "board reporting"],
+      "avoid": ["back-office", "bookkeeping", "accounting function", "junior finance"]
+    },
+    "skepticism": "Investors want a senior CFO who has been in the room with banks and private equity before — not a generalist consultant. Needs to see WPP/H&K-level professional-services CFO experience.",
+    "pillarPriority": ["pillar-002", "pillar-001", "pillar-003"],
+    "preferredProofTypes": ["credibility", "capability"],
+    "adaptedMessage": "A senior CFO with nearly 30 years of experience inside professional-services and media businesses — available as interim cover during your transition, with a structured handover to your permanent hire.",
+    "topObjection": {
+      "objection": "We need a permanent CFO, not an interim.",
+      "response": "A permanent CFO hire takes 3–6 months. During that window, the finance function cannot stand still — especially if you are in a fundraise or M&A process. Wilgert covers the seat, keeps the finance function running at CFO standard, and hands over to the permanent hire with a documented operating system.",
+      "proofId": null
+    },
+    "channels": ["PE network", "investment community", "direct introduction", "M&A advisers"],
+    "tags": ["investor-backed", "board-level", "pe-portfolio", "B2B", "netherlands"]
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "lists": [
+    {
+      "id": "dl-nl-finance",
+      "name": "Dutch Financial & Business Press",
+      "beat": "business",
+      "region": "Netherlands",
+      "tier": "national",
+      "description": "Financial and business journalists at major Dutch national publications covering scale-ups, entrepreneurship, and finance",
+      "outlets": ["Het Financieele Dagblad", "NRC Handelsblad", "De Volkskrant", "RTL Z", "BNR Nieuwsradio"]
+    },
+    {
+      "id": "dl-nl-entrepreneurship",
+      "name": "Dutch Entrepreneurship & Scale-up Press",
+      "beat": "entrepreneurship",
+      "region": "Netherlands",
+      "tier": "trade",
+      "description": "Trade and editorial publications covering Dutch entrepreneurs, founders, and scale-up growth topics",
+      "outlets": ["Sprout", "MT/Sprout", "Quote", "De Ondernemer", "Emerce"]
+    },
+    {
+      "id": "dl-nl-finance-trade",
+      "name": "Dutch Finance & CFO Trade",
+      "beat": "finance",
+      "region": "Netherlands",
+      "tier": "trade",
+      "description": "Publications covering finance professionals, CFOs, and financial management in the Netherlands",
+      "outlets": ["CFO Magazine", "Financieel Management", "Accountancy Vanmorgen"]
+    },
+    {
+      "id": "dl-eu-startup",
+      "name": "European Tech & Scale-up Press",
+      "beat": "startups",
+      "region": "Europe",
+      "tier": "trade",
+      "description": "International publications covering European scale-ups, venture-backed growth companies, and startup ecosystems",
+      "outlets": ["Silicon Canals", "Sifted", "EU-Startups"]
+    }
+  ]
+}

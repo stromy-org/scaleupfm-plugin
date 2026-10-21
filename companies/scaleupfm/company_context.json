@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": {
+    "profileSha": "45e315a004b6a046d5521eba513d4ea0710d81be20ac74cd75d131cae4fff930",
+    "peopleSha": "17a32e38232efbdbc4097404557f7fdd1a44abd4a54d7a5458ee604446cf7166",
+    "compiler": "1.0"
+  },
+  "company": {
+    "name": "ScaleUp Financial Management",
+    "shortName": "ScaleUp",
+    "founded": "2026",
+    "industry": "Financial advisory · fractional CFO services",
+    "headquarters": {
+      "city": "Amersfoort",
+      "region": "Europe",
+      "country": "Netherlands"
+    },
+    "services": [
+      {
+        "id": "diagnosis",
+        "name": "Finance Diagnosis",
+        "name_nl": "Finance Diagnose",
+        "summary": "Two-week deep read of current finance function. Quantified gap report. Roadmap to a professional finance function.",
+        "duration": "2 weeks",
+        "deliverable": "Diagnosis report + 12-month roadmap"
+      },
+      {
+        "id": "roadmap-implementation",
+        "name": "Roadmap Implementation",
+        "name_nl": "Roadmap Implementatie",
+        "summary": "Hands-on installation of the diagnosed structure: chart of accounts, monthly close, KPI dashboard, cash forecast, board reporting cadence.",
+        "duration": "3–6 months",
+        "deliverable": "Working finance operating system"
+      },
+      {
+        "id": "fractional-cfo",
+        "name": "Fractional CFO",
+        "name_nl": "Fractionele CFO",
+        "summary": "Ongoing CFO-level leadership at 1–3 days per week. Board prep, capital decisions, investor communication, finance team mentoring.",
+        "duration": "Ongoing retainer",
+        "deliverable": "CFO function as a service"
+      },
+      {
+        "id": "interim-cfo",
+        "name": "Interim CFO",
+        "name_nl": "Interim CFO",
+        "summary": "Full-time CFO seat during transitions: fundraise, M&A, founder transition, finance leadership vacancy.",
+        "duration": "3–12 months",
+        "deliverable": "CFO seat coverage with handover"
+      }
+    ],
+    "positioning": {
+      "essence": "Senior CFO leadership that turns gut-feel finance into the structure a scale-up actually needs.",
+      "positioning": "The senior finance partner that takes a growing SME from kladje-on-the-back-of-the-envelope to a fully professional finance function — diagnosis, roadmap, hands-on implementation, and ongoing operation.",
+      "tagline_nl_hero": "Van risico naar regie. Van intuïtie naar inzicht. Van start-up naar serieuze scale-up.",
+      "tagline_en_supporting": "Start to Scale",
+      "differentiators": [
+        "~30 years of senior finance leadership — CFO at Hill & Knowlton (WPP's global communications firm), with earlier roles at EMI Music Netherlands and Warner Music Benelux",
+        "Network of finance professionals on call for execution depth",
+        "Hands-on operator — not just advisory; runs the finance function until permanent hires take over",
+        "Backed by Duke Strategies (silent partners providing strategic counsel and reach)"
+      ]
+    }
+  },
+  "people": [
+    {
+      "id": "person-001",
+      "name": "Wilgert Hart",
+      "title": "Founder & Managing Partner",
+      "publicRole": "spokesperson",
+      "publicBio": "Wilgert Hart is founder and managing partner of ScaleUp Financial Management. He spent nearly three decades in senior finance, including CFO roles at Hill & Knowlton (WPP's global communications firm) and earlier finance roles at EMI Music Netherlands and Warner Music Benelux. He brings that operator's experience to Dutch scale-ups, taking a growing company's finance function from informal to fully professional and running it until a permanent CFO takes over.",
+      "quoteStyle": "Warm, steady senior-finance register; practical and people-oriented; plain Dutch over jargon; writes in Dutch and English."
+    }
+  ],
+  "redactions": [
+    "company direct email",
+    "company registration numbers",
+    "personal contact (email / phone)"
+  ]
+}
