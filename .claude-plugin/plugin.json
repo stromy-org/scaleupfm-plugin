@@ -1,13 +1,13 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
-  "name": "starttoscale",
-  "displayName": "Start to Scale Financial Management",
-  "version": "0.4.22",
-  "description": "Claude Code plugin for Start to Scale branded deliverables",
+  "name": "scaleupfm",
+  "displayName": "ScaleUp Financial Management",
+  "version": "0.5.0",
+  "description": "Claude Code plugin for ScaleUp Financial Management branded deliverables",
   "author": {
     "name": "stromy-org"
   },
-  "repository": "https://github.com/stromy-org/starttoscale-plugin",
+  "repository": "https://github.com/stromy-org/scaleupfm-plugin",
   "license": "UNLICENSED",
   "keywords": []
 }

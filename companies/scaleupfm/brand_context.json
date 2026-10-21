@@ -1,0 +1,2028 @@
+{
+  "client_slug": "scaleupfm",
+  "schemaVersion": 1,
+  "version": "1.0",
+  "generatedFrom": {
+    "charterSha": "73897fa68d6dc6dc478054de0813bcf55755fcae4baa1ab3336029acb18c713d",
+    "compiler": "1.0"
+  },
+  "tier": "producer",
+  "colors": {
+    "primary": "#0A1F3D",
+    "primaryAlt": "#1A3358",
+    "secondary": "#1A3358",
+    "accent": "#E8A33D",
+    "accentHover": "#D08F2D",
+    "background": "#FAF8F3",
+    "backgroundAlt": "#FFFFFF",
+    "text": "#0A1F3D",
+    "textLight": "#6B7280",
+    "success": "#4A7A5A",
+    "warning": "#C28F3D",
+    "error": "#B85648",
+    "info": "#4A6390"
+  },
+  "typography": {
+    "heading": {
+      "family": "Archivo",
+      "weight": "700",
+      "fallback": "'Helvetica Neue', Arial, sans-serif",
+      "embedFamily": "Archivo",
+      "fallbackStack": [
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "webSafe": "Arial",
+      "webSafeAvailability": "web-safe",
+      "rightsStatus": "unknown"
+    },
+    "body": {
+      "family": "Archivo",
+      "weight": "400",
+      "fallback": "-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif",
+      "embedFamily": "Archivo",
+      "fallbackStack": [
+        "Segoe UI",
+        "Arial",
+        "Helvetica",
+        "sans-serif"
+      ],
+      "webSafe": "Segoe UI",
+      "webSafeAvailability": "web-safe",
+      "rightsStatus": "unknown"
+    },
+    "mono": {
+      "family": "JetBrains Mono",
+      "weight": "400",
+      "fallback": "'SF Mono', Consolas, 'Liberation Mono', monospace",
+      "embedFamily": "JetBrains Mono",
+      "fallbackStack": [
+        "Consolas",
+        "Courier New",
+        "monospace"
+      ],
+      "webSafe": "Consolas",
+      "webSafeAvailability": "web-safe",
+      "rightsStatus": "unknown"
+    },
+    "label": {
+      "family": "Archivo",
+      "weight": "600",
+      "fallback": "'Helvetica Neue', Arial, sans-serif",
+      "embedFamily": "Archivo",
+      "fallbackStack": [
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "webSafe": "Arial",
+      "webSafeAvailability": "web-safe",
+      "rightsStatus": "unknown",
+      "case": "upper",
+      "tracking": "0.2em"
+    },
+    "smallTitle": {
+      "face": "Archivo",
+      "case": "upper",
+      "tracking": "0.2em",
+      "marker": "none"
+    }
+  },
+  "tokens_css": "/* ============================================================\n   ScaleUp Financial Management — Design Tokens\n   Van risico naar regie. Van intuïtie naar inzicht.\n   Van start-up naar serieuze scale-up.\n\n   Version:  2.0.0\n   Date:     2026-10-13 (ScaleUp refresh)\n   Brand:    ScaleUp Financial Management\n   Primary:  Midnight Navy (#0A1F3D)\n   Accent:   Amber (#E8A33D)\n\n   All values derive from charter.json. When charter.json changes,\n   regenerate this file in the same promotion step.\n   ============================================================ */\n\n:root {\n\n  /* -- Primary Palette ---------------------------------------- */\n  --brand-dark:          #0B0E14;\n  --brand-primary:       #0A1F3D;     /* Midnight Navy */\n  --brand-primary-alt:   #1A3358;     /* Lighter navy for hover/secondary surfaces */\n  --brand-accent:        #E8A33D;     /* Amber — signal/CTA, use sparingly */\n  --brand-accent-hover:  #D08F2D;\n  --brand-text:          #0A1F3D;\n  --brand-text-light:    #6B7280;\n  --brand-background:    #FAF8F3;     /* Warm off-white, paper */\n  --brand-background-alt:#FFFFFF;\n\n  /* -- Navy Scale --------------------------------------------- */\n  --navy-50:             #EEF1F7;\n  --navy-100:            #D7DEEA;\n  --navy-200:            #B0BCD0;\n  --navy-300:            #788BAF;\n  --navy-400:            #4A6390;\n  --navy-500:            #2D4670;\n  --navy-600:            #1A3358;\n  --navy-700:            #15315A;\n  --navy-800:            #0A1F3D;     /* = --brand-primary */\n  --navy-900:            #050F1F;\n\n  /* -- Amber Scale -------------------------------------------- */\n  --amber-50:            #FCF4E5;\n  --amber-100:           #FAEAD0;\n  --amber-200:           #F6DAAE;\n  --amber-300:           #F1C786;\n  --amber-400:           #EDB55E;\n  --amber-500:           #E8A33D;     /* = --brand-accent */\n  --amber-600:           #D08F2D;\n  --amber-700:           #B27921;\n  --amber-800:           #8E6017;\n  --amber-900:           #6D4A0F;\n\n  /* -- Brand Color Scale (aliases) ---------------------------- */\n  --brand-900:           var(--navy-900);\n  --brand-800:           var(--navy-800);    /* = --brand-primary */\n  --brand-700:           var(--navy-700);\n  --brand-600:           var(--navy-600);\n  --brand-500:           var(--navy-500);\n  --brand-400:           var(--navy-400);\n  --brand-300:           var(--navy-300);\n  --brand-200:           var(--navy-200);\n  --brand-100:           var(--navy-100);\n  --brand-50:            var(--navy-50);\n\n  /* -- Accent Color Scale (aliases) --------------------------- */\n  --accent-900:          var(--amber-900);\n  --accent-700:          var(--amber-700);\n  --accent-500:          var(--amber-500);   /* = --brand-accent */\n  --accent-300:          var(--amber-300);\n  --accent-100:          var(--amber-100);\n  --accent-50:           var(--amber-50);\n\n  /* -- Neutral Scale ------------------------------------------ */\n  --neutral-50:          #FAF8F3;     /* Paper */\n  --neutral-100:         #F0EEE9;\n  --neutral-200:         #E5E2DA;\n  --neutral-300:         #C9C5BB;\n  --neutral-400:         #ACA89C;\n  --neutral-500:         #8E8A7E;\n  --neutral-600:         #6B7280;\n  --neutral-700:         #4D5460;\n  --neutral-800:         #2D3340;\n  --neutral-900:         #181C24;\n  --neutral-950:         #0B0E14;\n  --neutral-white:       #FFFFFF;\n\n  /* -- Semantic Colors (palette-aligned, muted) --------------- */\n  --success:             #4A7A5A;\n  --success-light:       #E8F0EB;\n  --warning:             #C28F3D;\n  --warning-light:       #F7EDD9;\n  --error:               #B85648;\n  --error-light:         #F4E0DC;\n  --info:                #4A6390;     /* navy-400 — info derives from brand */\n  --info-light:          #E5EAF1;\n\n  /* -- Typography --------------------------------------------- */\n  --font-display:        'Archivo', 'Helvetica Neue', Arial, sans-serif;\n  --font-heading:        'Archivo', 'Helvetica Neue', Arial, sans-serif;\n  --font-body:           'Archivo', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;\n  --font-label:          'Archivo', 'Helvetica Neue', Arial, sans-serif;   /* small-title / eyebrow (Component L) */\n  --font-mono:           'JetBrains Mono', 'SF Mono', Consolas, 'Liberation Mono', monospace;\n\n  /* -- Type Scale --------------------------------------------- */\n  --text-display-xl:     3.5rem;      /* 56px */\n  --text-display-lg:     2.75rem;     /* 44px */\n  --text-display-md:     2.25rem;     /* 36px */\n  --text-display-sm:     1.75rem;     /* 28px */\n  --text-h1:             2rem;        /* 32px */\n  --text-h2:             1.625rem;    /* 26px */\n  --text-h3:             1.375rem;    /* 22px */\n  --text-h4:             1.125rem;    /* 18px */\n  --text-body-lg:        1.0625rem;   /* 17px */\n  --text-body:           1rem;        /* 16px */\n  --text-body-sm:        0.875rem;    /* 14px */\n  --text-caption:        0.75rem;     /* 12px */\n  --text-overline:       0.6875rem;   /* 11px */\n  --text-micro:          0.625rem;    /* 10px */\n\n  /* -- Line Heights ------------------------------------------- */\n  --leading-tight:       1.1;\n  --leading-snug:        1.25;\n  --leading-display:     1.15;\n  --leading-heading:     1.25;\n  --leading-body:        1.7;\n  --leading-body-sm:     1.55;\n  --leading-caption:     1.4;\n\n  /* -- Letter Spacing ----------------------------------------- */\n  --tracking-tightest:   -0.04em;\n  --tracking-tight:      -0.02em;\n  --tracking-snug:       -0.01em;\n  --tracking-normal:     0;\n  --tracking-wide:       0.04em;\n  --tracking-wider:      0.08em;\n  --tracking-widest:     0.18em;       /* Overlines, FINANCIAL MANAGEMENT caption */\n  --tracking-label:      0.20em;       /* Step Rail eyebrow / small-title (Archivo caps) */\n\n  /* -- Font Weights ------------------------------------------- */\n  --weight-light:        300;\n  --weight-regular:      400;\n  --weight-medium:       500;          /* Archivo medium */\n  --weight-semibold:     600;\n  --weight-bold:         700;\n  --weight-extrabold:    800;          /* Archivo hero / display (D6) */\n\n  /* -- Web layout (ScaleUp refresh 2026-10-13) ----------------- */\n  --container-max:       1600px;       /* fluid container; reads on very wide screens */\n  --container-pad:       clamp(20px, 4vw, 80px);\n  --reading-width:       72ch;\n  --text-web-base:       clamp(1.125rem, 0.35vw + 1.03rem, 1.25rem);   /* 18-20px body on the site */\n  --text-web-scale:      1.25;\n\n  /* -- Stage ladder (the four bars = four stages) ------------- */\n  --stage-1-height:      0.40;         /* Op orde */\n  --stage-2-height:      0.59;         /* In control */\n  --stage-3-height:      0.79;         /* Meer inzicht */\n  --stage-4-height:      1.00;         /* Beter schaalbaar */\n\n  /* -- Spacing Scale (4px base) ------------------------------- */\n  --space-1:   0.25rem;\n  --space-2:   0.5rem;\n  --space-3:   0.75rem;\n  --space-4:   1rem;\n  --space-5:   1.25rem;\n  --space-6:   1.5rem;\n  --space-8:   2rem;\n  --space-10:  2.5rem;\n  --space-12:  3rem;\n  --space-16:  4rem;\n  --space-20:  5rem;\n  --space-24:  6rem;\n  --space-32:  8rem;\n\n  /* -- Border Radius ------------------------------------------ */\n  --radius-sm:   4px;\n  --radius-md:   6px;\n  --radius-lg:   8px;\n  --radius-xl:   12px;\n  --radius-2xl:  16px;\n  --radius-full: 9999px;\n\n  /* -- Shadows (subtle, advisory-firm restraint) -------------- */\n  --shadow-sm:   0 1px 2px rgba(10,31,61,0.05);\n  --shadow-md:   0 2px 8px rgba(10,31,61,0.08);\n  --shadow-lg:   0 6px 20px rgba(10,31,61,0.10);\n  --shadow-xl:   0 12px 32px rgba(10,31,61,0.12);\n\n  /* -- Transitions -------------------------------------------- */\n  --ease-out:        cubic-bezier(0.16, 1, 0.3, 1);\n  --ease-in-out:     cubic-bezier(0.4, 0, 0.2, 1);\n  --duration-fast:   120ms;\n  --duration-normal: 240ms;\n  --duration-slow:   480ms;\n\n  /* -- Brand Motif (Step Rail — 4 bars, +18% geometric ascent) - */\n  --motif-line-color:       var(--brand-primary);\n  --motif-line-color-light: var(--navy-300);\n  --motif-accent-color:     var(--brand-accent);\n  --motif-bar-radius:       1px;\n  --motif-bar-width:        16px;\n  --motif-bar-gap:          6px;\n  --motif-bars:             4;\n  --motif-step-ratio:       1.18;      /* each bar +18% taller than the last */\n  --motif-step-h-1:         0.40;      /* relative heights of the 4 bars */\n  --motif-step-h-2:         0.59;\n  --motif-step-h-3:         0.79;\n  --motif-step-h-4:         1.00;\n\n  /* -- Photo treatment (house look: Navy Duotone, operator pick D2,\n        2026-10-14 — charter expression.treatments.looks.navy-duotone) */\n  --photo-treatment-default:  grayscale(1) contrast(1.06) brightness(1.06);  /* filter */\n  --photo-duotone-shadow:     #06152A;\n  --photo-duotone-mid:        #1A3358;\n  --photo-duotone-highlight:  #FAF8F3;\n  --photo-overlay-color:      #1A3358;  /* mix-blend-mode: color */\n  --photo-overlay-opacity:    0.72;\n\n  /* -- Layout ------------------------------------------------- */\n  --content-width:    720px;\n  --content-wide:     960px;\n  --content-max:      var(--container-max);\n}\n\n/* ============================================================\n   UTILITY CLASSES\n   ============================================================ */\n\n.font-display { font-family: var(--font-display); font-weight: var(--weight-extrabold); letter-spacing: var(--tracking-tight); }\n.font-body    { font-family: var(--font-body);    font-weight: var(--weight-regular); }\n.font-mono    { font-family: var(--font-mono);    font-weight: var(--weight-regular); }\n.font-label   { font-family: var(--font-label);   font-weight: var(--weight-semibold); letter-spacing: var(--tracking-label); text-transform: uppercase; }\n\n.text-primary   { color: var(--brand-primary); }\n.text-accent    { color: var(--brand-accent); }\n.text-light     { color: var(--brand-text-light); }\n.bg-primary     { background: var(--brand-primary); color: var(--brand-background); }\n.bg-paper       { background: var(--brand-background); }\n.bg-surface-alt { background: var(--brand-background-alt); }\n\n.overline {\n  font-family: var(--font-label);\n  font-size: var(--text-overline);\n  font-weight: var(--weight-semibold);\n  letter-spacing: var(--tracking-label);\n  text-transform: uppercase;\n  color: var(--brand-text-light);\n}\n\n.divider {\n  height: 1.5px;\n  background: linear-gradient(to right, var(--brand-primary) 0%, var(--brand-primary) 90%, var(--brand-accent) 90%, var(--brand-accent) 100%);\n  border: none;\n  margin: var(--space-8) 0;\n}\n\n.btn-primary {\n  font-family: var(--font-body);\n  font-weight: var(--weight-medium);\n  font-size: var(--text-body-sm);\n  letter-spacing: var(--tracking-wide);\n  padding: var(--space-3) var(--space-6);\n  background: var(--brand-primary);\n  color: var(--brand-background);\n  border: 1.5px solid var(--brand-primary);\n  border-radius: var(--radius-sm);\n  cursor: pointer;\n  transition: background var(--duration-normal) var(--ease-out);\n}\n.btn-primary:hover { background: var(--brand-primary-alt); }\n\n.btn-accent {\n  font-family: var(--font-body);\n  font-weight: var(--weight-medium);\n  font-size: var(--text-body-sm);\n  letter-spacing: var(--tracking-wide);\n  padding: var(--space-3) var(--space-6);\n  background: var(--brand-accent);\n  color: var(--brand-primary);\n  border: 1.5px solid var(--brand-accent);\n  border-radius: var(--radius-sm);\n  cursor: pointer;\n  transition: background var(--duration-normal) var(--ease-out);\n}\n.btn-accent:hover { background: var(--brand-accent-hover); }\n\n.btn-ghost {\n  font-family: var(--font-body);\n  font-weight: var(--weight-medium);\n  font-size: var(--text-body-sm);\n  padding: var(--space-3) var(--space-6);\n  background: transparent;\n  color: var(--brand-primary);\n  border: 1.5px solid var(--brand-primary);\n  border-radius: var(--radius-sm);\n}\n\n.card {\n  background: var(--brand-background-alt);\n  border: 1px solid var(--neutral-200);\n  border-radius: var(--radius-md);\n  padding: var(--space-6);\n}\n\n.badge {\n  display: inline-block;\n  font-family: var(--font-body);\n  font-size: var(--text-caption);\n  font-weight: var(--weight-medium);\n  letter-spacing: var(--tracking-wide);\n  text-transform: uppercase;\n  padding: 2px 8px;\n  border-radius: var(--radius-sm);\n}\n.badge-success { background: var(--success-light); color: var(--success); }\n.badge-warning { background: var(--warning-light); color: #7A5418; }   /* 5.6:1 on --warning-light; #C28F3D fails AA */\n.badge-error   { background: var(--error-light);   color: var(--error); }\n.badge-info    { background: var(--info-light);    color: var(--info); }\n\n/* ============================================================\n   DARK / LIGHT SURFACE TOKENS\n   ============================================================ */\n\n@media (prefers-color-scheme: dark) {\n  :root {\n    --surface:         var(--navy-900);\n    --surface-raised:  var(--navy-800);\n    --text-primary:    var(--neutral-50);\n    --text-secondary:  var(--neutral-300);\n    --text-tertiary:   var(--neutral-500);\n    --border:          var(--navy-700);\n    --border-subtle:   var(--navy-800);\n  }\n}\n\n@media (prefers-color-scheme: light) {\n  :root {\n    --surface:         var(--brand-background);\n    --surface-raised:  var(--brand-background-alt);\n    --text-primary:    var(--brand-primary);\n    --text-secondary:  var(--neutral-600);\n    --text-tertiary:   var(--neutral-500);\n    --border:          var(--neutral-200);\n    --border-subtle:   var(--neutral-100);\n  }\n}\n\n/* canonical colour tokens — aliases generated by brand_compile.py so var(--color-*) resolves for every brand */\n:root {\n  --color-primary: var(--brand-primary);\n  --color-secondary: var(--brand-primary-alt);\n  --color-accent: var(--brand-accent);\n  --color-background: var(--brand-background);\n  --color-background-alt: var(--brand-background-alt);\n  --color-text: var(--brand-text);\n  --color-text-light: var(--brand-text-light);\n}\n",
+  "identity": {
+    "name": "ScaleUp Financial Management",
+    "essence": "Senior CFO leadership that builds the finance function a scale-up needs: compliant, in control and optimised for growth.",
+    "positioning": "ScaleUp Financial Management is the senior finance partner that takes a growing company from informal bookkeeping to a professional finance function, one stage at a time: op orde, in control, meer inzicht, beter schaalbaar. Diagnosis, roadmap, hands-on implementation and ongoing operation, led by Wilgert Hart with nearly 30 years of senior finance leadership and backed by a network of finance professionals.",
+    "archetype": {
+      "primary": "sage",
+      "secondary": "caregiver",
+      "status": "approved",
+      "rationale": "Primary Sage: Wilgert Hart's 30-year CFO background is expressed as structured, diagnostic wisdom — turning gut-feel finance into professional rigour. Caregiver is secondary and structural: the brand installs a finance function and stays on to operate it, a hands-on support role grounded in structure rather than emotional warmth. Confirmed by Wilgert 2026-06-01 (charter.json meta.archetype + BUILD_LOG Phase 0 decision)."
+    },
+    "personalityTraits": [
+      "Senior",
+      "Calm",
+      "Structured",
+      "Pragmatic",
+      "Trustworthy"
+    ],
+    "personalityAxes": {
+      "warmth_vs_authority": 0.3,
+      "expressive_vs_restrained": 0.15,
+      "innovative_vs_traditional": 0.35,
+      "playful_vs_serious": 0.1,
+      "accessible_vs_exclusive": 0.4
+    },
+    "company": {
+      "name": "ScaleUp Financial Management",
+      "services": [
+        {
+          "id": "diagnosis",
+          "name": "Finance Diagnosis",
+          "name_nl": "Finance Diagnose",
+          "summary": "Two-week deep read of current finance function. Quantified gap report. Roadmap to a professional finance function.",
+          "duration": "2 weeks",
+          "deliverable": "Diagnosis report + 12-month roadmap"
+        },
+        {
+          "id": "roadmap-implementation",
+          "name": "Roadmap Implementation",
+          "name_nl": "Roadmap Implementatie",
+          "summary": "Hands-on installation of the diagnosed structure: chart of accounts, monthly close, KPI dashboard, cash forecast, board reporting cadence.",
+          "duration": "3–6 months",
+          "deliverable": "Working finance operating system"
+        },
+        {
+          "id": "fractional-cfo",
+          "name": "Fractional CFO",
+          "name_nl": "Fractionele CFO",
+          "summary": "Ongoing CFO-level leadership at 1–3 days per week. Board prep, capital decisions, investor communication, finance team mentoring.",
+          "duration": "Ongoing retainer",
+          "deliverable": "CFO function as a service"
+        },
+        {
+          "id": "interim-cfo",
+          "name": "Interim CFO",
+          "name_nl": "Interim CFO",
+          "summary": "Full-time CFO seat during transitions: fundraise, M&A, founder transition, finance leadership vacancy.",
+          "duration": "3–12 months",
+          "deliverable": "CFO seat coverage with handover"
+        }
+      ]
+    }
+  },
+  "boilerplate": {
+    "footer": "Confidential · ScaleUp Financial Management",
+    "confidentiality": "Confidential",
+    "copyright": "© 2026 ScaleUp Financial Management. All rights reserved.",
+    "sign_off": {
+      "default_nl": "Met vriendelijke groet,",
+      "default_en": "Kind regards,",
+      "formal_nl": "Hoogachtend,",
+      "formal_en": "Yours sincerely,"
+    },
+    "contact_block": {
+      "default_nl": "Wilgert Hart · Managing Partner\nScaleUp Financial Management\nwilgert@scaleupfm.nl · scaleupfm.nl",
+      "default_en": "Wilgert Hart · Managing Partner\nScaleUp Financial Management\nwilgert@scaleupfm.nl · scaleupfm.nl"
+    }
+  },
+  "expression": {
+    "sourceLevel": "surface-template",
+    "status": "approved",
+    "confidence": "approved",
+    "source": "co_created",
+    "evidence": [
+      {
+        "path": "clients/scaleupfm/guidelines.md",
+        "kind": "brand_guidelines",
+        "sourceAuthority": "co_created",
+        "confidence": "approved",
+        "surface": "all",
+        "freshness": "current"
+      },
+      {
+        "path": "clients/scaleupfm/charter.json",
+        "kind": "brand_guidelines",
+        "sourceAuthority": "co_created",
+        "confidence": "approved",
+        "surface": "all",
+        "freshness": "current"
+      },
+      {
+        "path": "clients/scaleupfm/tokens.css",
+        "kind": "design_tokens",
+        "sourceAuthority": "co_created",
+        "confidence": "approved",
+        "surface": "all",
+        "freshness": "current"
+      },
+      {
+        "path": "clients/scaleupfm/content/website.json",
+        "kind": "website",
+        "sourceAuthority": "co_created",
+        "confidence": "high",
+        "surface": "all",
+        "freshness": "current"
+      },
+      {
+        "kind": "co_created_visual_direction",
+        "sourceAuthority": "co_created",
+        "confidence": "approved",
+        "surface": "all",
+        "freshness": "current",
+        "note": "Amber Ascent refresh (Mode C) — William froze A1 amber + Archivo all-sans + Step Rail motif, 2026-07-03. Artifact not preserved after the build (was _build/reviews/BRAND-Refined-Identity.html)."
+      }
+    ],
+    "principles": [
+      "Amber is a signal, not decoration — one amber element per surface (logo cap, CTA button, or data accent), never both a button and a link amber on the same page.",
+      "Body text is navy, not black — warmth and authority together; pure black reads cold and impersonal for a finance partner.",
+      "Backgrounds default to warm Paper (#FAF8F3), not pure white — paper reads as a professional partner, white reads as a software product.",
+      "The Step Rail motif is a signature, not a pattern — used once per visible surface, never tiled at full opacity outside the background pattern tile (≤8% opacity).",
+      "Board-table voice: name what is broken, then say what fixes it. No jargon, no false urgency, no brochure register.",
+      "One name, one tagline, one headline: the ScaleUp wordmark, 'Start to Scale' as the sign-off in NL and EN, and the NL staircase ('Van risico naar regie. Van intuïtie naar inzicht. Van start-up naar serieuze scale-up.') as the hero headline on covers and the home page.",
+      "The four bars are four stages (Op orde, In control, Meer inzicht, Beter schaalbaar). Services, site sections, deck chapters and the bridge imagery are ordered on that ladder, small to big."
+    ],
+    "visualAxes": {
+      "density": "spacious",
+      "contrast": "high",
+      "symmetry": "symmetric",
+      "geometry": "rectilinear",
+      "typeExpression": "utilitarian",
+      "imageTreatment": "documentary-muted",
+      "motifProminence": "accent",
+      "colorRhythm": "light-dominant",
+      "ornament": "restrained"
+    },
+    "signatureElements": [
+      "Step Rail — four bars in a fixed +18% geometric ascent (relative heights ≈ 0.40 / 0.59 / 0.79 / 1.00, bar width 16, gap 6, 1px radius), single-colour (amber on navy, navy on paper); the ascent itself is the signature — no two-tone cap.",
+      "Warm Paper background (#FAF8F3) as default surface, not pure white — distinguishes the advisory register from a software product.",
+      "Navy-90 / amber-10 horizontal divider (thin 1.5px line with amber terminal at right) — encodes the 'ascend' direction, structural punctuation between sections.",
+      "NL three-line tagline staircase as typographic hero — structurally echoes the Step Rail ascent and is never translated literally to English.",
+      "Archivo Bold (700, or 800 for display) with -0.02em tracking for all display and heading — an engineered grotesque that carries the Sage register as diagnostic clarity rather than literary warmth.",
+      "Archivo Semibold (600) overline caps at 0.20em tracking, 11px — labels sections, wordmark caption 'FINANCIAL MANAGEMENT', badges; hierarchy comes from weight + case + tracking within one family, not a second typeface.",
+      "JetBrains Mono reserved exclusively for numbers, tables, and data-adjacent contexts — signals that figures are decision-grade, not decoration.",
+      "Dutch bridges from small to big, one register per stage: canal and drawbridges for Op orde up to the iconic spans for Beter schaalbaar. Calm daylight or blue hour, never dramatic high-contrast black and white.",
+      "The stage ladder: four numbered steps that reuse the Step Rail proportions, used for services, process and deck chapters."
+    ],
+    "antiPatterns": [
+      "Multiple amber elements on a single surface (amber is a single-use signal per page).",
+      "Pure black (#000000) or pure white (#FFFFFF) as primary background or body text — both break the warm advisory register.",
+      "Gradients on body sections (gradientDirection is 'none' by design; gradient only appears in nav-amber-diag pptx asset).",
+      "Tilted, rotated, or two-tone Step Rail motif — must be upright, single-colour bars (amber on navy, navy on paper), no exceptions.",
+      "Dropping a bar or adding a fifth — four bars in a +18% ascent is load-bearing meaning.",
+      "Mountains, Alpine or Dolomite scenery, or generic Dutch landscape (polders, tulips, windmills); bridges are the one landscape subject.",
+      "Handshake or suits-in-meeting stock photography — contra the architectural and data-clarity direction.",
+      "Mixed NL+EN within the same sentence in copy.",
+      "Buzzwords: 'synergy', 'next-level', 'agile', or any phrase that sounds like a brochure.",
+      "Pattern tile at full opacity on reading surfaces — restricted to 6–8% opacity on slide/section backgrounds only.",
+      "Bridges outside the Netherlands, or any photograph already used in another client's library.",
+      "Dramatic high-contrast black-and-white bridge photography as the house style.",
+      "A two-tone wordmark (Scale in one colour, Up in another)."
+    ],
+    "requiredMotifs": [
+      "step-ascent"
+    ],
+    "visual_grammar": {
+      "backgrounds": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "proposed"
+        },
+        "selected": "report-light",
+        "cssTokens": {
+          "--canvas-navy": "#0A1F3D",
+          "--canvas-paper": "#FAF8F3",
+          "--canvas-white": "#FFFFFF"
+        },
+        "review": {
+          "by": "William Masquelier (operator)",
+          "at": "2026-10-13",
+          "note": "signed off in the ScaleUp refresh; rendered surfaces reviewed in the brand book"
+        },
+        "spec": {
+          "canvases": [
+            {
+              "name": "navy",
+              "role": "primary-dark",
+              "css": "#0A1F3D"
+            },
+            {
+              "name": "paper",
+              "role": "primary-light",
+              "css": "#FAF8F3"
+            },
+            {
+              "name": "white",
+              "role": "surface-light",
+              "css": "#FFFFFF"
+            }
+          ],
+          "rhythm": "light-dominant editorial — warm paper is the default surface; navy reserved for the cover, section dividers, and 'key figures' panels",
+          "darkFrequency": 1,
+          "photo": {
+            "treatment": "documentary-muted, navy-tinted full-bleed hero",
+            "overlay": "structural navy #0A1F3D scrim, never gold"
+          }
+        },
+        "tokens": [
+          "--canvas-navy",
+          "--canvas-paper",
+          "--canvas-white"
+        ]
+      },
+      "gradients": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "proposed"
+        },
+        "selected": "flat-structural",
+        "review": {
+          "by": "William Masquelier (operator)",
+          "at": "2026-10-13",
+          "note": "signed off in the ScaleUp refresh; rendered surfaces reviewed in the brand book"
+        },
+        "spec": {
+          "policy": "no decorative canvas gradients; depth via the gold hairline rule + navy/paper contrast only",
+          "canvasGradients": "none"
+        }
+      },
+      "grid": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "proposed"
+        },
+        "selected": "ruled-editorial",
+        "cssTokens": {
+          "--grid-max": "72rem",
+          "--grid-gutter": "2rem",
+          "--grid-margin": "6vw",
+          "--rule-column": "1px solid rgba(10,31,61,0.14)",
+          "--rule-divider": "1px solid #E8A33D"
+        },
+        "review": {
+          "by": "William Masquelier (operator)",
+          "at": "2026-10-13",
+          "note": "signed off in the ScaleUp refresh; rendered surfaces reviewed in the brand book"
+        },
+        "spec": {
+          "columns": "12-col symmetric",
+          "gutter": "generous",
+          "rules": "thin navy ledger rules between columns",
+          "dividers": "gold hairline under section heads",
+          "maxWidth": "measured editorial",
+          "margins": "wide",
+          "symmetry": "symmetric"
+        }
+      },
+      "iconography": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "proposed"
+        },
+        "selected": "navy-gold-keyline",
+        "review": {
+          "by": "William Masquelier (operator)",
+          "at": "2026-10-13",
+          "note": "signed off in the ScaleUp refresh; rendered surfaces reviewed in the brand book"
+        },
+        "spec": {
+          "style": "stroke-led geometric, keyline-weighted",
+          "strokeWeight": "1.75px",
+          "caps": "square",
+          "joins": "miter",
+          "fillVsLine": "navy line-dominant + ONE small gold filled checkpoint node per glyph",
+          "extensible": true,
+          "setPolicy": "OPEN set — icons drawn to this STYLE on demand per slide/section need; the sample is representative, not a closed set",
+          "sample": [
+            "roadmap-steps",
+            "gauge",
+            "checkpoint-tick",
+            "handshake",
+            "shield-check",
+            "trend-up"
+          ]
+        }
+      },
+      "elevation": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "proposed"
+        },
+        "selected": "ledger-ruled",
+        "cssTokens": {
+          "--radius-card": "3px",
+          "--border-hairline": "1px solid rgba(10,31,61,0.16)",
+          "--rule-top": "2px solid #E8A33D"
+        },
+        "review": {
+          "by": "William Masquelier (operator)",
+          "at": "2026-10-13",
+          "note": "signed off in the ScaleUp refresh; rendered surfaces reviewed in the brand book"
+        },
+        "spec": {
+          "shadows": "none/minimal",
+          "borders": "1px navy hairline border + a TOP gold hairline rule on cards (a statement/ledger header)",
+          "radius": "3px (crisp)",
+          "surface": "matte",
+          "depth": "via the top gold rule + hairline, never shadow"
+        }
+      },
+      "motifs": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "derived"
+        },
+        "selected": "scale-steps",
+        "cssTokens": {
+          "--checkpoint-node": "#E8A33D"
+        },
+        "review": {
+          "by": "William Masquelier (operator)",
+          "at": "2026-10-13",
+          "note": "signed off in the ScaleUp refresh; rendered surfaces reviewed in the brand book"
+        },
+        "spec": {
+          "name": "step-rail",
+          "geometry": "four ruled bars, equal width and gap, in a fixed +18% geometric ascent; 1px corner radius",
+          "meaning": "start → scale — the stepped ascent from chaos to control to scale-up",
+          "marks": [
+            "step-ascent"
+          ]
+        }
+      },
+      "motion": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "proposed"
+        },
+        "selected": "step-reveal",
+        "review": {
+          "by": "William Masquelier (operator)",
+          "at": "2026-10-13",
+          "note": "signed off in the ScaleUp refresh; rendered surfaces reviewed in the brand book"
+        },
+        "spec": {
+          "behaviors": [
+            {
+              "name": "step-build",
+              "trigger": "cover/section entrance",
+              "desc": "the four Step Rail bars build one at a time in ascent order (shortest → tallest); single-colour, no nodes, no bounce"
+            },
+            {
+              "name": "rule-draw",
+              "trigger": "section divider",
+              "desc": "the gold hairline rule draws left→right"
+            }
+          ],
+          "intensity": "subtle",
+          "speed": "calm-measured"
+        }
+      },
+      "patterns": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "derived"
+        },
+        "selected": "step-rail-tile",
+        "review": {
+          "by": "William Masquelier (operator)",
+          "at": "2026-10-13",
+          "note": "signed off in the ScaleUp refresh; rendered surfaces reviewed in the brand book"
+        },
+        "spec": {
+          "motif": "step-rail",
+          "layout": "the four-bar Step Rail repeated on a staggered 120px grid",
+          "opacity": "6–8%, single-colour (navy on paper, or paper on navy)",
+          "usage": "slide and section backgrounds only — never reading or prose surfaces"
+        },
+        "assets": [
+          "assets/svg/pattern-tile.svg"
+        ]
+      },
+      "photo": {
+        "status": "approved",
+        "required": true,
+        "evidence": {
+          "tier": "derived",
+          "source": "2026-10-13 call with Wilgert Hart (bridges small to big) + operator brief (Dutch only, never another client's photograph)"
+        },
+        "review": {
+          "by": "William Masquelier (operator)",
+          "at": "2026-10-13",
+          "note": "subject approved; the house look (treatment) is confirmed by Wilgert Hart on the imagery board"
+        },
+        "selected": "bridges-navy-duotone",
+        "tokens": [
+          "--photo-treatment-default"
+        ],
+        "spec": {
+          "subject": "same library",
+          "colour": "navy shadows to paper highlights",
+          "treatment": "navy-duotone",
+          "use": "covers and hero bands where the photo must recede behind type"
+        }
+      }
+    },
+    "treatments": {
+      "default": "navy-duotone",
+      "note": "Named house looks applied DOWNSTREAM (format-MCP render + website CSS), never pre-baked into the library. Navy Duotone is the house look for the bridge library (operator pick D2, 2026-10-14; Warme schemer was the alternative on the client board): heroes, covers, dividers. Daylight for the rare natural-colour moment; amber-graded for one warm section at most; paper-mono for textures only. The navy scrim (images.overlay) is a separate text-safety layer.",
+      "looks": {
+        "daylight": {
+          "label": "Daylight",
+          "usage": "Natural colour, slightly muted, warm paper lift in the highlights. Calm and factual; for the rare natural-colour moment (Navy Duotone is the house look).",
+          "css_filter": "saturate(0.85) contrast(1.03) brightness(1.02)",
+          "duotone": {
+            "shadows": "#0A1F3D",
+            "mid": "#5A6B80",
+            "highlights": "#FAF8F3",
+            "strength": 0.12
+          }
+        },
+        "paper-mono": {
+          "label": "Paper Mono",
+          "usage": "Black-and-white with fine grain, for background textures (deck planks, steps, railings) only, never the house look for whole bridges.",
+          "css_filter": "grayscale(1) contrast(1.08)",
+          "grain": {
+            "opacity": 0.08,
+            "blend": "overlay"
+          }
+        },
+        "navy-duotone": {
+          "label": "Navy Duotone",
+          "usage": "Signature deep-navy wash for covers + hero moments — navy shadows through slate mids to warm-paper highlights, applied transparently so the photo breathes. The structured-authority signature.",
+          "css_filter": "grayscale(1) contrast(1.06) brightness(1.06)",
+          "duotone": {
+            "shadows": "#06152A",
+            "mid": "#1A3358",
+            "highlights": "#FAF8F3",
+            "strength": 0.42
+          },
+          "grain": {
+            "opacity": 0.07,
+            "blend": "overlay"
+          },
+          "overlay": {
+            "color": "#1A3358",
+            "opacity": 0.72,
+            "blend": "color"
+          },
+          "scrim": "linear-gradient(0deg, rgba(10,31,61,0.8), transparent 62%)"
+        },
+        "amber-graded": {
+          "label": "Amber Graded",
+          "usage": "Restrained cinematic grade for section imagery — mostly neutral, a whisper of Signal Amber in the shadows and warm paper in the highlights. Kept subtle — the single amber accent per surface.",
+          "css_filter": "saturate(0.4) contrast(1.05)",
+          "duotone": {
+            "shadows": "#2A1E10",
+            "mid": "#585349",
+            "highlights": "#FBF3E2",
+            "strength": 0.3
+          },
+          "grain": {
+            "opacity": 0.08,
+            "blend": "overlay"
+          }
+        }
+      }
+    }
+  },
+  "surfaceExpression": {
+    "presentation": {
+      "visualAxes": {
+        "density": "spacious",
+        "contrast": "high",
+        "symmetry": "symmetric",
+        "geometry": "rectilinear",
+        "typeExpression": "utilitarian",
+        "imageTreatment": "documentary-muted",
+        "motifProminence": "accent",
+        "colorRhythm": "light-dominant",
+        "ornament": "restrained"
+      },
+      "principles": [
+        "Amber is a signal, not decoration — one amber element per surface (logo cap, CTA button, or data accent), never both a button and a link amber on the same page.",
+        "Body text is navy, not black — warmth and authority together; pure black reads cold and impersonal for a finance partner.",
+        "Backgrounds default to warm Paper (#FAF8F3), not pure white — paper reads as a professional partner, white reads as a software product.",
+        "The Step Rail motif is a signature, not a pattern — used once per visible surface, never tiled at full opacity outside the background pattern tile (≤8% opacity).",
+        "Board-table voice: name what is broken, then say what fixes it. No jargon, no false urgency, no brochure register.",
+        "One name, one tagline, one headline: the ScaleUp wordmark, 'Start to Scale' as the sign-off in NL and EN, and the NL staircase ('Van risico naar regie. Van intuïtie naar inzicht. Van start-up naar serieuze scale-up.') as the hero headline on covers and the home page.",
+        "The four bars are four stages (Op orde, In control, Meer inzicht, Beter schaalbaar). Services, site sections, deck chapters and the bridge imagery are ordered on that ladder, small to big."
+      ]
+    },
+    "document": {
+      "visualAxes": {
+        "density": "spacious",
+        "contrast": "high",
+        "symmetry": "symmetric",
+        "geometry": "rectilinear",
+        "typeExpression": "utilitarian",
+        "imageTreatment": "documentary-muted",
+        "motifProminence": "accent",
+        "colorRhythm": "light-dominant",
+        "ornament": "restrained"
+      },
+      "principles": [
+        "Amber is a signal, not decoration — one amber element per surface (logo cap, CTA button, or data accent), never both a button and a link amber on the same page.",
+        "Body text is navy, not black — warmth and authority together; pure black reads cold and impersonal for a finance partner.",
+        "Backgrounds default to warm Paper (#FAF8F3), not pure white — paper reads as a professional partner, white reads as a software product.",
+        "The Step Rail motif is a signature, not a pattern — used once per visible surface, never tiled at full opacity outside the background pattern tile (≤8% opacity).",
+        "Board-table voice: name what is broken, then say what fixes it. No jargon, no false urgency, no brochure register.",
+        "One name, one tagline, one headline: the ScaleUp wordmark, 'Start to Scale' as the sign-off in NL and EN, and the NL staircase ('Van risico naar regie. Van intuïtie naar inzicht. Van start-up naar serieuze scale-up.') as the hero headline on covers and the home page.",
+        "The four bars are four stages (Op orde, In control, Meer inzicht, Beter schaalbaar). Services, site sections, deck chapters and the bridge imagery are ordered on that ladder, small to big."
+      ]
+    }
+  },
+  "plotly_theme": {
+    "colorway": [
+      "#0A1F3D",
+      "#E8A33D",
+      "#1A3358",
+      "#4A7A5A",
+      "#C28F3D",
+      "#B85648"
+    ],
+    "baseTemplate": "plotly_white",
+    "canvasColor": "#FAF8F3",
+    "font": {
+      "family": "Archivo",
+      "color": "#0A1F3D"
+    },
+    "titleFontSize": 18,
+    "gridColor": "#E5E2DA",
+    "secondaryTextColor": "#6B7280",
+    "sentiment": {
+      "positive": "#4A7A5A",
+      "negative": "#B85648",
+      "neutral": "#6B7280"
+    },
+    "categoricalPalette": [
+      "#0A1F3D",
+      "#E8A33D",
+      "#1A3358",
+      "#4A6390",
+      "#788BAF"
+    ],
+    "defaultHeight": 500,
+    "axisFontSize": 12,
+    "legendFontSize": 11,
+    "margins": {
+      "top": 80,
+      "bottom": 70,
+      "left": 60,
+      "right": 50
+    }
+  },
+  "excalidraw_theme": {
+    "strokeColor": "#0A1F3D",
+    "fillColors": [
+      "#0A1F3D",
+      "#E8A33D",
+      "#1A3358",
+      "#4A6390",
+      "#788BAF"
+    ],
+    "textColor": "#0A1F3D",
+    "arrowColor": "#1A3358",
+    "backgroundColor": "#FAF8F3",
+    "roughness": 0,
+    "headingFont": "Archivo",
+    "bodyFont": "Archivo",
+    "fontFamily": 2,
+    "fontSize": 16,
+    "strokeWidth": 2,
+    "labelFontSize": 14
+  },
+  "formatting": {
+    "slideMargin": "40pt",
+    "titleMargin": "30pt",
+    "contentMargin": "20pt",
+    "aspectRatio": "16:9",
+    "defaultTheme": "light",
+    "headingThreshold": 24,
+    "accentCycleColors": [
+      "accent",
+      "primary",
+      "primaryAlt"
+    ],
+    "autoContrastText": true
+  },
+  "document": {
+    "paperSize": "A4",
+    "margins": {
+      "top": "1in",
+      "bottom": "1in",
+      "left": "1in",
+      "right": "1in"
+    },
+    "header": {
+      "content": "{{company.name}}",
+      "logo": true
+    },
+    "footer": {
+      "content": "Confidential",
+      "pageNumbers": true
+    },
+    "headingColor": "primary",
+    "tableHeaderColor": "primary"
+  },
+  "images": {
+    "manifest": [
+      {
+        "id": "S1-01",
+        "source": "images/source/S1-01.jpg",
+        "title": "Gravestenenbrug, Haarlem",
+        "theme": "s1",
+        "stage": 1,
+        "roles": [
+          "hero",
+          "cover"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.55,
+            "y": 0.3
+          },
+          "textSafeZone": "lower-third",
+          "subjectBox": {
+            "x": 0.2,
+            "y": 0.24,
+            "w": 0.65,
+            "h": 0.51
+          }
+        },
+        "width": 2560,
+        "height": 1729,
+        "alt": {
+          "nl": "Twee witte ophaalbrugvleugels tegen een strakblauwe lucht, grachtwater eronder.",
+          "en": "Two white bascule leaves of the Gravestenenbrug against a clear blue sky, canal water below."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Zairon",
+          "licence": "CC BY-SA 4.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Haarlem_Gravestenenbrug_3.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Haarlem_Gravestenenbrug_3.jpg/3840px-Haarlem_Gravestenenbrug_3.jpg"
+        },
+        "hero": true
+      },
+      {
+        "id": "S1-02",
+        "source": "images/source/S1-02.jpg",
+        "title": "Houten ophaalbrug, Kinderdijk",
+        "theme": "s1",
+        "stage": 1,
+        "roles": [
+          "hero",
+          "cover",
+          "closing"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.35
+          },
+          "textSafeZone": "upper-third",
+          "subjectBox": {
+            "x": 0.33,
+            "y": 0.17,
+            "w": 0.35,
+            "h": 0.58
+          }
+        },
+        "width": 2560,
+        "height": 1714,
+        "alt": {
+          "nl": "Houten loopbrug met witte leuning naar een houten ophaalbrug, molen en boom erachter, blauwe lucht.",
+          "en": "White-railed wooden footbridge leading to a timber drawbridge frame, windmill and tree behind, blue sky."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Zairon",
+          "licence": "CC BY-SA 4.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Kinderdijk_M%C3%BChlen_von_Kinderdijk_26.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Kinderdijk_M%C3%BChlen_von_Kinderdijk_26.jpg/3840px-Kinderdijk_M%C3%BChlen_von_Kinderdijk_26.jpg"
+        },
+        "hero": true
+      },
+      {
+        "id": "S1-04",
+        "source": "images/source/S1-04.jpg",
+        "title": "Ophaalbrug, Waver",
+        "theme": "s1",
+        "stage": 1,
+        "roles": [
+          "divider",
+          "background"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.45,
+            "y": 0.5
+          },
+          "textSafeZone": "none",
+          "subjectBox": {
+            "x": 0.08,
+            "y": 0.25,
+            "w": 0.52,
+            "h": 0.45
+          }
+        },
+        "width": 2560,
+        "height": 1603,
+        "alt": {
+          "nl": "Witte ophaalbrug over een polderwater onder een grote wolkenlucht, riet op de voorgrond.",
+          "en": "White drawbridge over a polder waterway under a big cloudy sky, green reeds in front."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Michielverbeek",
+          "licence": "CC BY-SA 4.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Waver,_ophaalbrug_Jac_C_Keabrug_foto7_2015-08-28.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Waver%2C_ophaalbrug_Jac_C_Keabrug_foto7_2015-08-28.jpg/3840px-Waver%2C_ophaalbrug_Jac_C_Keabrug_foto7_2015-08-28.jpg"
+        }
+      },
+      {
+        "id": "S1-05",
+        "source": "images/source/S1-05.jpg",
+        "title": "Magere Brug, Amsterdam",
+        "theme": "s1",
+        "stage": 1,
+        "roles": [
+          "hero",
+          "cover",
+          "closing"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.45,
+            "y": 0.35
+          },
+          "textSafeZone": "lower-third",
+          "subjectBox": {
+            "x": 0.12,
+            "y": 0.3,
+            "w": 0.83,
+            "h": 0.38
+          }
+        },
+        "width": 2560,
+        "height": 1731,
+        "alt": {
+          "nl": "Zijaanzicht van de witte Magere Brug over de Amstel bij daglicht, aangemeerde boot links.",
+          "en": "Side view of the white Magere Brug across the Amstel in daylight, moored barge at left."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Zairon",
+          "licence": "CC BY-SA 4.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Amsterdam_Magere_Brug_3.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Amsterdam_Magere_Brug_3.jpg/3840px-Amsterdam_Magere_Brug_3.jpg"
+        },
+        "hero": true
+      },
+      {
+        "id": "S1-07",
+        "source": "images/source/S1-07.jpg",
+        "title": "Houten loopbrug, Kinderdijk",
+        "theme": "s1",
+        "stage": 1,
+        "roles": [
+          "closing",
+          "divider",
+          "background"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.7,
+            "y": 0.45
+          },
+          "textSafeZone": "upper-third",
+          "subjectBox": {
+            "x": 0.22,
+            "y": 0.38,
+            "w": 0.78,
+            "h": 0.57
+          }
+        },
+        "width": 2560,
+        "height": 1707,
+        "alt": {
+          "nl": "Verweerde houten loopbrug met witte leuning richting de molens over de polder.",
+          "en": "Weathered boardwalk bridge with white railing running toward windmills across the polder."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Norbert Reimer from Mettlach-Orscholz, Saarland",
+          "licence": "CC BY-SA 2.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Kinderdijk_2_(34288246754).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kinderdijk_2_%2834288246754%29.jpg/3840px-Kinderdijk_2_%2834288246754%29.jpg"
+        }
+      },
+      {
+        "id": "S1-08",
+        "source": "images/source/S1-08.jpg",
+        "title": "Buizengatbrug, Rotterdam",
+        "theme": "s1",
+        "stage": 1,
+        "roles": [
+          "divider",
+          "background"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "textSafeZone": "none",
+          "subjectBox": {
+            "x": 0.15,
+            "y": 0.15,
+            "w": 0.7,
+            "h": 0.7
+          }
+        },
+        "width": 2560,
+        "height": 1920,
+        "alt": {
+          "nl": "Close-up van een verweerde houten leuning en brugdek in perspectief.",
+          "en": "Close view of weathered timber railing and deck of a small footbridge in perspective."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "AgainErick",
+          "licence": "CC BY-SA 3.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Buizengatbrug_-_Rotterdam_-_Railing_(double_wooden_planks).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Buizengatbrug_-_Rotterdam_-_Railing_%28double_wooden_planks%29.jpg/3840px-Buizengatbrug_-_Rotterdam_-_Railing_%28double_wooden_planks%29.jpg"
+        }
+      },
+      {
+        "id": "S1-09",
+        "source": "images/source/S1-09.jpg",
+        "title": "Houten bruggetjes, Giethoorn",
+        "theme": "s1",
+        "stage": 1,
+        "roles": [
+          "divider",
+          "background"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "textSafeZone": "none",
+          "subjectBox": {
+            "x": 0.05,
+            "y": 0.3,
+            "w": 0.9,
+            "h": 0.65
+          }
+        },
+        "width": 2560,
+        "height": 1440,
+        "alt": {
+          "nl": "Twee gebogen houten voetbruggetjes met plankendek tussen het groen.",
+          "en": "Two arched timber footbridges with plank decks and wooden rails among greenery."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons.(Want to use this image?)",
+          "licence": "CC BY-SA 4.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Bridges_in_Giethoorn_(August_2018)_01.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Bridges_in_Giethoorn_%28August_2018%29_01.jpg"
+        }
+      },
+      {
+        "id": "S1-10",
+        "source": "images/source/S1-10.jpg",
+        "title": "Grachtbrug, Amsterdam",
+        "theme": "s1",
+        "stage": 1,
+        "roles": [
+          "divider",
+          "background"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.61,
+            "y": 0.57
+          },
+          "textSafeZone": "none",
+          "subjectBox": {
+            "x": 0.4,
+            "y": 0.42,
+            "w": 0.42,
+            "h": 0.3
+          }
+        },
+        "width": 2560,
+        "height": 1920,
+        "alt": {
+          "nl": "Groene gietijzeren leuning naar een bakstenen boogbrug over een Amsterdamse gracht.",
+          "en": "Green cast-iron railing leading to a small brick arch bridge over an Amsterdam canal."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Fons Heijnsbroek",
+          "licence": "CC0",
+          "page": "https://commons.wikimedia.org/wiki/File:Canal_view_in_Amsterdam_downtown_with_old_brick_bridge_over_the_water_of_Reguliersgracht;_free_photo_by_Fons_Heijnsbroek,_january_2022.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Canal_view_in_Amsterdam_downtown_with_old_brick_bridge_over_the_water_of_Reguliersgracht%3B_free_photo_by_Fons_Heijnsbroek%2C_january_2022.jpg/3840px-Canal_view_in_Amsterdam_downtown_with_old_brick_bridge_over_the_water_of_Reguliersgracht%3B_free_photo_by_Fons_Heijnsbroek%2C_january_2022.jpg"
+        }
+      },
+      {
+        "id": "S2-01",
+        "source": "images/source/S2-01.jpg",
+        "title": "Hoge Brug, Maastricht",
+        "theme": "s2",
+        "stage": 2,
+        "roles": [
+          "hero",
+          "cover",
+          "closing"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.6,
+            "y": 0.3
+          },
+          "textSafeZone": "lower-third",
+          "subjectBox": {
+            "x": 0.02,
+            "y": 0.27,
+            "w": 0.98,
+            "h": 0.35
+          }
+        },
+        "width": 2560,
+        "height": 1920,
+        "alt": {
+          "nl": "Witte boog van de Hoge Brug over de Maas tegen een zachtblauwe lucht, leuning op de voorgrond.",
+          "en": "White arch of the Hoge Brug sweeping over the Maas against a soft blue sky, railing in foreground."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Hein Didden",
+          "licence": "CC BY-SA 4.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Hoge_brug-Maastricht.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Hoge_brug-Maastricht.jpg"
+        },
+        "hero": true
+      },
+      {
+        "id": "S2-02",
+        "source": "images/source/S2-02.jpg",
+        "title": "Hoge Brug, Maastricht",
+        "theme": "s2",
+        "stage": 2,
+        "roles": [
+          "hero",
+          "cover",
+          "closing"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.7,
+            "y": 0.2
+          },
+          "textSafeZone": "left-half",
+          "subjectBox": {
+            "x": 0.28,
+            "y": 0.14,
+            "w": 0.62,
+            "h": 0.38
+          }
+        },
+        "width": 2560,
+        "height": 1920,
+        "alt": {
+          "nl": "De boog van de Hoge Brug weerspiegeld in de Maas onder een roze avondlucht.",
+          "en": "Hoge Brug arch reflected in the Maas under a pink dusk sky."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Sjenghai",
+          "licence": "CC BY-SA 4.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Maastricht_-_Hoge_Brug_en_C%C3%A9ramique_-_2022-11-11.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Maastricht_-_Hoge_Brug_en_C%C3%A9ramique_-_2022-11-11.jpg/3840px-Maastricht_-_Hoge_Brug_en_C%C3%A9ramique_-_2022-11-11.jpg"
+        },
+        "hero": true
+      },
+      {
+        "id": "S2-05",
+        "source": "images/source/S2-05.jpg",
+        "title": "Sint Servaasbrug, Maastricht",
+        "theme": "s2",
+        "stage": 2,
+        "roles": [
+          "hero",
+          "cover",
+          "closing"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.35,
+            "y": 0.45
+          },
+          "textSafeZone": "upper-third",
+          "subjectBox": {
+            "x": 0.0,
+            "y": 0.15,
+            "w": 0.7,
+            "h": 0.47
+          }
+        },
+        "width": 2560,
+        "height": 1535,
+        "alt": {
+          "nl": "Stenen bogen van de Sint Servaasbrug weerspiegeld in de Maas onder losse wolken.",
+          "en": "Stone arches of the Sint Servaasbrug reflected in the Maas under scattered clouds."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Michielverbeek",
+          "licence": "CC BY-SA 4.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Maastricht,_de_Servaasbrug_RM28026_en_de_Sint-Martinuskerk_RM27823_IMG_0965_2022-04-03_12.44.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Maastricht%2C_de_Servaasbrug_RM28026_en_de_Sint-Martinuskerk_RM27823_IMG_0965_2022-04-03_12.44.jpg/3840px-Maastricht%2C_de_Servaasbrug_RM28026_en_de_Sint-Martinuskerk_RM27823_IMG_0965_2022-04-03_12.44.jpg"
+        },
+        "hero": true
+      },
+      {
+        "id": "S2-06",
+        "source": "images/source/S2-06.jpg",
+        "title": "Pythonbrug, Amsterdam",
+        "theme": "s2",
+        "stage": 2,
+        "roles": [
+          "divider",
+          "background"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.55
+          },
+          "textSafeZone": "upper-third",
+          "subjectBox": {
+            "x": 0.07,
+            "y": 0.08,
+            "w": 0.88,
+            "h": 0.87
+          }
+        },
+        "width": 2560,
+        "height": 1707,
+        "alt": {
+          "nl": "Rode stalen trappen van de Pythonbrug omhoog naar de top, blauwe lucht.",
+          "en": "Red steel stairs of the Pythonbrug rising toward the crest under a blue sky."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Fred Romero from Paris, France",
+          "licence": "CC BY 2.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Pythonbrug_(29669141864).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Amsterdam_-_Pythonbrug_%2829669141864%29.jpg/3840px-Amsterdam_-_Pythonbrug_%2829669141864%29.jpg"
+        }
+      },
+      {
+        "id": "S2-07",
+        "source": "images/source/S2-07.jpg",
+        "title": "Pythonbrug, Amsterdam",
+        "theme": "s2",
+        "stage": 2,
+        "roles": [
+          "divider",
+          "background"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.65,
+            "y": 0.7
+          },
+          "textSafeZone": "upper-third",
+          "subjectBox": {
+            "x": 0.0,
+            "y": 0.38,
+            "w": 1.0,
+            "h": 0.57
+          }
+        },
+        "width": 2560,
+        "height": 1707,
+        "alt": {
+          "nl": "Plankendek en rode stalen balustrade van de Pythonbrug in een bocht.",
+          "en": "Plank deck and red steel balustrade of the Pythonbrug curving ahead."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Fred Romero from Paris, France",
+          "licence": "CC BY 2.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Pythonbrug_(30299539885).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Amsterdam_-_Pythonbrug_%2830299539885%29.jpg/3840px-Amsterdam_-_Pythonbrug_%2830299539885%29.jpg"
+        }
+      },
+      {
+        "id": "S2-08",
+        "source": "images/source/S2-08.jpg",
+        "title": "Dafne Schippersbrug, Utrecht",
+        "theme": "s2",
+        "stage": 2,
+        "roles": [
+          "divider",
+          "background"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.35,
+            "y": 0.3
+          },
+          "textSafeZone": "none",
+          "subjectBox": {
+            "x": 0.08,
+            "y": 0.0,
+            "w": 0.84,
+            "h": 1.0
+          }
+        },
+        "width": 2560,
+        "height": 1695,
+        "alt": {
+          "nl": "Pylonen en tuikabels van de Dafne Schippersbrug tegen een wolkenlucht.",
+          "en": "Pylons and suspension cables of the Dafne Schippersbrug against a cloudy sky."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Steven Lek",
+          "licence": "CC BY-SA 4.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Dafne_Schippersbrug_Utrecht_2019_2.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Dafne_Schippersbrug_Utrecht_2019_2.jpg/3840px-Dafne_Schippersbrug_Utrecht_2019_2.jpg"
+        }
+      },
+      {
+        "id": "S2-09",
+        "source": "images/source/S2-09.jpg",
+        "title": "Sint Servaasbrug, Maastricht",
+        "theme": "s2",
+        "stage": 2,
+        "roles": [
+          "hero",
+          "cover",
+          "closing"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.4,
+            "y": 0.4
+          },
+          "textSafeZone": "none",
+          "subjectBox": {
+            "x": 0.0,
+            "y": 0.33,
+            "w": 0.82,
+            "h": 0.42
+          }
+        },
+        "width": 2560,
+        "height": 1313,
+        "alt": {
+          "nl": "Het ritme van de oude stenen bogen van de Sint Servaasbrug langs het water.",
+          "en": "Rhythm of old stone arches of the Sint Servaasbrug along the water."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Zairon",
+          "licence": "CC BY-SA 4.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Maastricht_Sint_Servaasbrug_17.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Maastricht_Sint_Servaasbrug_17.jpg/3840px-Maastricht_Sint_Servaasbrug_17.jpg"
+        },
+        "hero": true
+      },
+      {
+        "id": "S3-01",
+        "source": "images/source/S3-01.jpg",
+        "title": "De Hef, Rotterdam",
+        "theme": "s3",
+        "stage": 3,
+        "roles": [
+          "hero",
+          "cover",
+          "closing"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.45
+          },
+          "textSafeZone": "none",
+          "subjectBox": {
+            "x": 0.05,
+            "y": 0.05,
+            "w": 0.92,
+            "h": 0.87
+          }
+        },
+        "width": 2560,
+        "height": 1707,
+        "alt": {
+          "nl": "Groene stalen hefbrugtorens van De Hef rond een diepblauwe lucht boven de Koningshaven.",
+          "en": "Green steel lift-bridge towers of De Hef framing a deep blue sky above the Koningshaven."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "GraphyArchy",
+          "licence": "CC BY-SA 4.0",
+          "page": "https://commons.wikimedia.org/wiki/File:GraphyArchy_-_Wikipedia_00829.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/GraphyArchy_-_Wikipedia_00829.jpg"
+        },
+        "hero": true
+      },
+      {
+        "id": "S3-02",
+        "source": "images/source/S3-02.jpg",
+        "title": "Waalbrug, Nijmegen",
+        "theme": "s3",
+        "stage": 3,
+        "roles": [
+          "hero",
+          "cover",
+          "closing"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.4
+          },
+          "textSafeZone": "lower-third",
+          "subjectBox": {
+            "x": 0.02,
+            "y": 0.17,
+            "w": 0.98,
+            "h": 0.45
+          }
+        },
+        "width": 2560,
+        "height": 1543,
+        "alt": {
+          "nl": "Stalen boog van de Waalbrug in roze avondlicht boven de kalme rivier.",
+          "en": "Steel arch of the Waalbrug in pink dusk light over the calm river."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Michielverbeek",
+          "licence": "CC BY-SA 4.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Nijmegen,_de_Waalbrug_RM523067_vanaf_Nijmegen_Bloxx_IMG_3943_2022-11-19_16.44.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Nijmegen%2C_de_Waalbrug_RM523067_vanaf_Nijmegen_Bloxx_IMG_3943_2022-11-19_16.44.jpg/3840px-Nijmegen%2C_de_Waalbrug_RM523067_vanaf_Nijmegen_Bloxx_IMG_3943_2022-11-19_16.44.jpg"
+        },
+        "hero": true
+      },
+      {
+        "id": "S3-03",
+        "source": "images/source/S3-03.jpg",
+        "title": "Willemsbrug, Rotterdam",
+        "theme": "s3",
+        "stage": 3,
+        "roles": [
+          "divider",
+          "background"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.75,
+            "y": 0.3
+          },
+          "textSafeZone": "lower-third",
+          "subjectBox": {
+            "x": 0.43,
+            "y": 0.29,
+            "w": 0.44,
+            "h": 0.53
+          }
+        },
+        "width": 2560,
+        "height": 1707,
+        "alt": {
+          "nl": "Rode pylonen van de Willemsbrug boven een groen gazon onder een heldere wolkenlucht.",
+          "en": "Red pylons of the Willemsbrug above a green lawn under a bright cloudy sky."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "FaceMePLS from The Hague, The Netherlands",
+          "licence": "CC BY 2.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Willemsbrug_-_Rotterdam_(36757381985).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Willemsbrug_-_Rotterdam_%2836757381985%29.jpg/3840px-Willemsbrug_-_Rotterdam_%2836757381985%29.jpg"
+        }
+      },
+      {
+        "id": "S3-07",
+        "source": "images/source/S3-07.jpg",
+        "title": "De Oversteek, Nijmegen",
+        "theme": "s3",
+        "stage": 3,
+        "roles": [
+          "hero",
+          "cover",
+          "closing"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.45,
+            "y": 0.3
+          },
+          "textSafeZone": "right-half",
+          "subjectBox": {
+            "x": 0.0,
+            "y": 0.03,
+            "w": 0.66,
+            "h": 0.89
+          }
+        },
+        "width": 2560,
+        "height": 1440,
+        "alt": {
+          "nl": "Bakstenen viaductbogen en de witte boogpyloon van De Oversteek langs de rivier.",
+          "en": "Brick viaduct arches and the white arch pylon of De Oversteek beside the river, soft sky."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Rob Kemme from Netherlands",
+          "licence": "CC BY-SA 2.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Nijmegen_-_Waal_-_De_Oversteek_(26223244138).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Nijmegen_-_Waal_-_De_Oversteek_%2826223244138%29.jpg"
+        },
+        "hero": true
+      },
+      {
+        "id": "S3-08",
+        "source": "images/source/S3-08.jpg",
+        "title": "John Frostbrug, Arnhem",
+        "theme": "s3",
+        "stage": 3,
+        "roles": [
+          "hero",
+          "cover",
+          "closing"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.4,
+            "y": 0.4
+          },
+          "textSafeZone": "none",
+          "subjectBox": {
+            "x": 0.24,
+            "y": 0.15,
+            "w": 0.66,
+            "h": 0.65
+          }
+        },
+        "width": 2560,
+        "height": 1441,
+        "alt": {
+          "nl": "Stalen boog en rood fietsdek van de John Frostbrug in perspectief.",
+          "en": "Steel arch and red cycle deck of the John Frostbrug in perspective with overhead wires."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Michielverbeek",
+          "licence": "CC BY 4.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Arnhem,_op_de_John_Frostbrug_RM529907_IMG_3813_2024-07-15_13.26.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Arnhem%2C_op_de_John_Frostbrug_RM529907_IMG_3813_2024-07-15_13.26.jpg/3840px-Arnhem%2C_op_de_John_Frostbrug_RM529907_IMG_3813_2024-07-15_13.26.jpg"
+        },
+        "hero": true
+      },
+      {
+        "id": "S4-01",
+        "source": "images/source/S4-01.jpg",
+        "title": "Erasmusbrug, Rotterdam",
+        "theme": "s4",
+        "stage": 4,
+        "roles": [
+          "hero",
+          "cover",
+          "closing"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.65,
+            "y": 0.45
+          },
+          "textSafeZone": "left-half",
+          "subjectBox": {
+            "x": 0.5,
+            "y": 0.1,
+            "w": 0.45,
+            "h": 0.83
+          }
+        },
+        "width": 2560,
+        "height": 1920,
+        "alt": {
+          "nl": "Witte pyloon en kabelwaaier van de Erasmusbrug tegen een strakblauwe lucht.",
+          "en": "White pylon and fan of cables of the Erasmusbrug against a clear blue sky."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "F.Eveleens",
+          "licence": "CC BY 3.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Rotterdam_erasmusbrug.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Rotterdam_erasmusbrug.jpg"
+        },
+        "hero": true
+      },
+      {
+        "id": "S4-03",
+        "source": "images/source/S4-03.jpg",
+        "title": "Erasmusbrug, Rotterdam",
+        "theme": "s4",
+        "stage": 4,
+        "roles": [
+          "hero",
+          "cover",
+          "closing"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.7,
+            "y": 0.45
+          },
+          "textSafeZone": "upper-third",
+          "subjectBox": {
+            "x": 0.12,
+            "y": 0.12,
+            "w": 0.8,
+            "h": 0.76
+          }
+        },
+        "width": 2560,
+        "height": 1559,
+        "alt": {
+          "nl": "Pyloon van de Erasmusbrug naast de torens op het blauwe uur, kalme paarse lucht.",
+          "en": "Erasmusbrug pylon beside towers at blue hour, calm violet sky."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Michielverbeek",
+          "licence": "CC BY-SA 4.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Rotterdam,_de_Erasmusbrug_en_de_Kop_van_Zuid_IMG_0684_2022-03-27_20.24.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Rotterdam%2C_de_Erasmusbrug_en_de_Kop_van_Zuid_IMG_0684_2022-03-27_20.24.jpg/3840px-Rotterdam%2C_de_Erasmusbrug_en_de_Kop_van_Zuid_IMG_0684_2022-03-27_20.24.jpg"
+        },
+        "hero": true
+      },
+      {
+        "id": "S4-04",
+        "source": "images/source/S4-04.jpg",
+        "title": "Zeelandbrug, Zeeland",
+        "theme": "s4",
+        "stage": 4,
+        "roles": [
+          "hero",
+          "cover",
+          "closing"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.7,
+            "y": 0.65
+          },
+          "textSafeZone": "upper-third",
+          "subjectBox": {
+            "x": 0.0,
+            "y": 0.47,
+            "w": 1.0,
+            "h": 0.23
+          }
+        },
+        "width": 2560,
+        "height": 1626,
+        "alt": {
+          "nl": "De lange witte Zeelandbrug over de Oosterschelde, kalm water en zachte wolken.",
+          "en": "Long white Zeelandbrug receding over the Oosterschelde with calm water and soft cloud."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "bertknot",
+          "licence": "CC BY-SA 2.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Around_zeelandbrug_(24).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Around_zeelandbrug_%2824%29.jpg/3840px-Around_zeelandbrug_%2824%29.jpg"
+        },
+        "hero": true
+      },
+      {
+        "id": "S4-05",
+        "source": "images/source/S4-05.jpg",
+        "title": "Van Brienenoordbrug, Rotterdam",
+        "theme": "s4",
+        "stage": 4,
+        "roles": [
+          "divider",
+          "background"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.67
+          },
+          "textSafeZone": "upper-third",
+          "subjectBox": {
+            "x": 0.08,
+            "y": 0.56,
+            "w": 0.84,
+            "h": 0.22
+          }
+        },
+        "width": 2560,
+        "height": 1920,
+        "alt": {
+          "nl": "Silhouet van de boog tegen een warme abrikooskleurige avondlucht.",
+          "en": "Silhouetted arch of the Van Brienenoordbrug against a warm apricot dusk sky."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Steven Lek",
+          "licence": "Public domain",
+          "page": "https://commons.wikimedia.org/wiki/File:Van_Brienenoordbrug_2010_5.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Van_Brienenoordbrug_2010_5.JPG"
+        }
+      },
+      {
+        "id": "S4-06",
+        "source": "images/source/S4-06.jpg",
+        "title": "Zeelandbrug, Zeeland",
+        "theme": "s4",
+        "stage": 4,
+        "roles": [
+          "hero",
+          "cover",
+          "closing"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.65,
+            "y": 0.6
+          },
+          "textSafeZone": "upper-third",
+          "subjectBox": {
+            "x": 0.25,
+            "y": 0.13,
+            "w": 0.75,
+            "h": 0.65
+          }
+        },
+        "width": 2560,
+        "height": 1922,
+        "alt": {
+          "nl": "Brugdek en pijler vanaf de kust onder een zachtgrijze lucht.",
+          "en": "Zeelandbrug deck and pier from the shore under a soft grey sky."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Fantaglobe11",
+          "licence": "CC BY-SA 4.0",
+          "page": "https://commons.wikimedia.org/wiki/File:2016-07-27_Colijnsplaat_Zeelandbrug.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/2016-07-27_Colijnsplaat_Zeelandbrug.jpg/3840px-2016-07-27_Colijnsplaat_Zeelandbrug.jpg"
+        },
+        "hero": true
+      },
+      {
+        "id": "S4-07",
+        "source": "images/source/S4-07.jpg",
+        "title": "Erasmusbrug, Rotterdam",
+        "theme": "s4",
+        "stage": 4,
+        "roles": [
+          "divider",
+          "background"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.75,
+            "y": 0.45
+          },
+          "textSafeZone": "upper-third",
+          "subjectBox": {
+            "x": 0.04,
+            "y": 0.08,
+            "w": 0.76,
+            "h": 0.64
+          }
+        },
+        "width": 2560,
+        "height": 1254,
+        "alt": {
+          "nl": "Pyloon en skyline over het water vanaf de kade, heldere lucht.",
+          "en": "Erasmusbrug pylon and skyline across the water from the quay under a clear sky."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Michielverbeek",
+          "licence": "CC BY-SA 4.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Rotterdam,_de_Erasmusbrug_vanaf_de_Holland-Amerikakade_IMG_1164_2022-04-17_19.32.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Rotterdam%2C_de_Erasmusbrug_vanaf_de_Holland-Amerikakade_IMG_1164_2022-04-17_19.32.jpg/3840px-Rotterdam%2C_de_Erasmusbrug_vanaf_de_Holland-Amerikakade_IMG_1164_2022-04-17_19.32.jpg"
+        }
+      },
+      {
+        "id": "S4-08",
+        "source": "images/source/S4-08.jpg",
+        "title": "Erasmusbrug, Rotterdam",
+        "theme": "s4",
+        "stage": 4,
+        "roles": [
+          "divider",
+          "background"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.3
+          },
+          "textSafeZone": "none",
+          "subjectBox": {
+            "x": 0.15,
+            "y": 0.15,
+            "w": 0.7,
+            "h": 0.8
+          }
+        },
+        "width": 2560,
+        "height": 1920,
+        "alt": {
+          "nl": "Onderkant van het brugdek: egale grijze liggers in zacht licht.",
+          "en": "Underside of the Erasmusbrug deck: uniform grey girders in soft light."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "AgainErick",
+          "licence": "CC BY-SA 4.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Erasmusbrug_-_Centrum_-_Rotterdam_-_Underside_of_the_bridge.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Erasmusbrug_-_Centrum_-_Rotterdam_-_Underside_of_the_bridge.jpg/3840px-Erasmusbrug_-_Centrum_-_Rotterdam_-_Underside_of_the_bridge.jpg"
+        }
+      },
+      {
+        "id": "S4-09",
+        "source": "images/source/S4-09.jpg",
+        "title": "Van Brienenoordbrug, Rotterdam",
+        "theme": "s4",
+        "stage": 4,
+        "roles": [
+          "divider",
+          "background"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.4
+          },
+          "textSafeZone": "none",
+          "subjectBox": {
+            "x": 0.1,
+            "y": 0.05,
+            "w": 0.8,
+            "h": 0.8
+          }
+        },
+        "width": 2560,
+        "height": 1920,
+        "alt": {
+          "nl": "Stalen boogribben en fijne hangers tegen een blauwe lucht.",
+          "en": "Steel arch ribs and fine hangers of the Van Brienenoordbrug against blue sky."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Steven Lek",
+          "licence": "Public domain",
+          "page": "https://commons.wikimedia.org/wiki/File:Van_Brienenoordbrug_2010_3.JPG",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Van_Brienenoordbrug_2010_3.JPG"
+        }
+      },
+      {
+        "id": "S4-10",
+        "source": "images/source/S4-10.jpg",
+        "title": "Zeelandbrug, Zeeland",
+        "theme": "s4",
+        "stage": 4,
+        "roles": [
+          "divider",
+          "background"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.6,
+            "y": 0.5
+          },
+          "textSafeZone": "none",
+          "subjectBox": {
+            "x": 0.4,
+            "y": 0.12,
+            "w": 0.55,
+            "h": 0.73
+          }
+        },
+        "width": 2560,
+        "height": 1789,
+        "alt": {
+          "nl": "Het ritme van de witte betonnen pijlers dat de verte in loopt.",
+          "en": "Receding rhythm of white concrete piers of the Zeelandbrug."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "bertknot",
+          "licence": "CC BY-SA 2.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Around_zeelandbrug_(50).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Around_zeelandbrug_%2850%29.jpg/3840px-Around_zeelandbrug_%2850%29.jpg"
+        }
+      },
+      {
+        "id": "S4-11",
+        "source": "images/source/S4-11.jpg",
+        "title": "Erasmusbrug, Rotterdam",
+        "theme": "s4",
+        "stage": 4,
+        "roles": [
+          "divider",
+          "background"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.55,
+            "y": 0.45
+          },
+          "textSafeZone": "none",
+          "subjectBox": {
+            "x": 0.05,
+            "y": 0.03,
+            "w": 0.55,
+            "h": 0.92
+          }
+        },
+        "width": 2560,
+        "height": 1665,
+        "alt": {
+          "nl": "Verlichte kabelwaaier tegen een bijna zwarte nachtlucht.",
+          "en": "Cable fan of the Erasmusbrug lit against a near-black sky (night, dark navy-teal tone)."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Michielverbeek",
+          "licence": "CC BY-SA 4.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Rotterdam,_kabels_van_de_Erasmusbrug_IMG_0435_2025-09-14_00.22.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Rotterdam%2C_kabels_van_de_Erasmusbrug_IMG_0435_2025-09-14_00.22.jpg/3840px-Rotterdam%2C_kabels_van_de_Erasmusbrug_IMG_0435_2025-09-14_00.22.jpg"
+        }
+      },
+      {
+        "id": "S4-12",
+        "source": "images/source/S4-12.jpg",
+        "title": "Zeelandbrug, Zeeland",
+        "theme": "s4",
+        "stage": 4,
+        "roles": [
+          "divider",
+          "background"
+        ],
+        "treatment": "navy-duotone",
+        "geometry": {
+          "focalPoint": {
+            "x": 0.6,
+            "y": 0.4
+          },
+          "textSafeZone": "none",
+          "subjectBox": {
+            "x": 0.0,
+            "y": 0.1,
+            "w": 1.0,
+            "h": 0.58
+          }
+        },
+        "width": 2560,
+        "height": 983,
+        "alt": {
+          "nl": "De Zeelandbrug als dunne strook achter zeilboten op kalm blauw water.",
+          "en": "Distant Zeelandbrug as a thin arched band behind sailing boats on calm blue water."
+        },
+        "credit": {
+          "provider": "wikimedia",
+          "author": "Zairon",
+          "licence": "CC BY-SA 4.0",
+          "page": "https://commons.wikimedia.org/wiki/File:Zierikzee_Zeelandsbrug_3.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Zierikzee_Zeelandsbrug_3.jpg/3840px-Zierikzee_Zeelandsbrug_3.jpg"
+        }
+      }
+    ],
+    "overlay": {
+      "color": "primary",
+      "opacity": 0.55
+    },
+    "logoVariantOnImage": "white"
+  },
+  "logo": {
+    "primary": "logos/logo.svg",
+    "white": "logos/logo_white.svg",
+    "symbol": "logos/symbol.svg",
+    "symbolWhite": "logos/symbol_white.svg",
+    "favicon": "logos/favicon.svg",
+    "iconDark": "logos/icon_dark.svg",
+    "png": "logos/logo.png",
+    "png2x": "logos/logo@2x.png",
+    "png3x": "logos/logo@3x.png",
+    "whitePng": "logos/logo_white.png",
+    "whitePng2x": "logos/logo_white@2x.png",
+    "symbolPng": "logos/symbol.png",
+    "symbolWhitePng": "logos/symbol_white.png",
+    "iconDarkPng": "logos/icon_dark.png",
+    "maxWidth": "180pt",
+    "maxHeight": "60pt",
+    "sizing": "contain",
+    "_note": "All wordmark text is outlined paths (Archivo 800 / 600 instances via fontTools + HarfBuzz), so SVG and PNG renders match on any machine. Descriptor tracking is solved so it spans the wordmark width.",
+    "short": "logos/logo_short.svg",
+    "shortWhite": "logos/logo_short_white.svg",
+    "shortPng": "logos/logo_short.png",
+    "shortWhitePng": "logos/logo_short_white.png",
+    "stacked": "logos/logo_stacked.svg",
+    "stackedWhite": "logos/logo_stacked_white.svg",
+    "stackedPng": "logos/logo_stacked.png",
+    "stackedWhitePng": "logos/logo_stacked_white.png",
+    "symbolMono": "logos/symbol_mono.svg"
+  },
+  "templates": {
+    "docx": {
+      "styles": "templates/docx/styles.docx",
+      "letterhead": "templates/docx/letterhead.docx"
+    }
+  },
+  "video": {
+    "resolution": "1920x1080",
+    "fps": 30
+  },
+  "fallbacksUsed": [],
+  "warnings": [],
+  "token_roles": {
+    "surface": "--surface",
+    "surfaceAlt": "--surface-raised",
+    "elevation": "--shadow-md",
+    "radius": "--radius-md",
+    "lineWeight": null,
+    "tracking": "--tracking-label",
+    "textStrong": "--color-text",
+    "textMuted": "--color-text-light",
+    "edge": "--border"
+  },
+  "integrity": {
+    "compiler": "brand_compile.py",
+    "compiler_version": "1.0",
+    "key_set": [
+      "boilerplate",
+      "client_slug",
+      "colors",
+      "document",
+      "excalidraw_theme",
+      "expression",
+      "fallbacksUsed",
+      "formatting",
+      "generatedFrom",
+      "identity",
+      "images",
+      "logo",
+      "plotly_theme",
+      "schemaVersion",
+      "surfaceExpression",
+      "templates",
+      "tier",
+      "token_roles",
+      "tokens_css",
+      "typography",
+      "version",
+      "video",
+      "warnings"
+    ],
+    "visual_grammar_dimensions": [
+      "backgrounds",
+      "elevation",
+      "gradients",
+      "grid",
+      "iconography",
+      "motifs",
+      "motion",
+      "patterns",
+      "photo"
+    ],
+    "images_count": 31,
+    "sha256": "065a19b864a40e6552a13bcbf82376ccab65107601b7843c16799d9c2dc6cb40"
+  }
+}

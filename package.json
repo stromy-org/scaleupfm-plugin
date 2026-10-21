@@ -1,7 +1,7 @@
 {
-  "name": "starttoscale",
+  "name": "scaleupfm",
   "version": "0.1.0",
   "private": true,
-  "description": "Claude Code plugin for Start to Scale branded deliverables",
+  "description": "Claude Code plugin for ScaleUp Financial Management branded deliverables",
   "dependencies": {}
 }

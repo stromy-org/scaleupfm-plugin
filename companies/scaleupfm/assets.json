@@ -1,0 +1,429 @@
+{
+  "version": "1.0",
+  "fonts": [
+    {
+      "family": "Archivo",
+      "weight": 600,
+      "style": "italic",
+      "sha256": "305d13b4eb80e62f7d517f78d7c045250d977552a420f2dbed906f314e761305",
+      "mime": "font/ttf",
+      "name": "Archivo-Italic[wdth,wght].ttf",
+      "weight_range": [
+        100,
+        900
+      ]
+    },
+    {
+      "family": "Archivo",
+      "weight": 600,
+      "style": "normal",
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+      "mime": "font/ttf",
+      "name": "Archivo[wdth,wght].ttf",
+      "weight_range": [
+        100,
+        900
+      ]
+    },
+    {
+      "family": "JetBrains Mono",
+      "weight": 700,
+      "style": "normal",
+      "sha256": "a2349098b9e45419e7bf0e2958d6c4937a049dded37387b08be725be4c7615f3",
+      "mime": "font/ttf",
+      "name": "JetBrainsMono-Bold.ttf"
+    },
+    {
+      "family": "JetBrains Mono",
+      "weight": 400,
+      "style": "normal",
+      "sha256": "b6b1ff4ddefe36d7f2a6174e1d001cab374e594519ee9049af028d577b64c5f5",
+      "mime": "font/ttf",
+      "name": "JetBrainsMono-Regular.ttf"
+    }
+  ],
+  "logos": [
+    {
+      "name": "apple-touch-icon-180.png",
+      "sha256": "4b4c7d2c4bd806b34584475af7d696c8e9dc41fbe673f0053fb41178bc9f8cea",
+      "mime": "image/png"
+    },
+    {
+      "name": "apple-touch-icon.png",
+      "sha256": "4b4c7d2c4bd806b34584475af7d696c8e9dc41fbe673f0053fb41178bc9f8cea",
+      "mime": "image/png"
+    },
+    {
+      "name": "divider-line-white.svg",
+      "sha256": "2b3a0458d418d325a4ea94b7435d70d070380c02cc869920e762492d5b422636",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "divider-line.svg",
+      "sha256": "e15586c8abe6b3d6d8742585dfc7650242ebcbad978daca343e4a9af7be458e1",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "favicon-16.png",
+      "sha256": "d79ccf86ac53c1b3bc42195b164b532003d8f688ced8f64dfc2647b1b9725982",
+      "mime": "image/png"
+    },
+    {
+      "name": "favicon-192.png",
+      "sha256": "758ba6136b2681c14a42e67eab52970cec34fc83d3275ebe8e704904db1d2323",
+      "mime": "image/png"
+    },
+    {
+      "name": "favicon-32.png",
+      "sha256": "a9c386d8bcad20d9c4c775e5f895203e6dc6a3739f7db816b540f5172ed3d389",
+      "mime": "image/png"
+    },
+    {
+      "name": "favicon-48.png",
+      "sha256": "c25379bfc26050f47314edef68b56b181cb9a6ba0333fe6014a38384b4e5d6f7",
+      "mime": "image/png"
+    },
+    {
+      "name": "favicon-512.png",
+      "sha256": "8cb2c5bbec8fb6710bd723d289df4154dd28b76b5247db083db5a56eb669a186",
+      "mime": "image/png"
+    },
+    {
+      "name": "favicon.svg",
+      "sha256": "97dd93d6372c667b6d49e8bcdb71593822a204c0b04d0879e5246252fcb0b588",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "icon_dark.png",
+      "sha256": "8cb2c5bbec8fb6710bd723d289df4154dd28b76b5247db083db5a56eb669a186",
+      "mime": "image/png"
+    },
+    {
+      "name": "icon_dark.svg",
+      "sha256": "38ef6c5712f0cd181ca8ff22d0953ae9e6af97e07448d662fe6658ed3b9828ee",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "logo.png",
+      "sha256": "1ac84aa938d9c68dac5d14831f9f667b7689b5b502f6883886d1433aefaf5af9",
+      "mime": "image/png"
+    },
+    {
+      "name": "logo.svg",
+      "sha256": "666f71ebc6b9ca5e96bfc93b7ad793c5d6bd08e57a7ee7497a21a6bc9d94857d",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "logo@2x.png",
+      "sha256": "50fb69a458f08ad1532a8d7f1a65a638edfef68e9d7beecf3ed8ab58a7f1b506",
+      "mime": "image/png"
+    },
+    {
+      "name": "logo@3x.png",
+      "sha256": "6a9b15b1032534e60611d170c987428e3b1b160fd3b3d0d1101d07b42c3227c7",
+      "mime": "image/png"
+    },
+    {
+      "name": "logo_short.png",
+      "sha256": "d56976374036d3c95eedf9452af2e6915871ee276fb6c1e5cb2aae3386d8f673",
+      "mime": "image/png"
+    },
+    {
+      "name": "logo_short.svg",
+      "sha256": "6ee74abcb170fda6f1172e9a10b8ec77f44f2621268dc1cb913d76fffc0bbf2f",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "logo_short_white.png",
+      "sha256": "afe469552cbbb9acaf8aa29fb49467acb6403bccde5f9a6c5d9ae6b1cb2db042",
+      "mime": "image/png"
+    },
+    {
+      "name": "logo_short_white.svg",
+      "sha256": "c546167d031b64bff35c03ea830b9a069e28b2c3404267770581e90de4712038",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "logo_stacked.png",
+      "sha256": "49150c0655c4dd7a9fe0c0c1f02cd843875900d195ded41fe8816f5108b5edeb",
+      "mime": "image/png"
+    },
+    {
+      "name": "logo_stacked.svg",
+      "sha256": "c4332f53d54761acc9de860f94c74b444d82e974747ce76a5f627cf284f3678c",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "logo_stacked_white.png",
+      "sha256": "818ed1bc432268a6aa426c3d906e8624a1ac0d0f638d0612f4aa6dd6bd6f73df",
+      "mime": "image/png"
+    },
+    {
+      "name": "logo_stacked_white.svg",
+      "sha256": "1478134c5828ed812e047ad2290ef87cde25e852d95ee88f08b5b609e9f024e8",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "logo_white.png",
+      "sha256": "cfb0ba843a7c5cb59d0f9958037498c66c538beb5a7ce2ce8b0de2ff180c2628",
+      "mime": "image/png"
+    },
+    {
+      "name": "logo_white.svg",
+      "sha256": "3e384ec8bf00fc18d254faf1558f3b0717efdce7e82c03b6f4a66bfb16987692",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "logo_white@2x.png",
+      "sha256": "7c0944f42b81379518743ae4136666acb31751f8baa853ff4999c43c5473a040",
+      "mime": "image/png"
+    },
+    {
+      "name": "mask-icon.svg",
+      "sha256": "4316e83162eefcfc20c1387d78cda19732ddadf3c020c5a36045cd3e19287fe6",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "motif-step-rail.svg",
+      "sha256": "fc32e3f93439a84f244430db3f03b803102d07763247b3f136a630cfdcd1656e",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "pattern-tile.svg",
+      "sha256": "52d321b4410d424d434f26f365d056f2350ca2168bdcd4e241830321732fcc5d",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "signature-mark@2x.png",
+      "sha256": "cfaf9dc6cc1e3a4a74767eb648a83329bfd6ad8f6674e9df6193471de0c314e1",
+      "mime": "image/png"
+    },
+    {
+      "name": "symbol.png",
+      "sha256": "b896c222831279d251a13184ef6aa4f35b13ee5cfb4c750ee823879de4c4baac",
+      "mime": "image/png"
+    },
+    {
+      "name": "symbol.svg",
+      "sha256": "c989e69284e5a1422e672e50c41abf7b34da2d7c85ea7548171c2fc8e477b7b1",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "symbol_mono.svg",
+      "sha256": "8f789e6ae1cedf8c59116c15f50ff001239d894c7de5475c3a9b4827660d1173",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "symbol_white.png",
+      "sha256": "bdcf8df77c166e1de7b0bc9367f693a68c26a3b38c23079d54ac3f50f043fb1a",
+      "mime": "image/png"
+    },
+    {
+      "name": "symbol_white.svg",
+      "sha256": "4564ece8dd11c1cae14f6bd9306ccca471f33a55b088b49e4d9a1b5c3597c3ef",
+      "mime": "image/svg+xml"
+    }
+  ],
+  "images": [
+    {
+      "name": "S1-01.jpg",
+      "sha256": "b36d029eadae6a7b0a81a37c2a2e107a45ab6e5b18e465938b888db63c06c2bc",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S1-02.jpg",
+      "sha256": "ab542915c3e1fe1609efea6b03faaa43f994a20da4c08ce621eab4951f9c618a",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S1-04.jpg",
+      "sha256": "8b94be243488ba995bfa40e53adbcbd1c9922c5ae0da24c47619acf2baa59fc6",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S1-05.jpg",
+      "sha256": "5828ec911424b3c9ef59ca2d541a06471436d862f115fdc0a530251717a30637",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S1-07.jpg",
+      "sha256": "899d1ffa05309b0e4f14ab0799a84d4d036e2ff3c298a340f57eb1cea6c7c1e0",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S1-08.jpg",
+      "sha256": "84973b25049ebea14e24ab7d8a37cbe38390293a8408b5bdd46b1d0cb449dafb",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S1-09.jpg",
+      "sha256": "9ef8f4de8dd4e98c67bf8d66fe0560f3a64ecd995f3c628c910bfb61bd1cb95f",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S1-10.jpg",
+      "sha256": "e98fbd50a9ec2d31620cace83c9502d73a566282a7f48c39b8a38fd22c09c4fd",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S2-01.jpg",
+      "sha256": "550092fc7fe577b70a486d89f5bd414f1099b528b04ad9d1bb3e97174ebed5f4",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S2-02.jpg",
+      "sha256": "4d5ad9083387f1c20baf1bc20a1ee66922447cdc94b8e7fa860881f4a7b54c3a",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S2-05.jpg",
+      "sha256": "d655a18055edf874c9d41cea35a5127e83918cd19866dc8481b96f994a55f634",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S2-06.jpg",
+      "sha256": "768cc1f0b456213bdbd58f03d8450fd5a962fe1c3f997b07f1fec07ef72b3888",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S2-07.jpg",
+      "sha256": "a1758996cfa6d4d67d4f8454dc45daf39290037a6ca22477a2741dd792d669f6",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S2-08.jpg",
+      "sha256": "26704e76bba0aa1b2a4c2fd59f219606c0308e02414ed608a59ca0996218ed1e",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S2-09.jpg",
+      "sha256": "ee303372ae037f91405bf536cb7bd615dfeb276d789d82404f675a1bd9fbaa3a",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S3-01.jpg",
+      "sha256": "e3d4a6151eef3a20e4a8bc2b588785923747f21d057c3bf9a983d415bff4327d",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S3-02.jpg",
+      "sha256": "7ff096429d53414e67074f47673f3d7c25605d28251a1dea224432c70f9792eb",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S3-03.jpg",
+      "sha256": "bd80f64cef638e9410585321357ea8536dc46d705a180add470c1870fa1542fa",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S3-07.jpg",
+      "sha256": "f2adb6b99abf79428e48bddbe25d7e8409097a75b4ee0b624590576d30da2e4f",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S3-08.jpg",
+      "sha256": "47712e0f6a3face055b2d6a6f3afd73c02497727e81ef45b8ba19933aec23ac7",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S4-01.jpg",
+      "sha256": "b0b8adc57bfd5eb2345a89c9b2eacbd93b53b37c0bf7637f1db32140e982bab2",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S4-03.jpg",
+      "sha256": "1f7e13561edf9f0b798d79f3c916d202dc9f48286a76f98cbc36fd524137eb60",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S4-04.jpg",
+      "sha256": "a38f4960e88d7226bd4c8b8cd6cdc8713083e66c96ca55efc7f39f770115dbb4",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S4-05.jpg",
+      "sha256": "88533654abe5e176b06df8208d7ad387a9a7bfb2eac8ea1af286d83c85e297af",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S4-06.jpg",
+      "sha256": "625e943f0f30e8f8d67ffb4772def04d1dbe82e8b296641fa700fa704655aee5",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S4-07.jpg",
+      "sha256": "fa33fb04a08d089a8f89216601d026615fac441407f4244896d72ca4ae7d556a",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S4-08.jpg",
+      "sha256": "27bc1493788efcba152dfc191770ab20411af0a1fa34fbe01b7c21562101b0f5",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S4-09.jpg",
+      "sha256": "44af3ef6601805ceb1e8831308aed64598cacff98ff5f8744f085a82c8f2ce23",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S4-10.jpg",
+      "sha256": "cc8a69ff8d0a1f2d160cbbdceb096e19558a52542c3dcc86804a38b1f5d95eb6",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S4-11.jpg",
+      "sha256": "c550c9bac00abf953aa17f6a77f8303974881262eebfb6bc2543ab6cfe7e2b98",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "S4-12.jpg",
+      "sha256": "32ccf7bf49468e64ac9eb3fb6e27944cbcebb7830ef470116e98deb0f8ab8ed7",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "navy-amber-diag.png",
+      "sha256": "961e147c99fe5a9964f3327d5b9a7e7a4851a68a7bd4fd2c0be528b60c3e1f93",
+      "mime": "image/png"
+    },
+    {
+      "name": "navy-hero.png",
+      "sha256": "1cd4302bf25d490e82560c1e8b65118c5674343549ab312771751d7cce80805d",
+      "mime": "image/png"
+    },
+    {
+      "name": "navy-vignette.png",
+      "sha256": "2fa58fd7ca9d6042f780300573c45e8da8651c3f81abda362c1effedbdef9ddb",
+      "mime": "image/png"
+    },
+    {
+      "name": "paper-soft.png",
+      "sha256": "14fd3b0ea0085730cef34a82f9382d0aa00b484304a524eaff84bc03578c589c",
+      "mime": "image/png"
+    },
+    {
+      "name": "pattern-full-navy.png",
+      "sha256": "14c28b9fd916c7506c491c88931d2239d222670919d3ad0fe84bf7739a699046",
+      "mime": "image/png"
+    },
+    {
+      "name": "pattern-full-paper.png",
+      "sha256": "06e64bfa5c573d005496fa9c5db94b2fad87716672810e2fb824b99fb0a2813c",
+      "mime": "image/png"
+    },
+    {
+      "name": "step-rail-on-dark.png",
+      "sha256": "d5083ae089f7e52e42333da2f730c63c17ad31fcf8c45c2895cf497dd37d1abd",
+      "mime": "image/png"
+    },
+    {
+      "name": "step-rail-on-light.png",
+      "sha256": "792322a205f4d0f7d3832d53ae2f0d63616b50bb2a7736207b569d0fecfbf9ed",
+      "mime": "image/png"
+    }
+  ],
+  "brand_context": {
+    "sha256": "e47c963833d269077d1a7ae50a12ebbb7e4907ea9d2866f012f4fc00fd295bb8",
+    "mime": "application/json",
+    "bytes": 85450
+  }
+}

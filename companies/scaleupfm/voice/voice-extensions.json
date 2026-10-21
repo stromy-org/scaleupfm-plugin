@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "additional_banned_phrases": [
+    "game-changing",
+    "revolutionair",
+    "disruptief",
+    "supercharge",
+    "best-in-class",
+    "world-class",
+    "laaghangend fruit"
+  ],
+  "additional_banned_substrings": [],
+  "notes": "ScaleUp L2: additive-only anti-hype / anti-jargon bans on top of the L1 baseline. Plain Dutch over finance buzzwords."
+}
