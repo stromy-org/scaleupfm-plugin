@@ -1,0 +1,28 @@
+{
+  "boilerplates": [
+    {
+      "id": "bp-standard",
+      "variant": "standard",
+      "lang": "nl",
+      "text": "ScaleUp Financial Management helpt Nederlandse scale-ups hun financiële functie professionaliseren. Opgericht door Wilgert Hart — met bijna 30 jaar senior finance-ervaring, waaronder CFO Nederland en CFO Europa & Nederland bij Hill & Knowlton (WPP) — combineert ScaleUp diepgaande CFO-expertise met een hands-on aanpak die daadwerkelijk werkt: diagnose, roadmap, implementatie en doorlopende uitvoering als fractional of interim CFO. ScaleUp Financial Management opereert onder Duke Strategy & Corporate Affairs B.V. (KvK 95849696), gevestigd in Amersfoort. Meer informatie: scaleupfm.nl."
+    },
+    {
+      "id": "bp-short",
+      "variant": "short",
+      "lang": "nl",
+      "text": "ScaleUp Financial Management is de senior financiële partner voor Nederlandse scale-ups — diagnose, roadmap en hands-on CFO-uitvoering. Opereert onder Duke Strategy & Corporate Affairs B.V. Meer informatie: scaleupfm.nl."
+    },
+    {
+      "id": "bp-standard-en",
+      "variant": "standard",
+      "lang": "en",
+      "text": "ScaleUp Financial Management helps Dutch scale-ups build a professional finance function. Founded by Wilgert Hart — nearly 30 years in senior finance, including CFO Netherlands and CFO Europe & Netherlands at Hill & Knowlton (WPP) — ScaleUp combines deep CFO experience with a hands-on operating model: diagnosis, roadmap, implementation, and ongoing delivery as fractional or interim CFO. ScaleUp Financial Management operates under Duke Strategy & Corporate Affairs B.V. (KvK 95849696), headquartered in Amersfoort, Netherlands. For more information, visit scaleupfm.nl."
+    },
+    {
+      "id": "bp-short-en",
+      "variant": "short",
+      "lang": "en",
+      "text": "ScaleUp Financial Management is the senior finance partner for Dutch scale-ups — diagnosis, roadmap, and hands-on CFO delivery. Operates under Duke Strategy & Corporate Affairs B.V. Visit scaleupfm.nl."
+    }
+  ]
+}

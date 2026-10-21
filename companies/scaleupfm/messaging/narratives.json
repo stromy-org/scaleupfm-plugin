@@ -1,0 +1,72 @@
+{
+  "positioning": {
+    "statement": "Voor eigenaren, oprichters en boards van Nederlandse scale-ups is ScaleUp Financial Management de senior financiële partner die een groeiend bedrijf helpt van informele, reactieve finance naar een professionele financiële functie — door diagnose, roadmap, hands-on implementatie en doorlopende uitvoering.",
+    "category": "fractional CFO and finance transformation for scale-ups",
+    "differentiator": "combines nearly 30 years of senior CFO experience from inside WPP, EMI, and Warner Music with a hands-on operator model that builds the finance function and runs it until a permanent CFO takes over",
+    "lastUpdated": "2026-06-20"
+  },
+  "coreMessage": {
+    "full": "Organisaties die van start-up naar scale-up groeien, hebben een financiële functie nodig die staat als een huis. ScaleUp brengt rust, overzicht en financiële grip — met de senioriteit om het zelf te bouwen en te runnen.",
+    "lastUpdated": "2026-06-20"
+  },
+  "elevatorPitch": {
+    "text": "ScaleUp Financial Management helpt Nederlandse scale-ups hun financiële functie professionaliseren. Wilgert Hart brengt bijna 30 jaar senioriteit als CFO — waaronder CFO Nederland en CFO Europa bij Hill & Knowlton (WPP) — naar bedrijven die te snel zijn gegroeid voor hun eigen financiële structuur. Hij diagnosticeert wat er misgaat, maakt een roadmap, installeert de structuur en runt de financiële functie als fractional of interim CFO totdat een vaste CFO het overneemt.",
+    "lastUpdated": "2026-06-20"
+  },
+  "tagline": {
+    "primary": "Van chaos naar controle. Van intuïtie naar inzicht. Van start-up naar serieuze scale-up.",
+    "alternatives": [
+      "Start to Scale",
+      "Rust, overzicht en financiële grip."
+    ],
+    "lastUpdated": "2026-06-20"
+  },
+  "messageLengths": {
+    "headline": "Van chaos naar controle. Van start-up naar serieuze scale-up.",
+    "short": "ScaleUp Financial Management is de senior financiële partner voor Nederlandse scale-ups die hun financiële functie willen professionaliseren. Wilgert Hart brengt bijna 30 jaar CFO-ervaring — waaronder CFO Nederland en CFO Europa bij Hill & Knowlton (WPP) — en bouwt en runt de financiële functie tot een vaste CFO het overneemt.",
+    "full": "ScaleUp Financial Management helpt Nederlandse scale-ups hun financiële functie transformeren van informeel naar professioneel. Opgericht door Wilgert Hart — bijna 30 jaar senior finance, waaronder CFO Nederland en CFO Europa & Nederland bij Hill & Knowlton (WPP), en eerdere rollen bij EMI Music Nederland en Warner Music Benelux — combineert ScaleUp diepgaande CFO-ervaring met een hands-on aanpak die daadwerkelijk werkt. De aanpak bestaat uit vier fasen: Diagnose, Roadmap, Bouwen en Opereren. Het resultaat is rust, overzicht en financiële grip: precies wat een scale-up nodig heeft om gecontroleerd en duurzaam door te groeien. ScaleUp Financial Management opereert onder Duke Strategy & Corporate Affairs B.V. (KvK 95849696) en wordt strategisch ondersteund door Duke Strategies als stille partners."
+  },
+  "voice": {
+    "attributes": ["calm", "direct", "operator-grade", "plain-Dutch", "senior"],
+    "use": ["rust", "overzicht", "financiële grip", "van intuïtie naar inzicht", "maandafsluiting", "kasstroomprognose", "KPI-dashboard", "boardcadans", "professionele financiële functie"],
+    "avoid": ["transformation", "value creation", "synergy", "best-in-class", "leveraging", "holistic", "ecosystem", "exclamation marks"],
+    "tone": "Warm, steady senior-finance register. Practical and people-oriented. Plain Dutch over jargon. Confidence comes from having done the work, not from big words. Dutch-first; English on request."
+  },
+  "strategicNarrative": {
+    "oldWorld": "Finance in een scale-up groeit mee met het bedrijf — maar altijd een stap achter. De boekhouder verwerkt de cijfers, de accountant controleert ze, en de eigenaar neemt besluiten op gevoel. Dat werkt tot het niet meer werkt.",
+    "shift": "Een scale-up die snel groeit heeft een financiële functie nodig die actief bijdraagt aan de besluitvorming: prognoses die kloppen, rapportages die sturen, en een CFO die het gesprek met investeerders en banken kan voeren. Zonder die laag mist de eigenaar het overzicht en de grip die nodig zijn om gecontroleerd door te groeien.",
+    "newWorld": "Organisaties die de stap van startup naar scaleup zetten, groeien sneller en duurzamer met een financiële functie die staat als een huis. Professionalisering is geen luxe maar een keiharde voorwaarde. Het resultaat is rust, overzicht en financiële grip.",
+    "yourRole": "ScaleUp is opgericht om die financiële laag te bouwen en te runnen. Geen advies op afstand — Wilgert installeert de structuur, traint het team en runt de financiële functie als fractional of interim CFO tot een vaste CFO het overneemt.",
+    "stakes": "Scale-ups die te lang zonder professionele financiële structuur doorgroeien, maken kostbare fouten: te laat signaleren van cashproblemen, onrendabele activiteiten die doorlopen, en investeerders die vertrouwen verliezen in de kwaliteit van de cijfers."
+  },
+  "competitiveContext": {
+    "primaryAlternatives": [
+      "De interne boekhouder of controller — verwerkt cijfers, maar geeft geen CFO-sturing",
+      "De accountant — controleert achteraf, geen proactieve finance business partner",
+      "Generieke interim-bureaus — leveren capaciteit, geen eigenaarschap"
+    ],
+    "positioningGaps": [
+      "Bijna 30 jaar senior CFO-ervaring in professionele dienstverlening en media (WPP, EMI, Warner Music)",
+      "Hands-on operator: bouwt en runt de financiële functie, geeft geen advies op afstand",
+      "Gestructureerde aanpak: Diagnose eerst, dan Roadmap, dan Bouwen, dan Opereren — met een concreet deliverable per fase"
+    ],
+    "competitiveAdvantages": [
+      "Senior CFO-ervaring op WPP/H&K-niveau beschikbaar als fractional of interim",
+      "Netwerk van financeprofessionals voor extra executiecapaciteit",
+      "Backed by Duke Strategies voor strategisch advies en netwerktoegang",
+      "Plain Dutch: bevindingen en aanbevelingen in taal die de founder direct kan gebruiken"
+    ],
+    "lastUpdated": "2026-06-20"
+  },
+  "frameworkType": "messaging-hierarchy",
+  "scope": "brand",
+  "version": "1.0",
+  "status": "approved",
+  "lastFullReview": "2026-06-20",
+  "reviewTriggers": [
+    "New senior hire or associate",
+    "Expansion to new service line",
+    "First published case study or testimonial",
+    "Annual brand review"
+  ]
+}

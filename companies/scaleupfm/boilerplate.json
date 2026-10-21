@@ -1,0 +1,41 @@
+{
+  "$schema": "../../schema/boilerplate.schema.json",
+  "version": "1.0",
+  "description": "Fixed cross-deliverable strings for ScaleUp Financial Management. Single source of truth for the pptx/pptx-hd/docx/pdf/pdf-hd/xlsx format skills. Company facts live in profile.json. Edit here when wording changes; downstream skills re-read on each generation.",
+  "$comment": "TBC: legal.trademark needs counsel review before external use; primary phone number to be added across deliverables once registered.",
+  "website": "scaleupfm.nl",
+  "email": "wilgert@scaleupfm.nl",
+  "confidentiality": {
+    "default": "Confidential",
+    "default_nl": "Vertrouwelijk",
+    "extended": "Confidential — for the addressed recipient only",
+    "extended_nl": "Vertrouwelijk — uitsluitend voor de geadresseerde",
+    "internal_only": "Internal — ScaleUp",
+    "internal_only_nl": "Intern — ScaleUp"
+  },
+  "footer": {
+    "document_default": "Confidential · ScaleUp Financial Management",
+    "document_default_nl": "Vertrouwelijk · ScaleUp Financial Management",
+    "presentation_default": "Confidential · {deck.title}",
+    "presentation_default_nl": "Vertrouwelijk · {deck.title}",
+    "watermark": "ScaleUp · {date}",
+    "page_number_format": "{n} / {total}"
+  },
+  "legal": {
+    "copyright": "© 2026 ScaleUp Financial Management. All rights reserved.",
+    "copyright_nl": "© 2026 ScaleUp Financial Management. Alle rechten voorbehouden.",
+    "trademark": "\"ScaleUp\" and the Step Rail mark are trademarks of ScaleUp Financial Management.",
+    "trademark_nl": "\"ScaleUp\" en het Step Rail-merk zijn handelsmerken van ScaleUp Financial Management.",
+    "_note": "Legal counsel to confirm trademark filing status before any external use of this clause."
+  },
+  "sign_off": {
+    "default_nl": "Met vriendelijke groet,",
+    "default_en": "Kind regards,",
+    "formal_nl": "Hoogachtend,",
+    "formal_en": "Yours sincerely,"
+  },
+  "contact_block": {
+    "default_nl": "Wilgert Hart · Managing Partner\nScaleUp Financial Management\nwilgert@scaleupfm.nl · scaleupfm.nl",
+    "default_en": "Wilgert Hart · Managing Partner\nScaleUp Financial Management\nwilgert@scaleupfm.nl · scaleupfm.nl"
+  }
+}

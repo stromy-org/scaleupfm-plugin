@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "brand": "scaleupfm",
+  "generated": "2026-07-04",
+  "identity": "Amber Ascent (Step Rail + Archivo)",
+  "slide_dimensions": {
+    "width": 1920,
+    "height": 1080,
+    "aspect": "16:9"
+  },
+  "gradients": [
+    "gradients/navy-hero.png",
+    "gradients/paper-soft.png",
+    "gradients/navy-amber-diag.png",
+    "gradients/navy-vignette.png"
+  ],
+  "motifs": [
+    "motifs/step-rail-on-dark.png",
+    "motifs/step-rail-on-light.png",
+    "motifs/pattern-full-navy.png",
+    "motifs/pattern-full-paper.png"
+  ],
+  "overlays": [],
+  "_note": "Regenerated 2026-07-04 off the Amber Ascent identity (Step Rail motif, Archivo, navy/amber/paper). Per-image navy-tint overlays are NO LONGER pre-baked: image styling is handled downstream by expression.treatments (house looks) + render-MCP runtime overlay compositing (images.overlay = primary @55%), per ORG-PLAN-045. step-rail-on-{dark,light} are the corner watermark; pattern-full-{navy,paper} are the tiled Step Rail; gradients are palette-derived slide backgrounds."
+}

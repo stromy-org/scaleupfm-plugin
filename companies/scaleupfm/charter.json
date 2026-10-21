@@ -1,0 +1,1290 @@
+{
+  "meta": {
+    "tier": "producer",
+    "displayName": "ScaleUp Financial Management",
+    "shortName": "ScaleUp",
+    "slug": "scaleupfm",
+    "tagline_nl": "Start to Scale",
+    "tagline_en": "Start to Scale",
+    "industry": "Financial advisory · fractional CFO",
+    "founder": "Wilgert Hart",
+    "founderTitle": "Managing Partner",
+    "geography": "Netherlands, international touchpoints",
+    "primaryLanguage": "nl",
+    "supportLanguages": [
+      "en"
+    ],
+    "domain": "scaleupfm.nl",
+    "backers": "Duke Strategies (Ingo Heijnen, Ariën Stuijt — silent partners)",
+    "archetype": {
+      "primary": "Sage",
+      "secondary": "Caregiver"
+    },
+    "protection_class": "protected",
+    "reviewState": "in-review",
+    "frozenDate": "2026-07-03",
+    "buildDate": "2026-05-27",
+    "refreshDate": "2026-10-13",
+    "decisions": {
+      "logo": "Step Rail symbol kept; ScaleUp wordmark (Archivo 800, one colour, outlined paths) with a FINANCIAL MANAGEMENT descriptor in tracked caps; tallest bar = cap height, rail foot = descriptor baseline",
+      "palette": "Midnight Authority — navy #0A1F3D + Signal Amber #E8A33D",
+      "typography": "Archivo (engineered grotesque) + JetBrains Mono (data)",
+      "tagline_en": "Start to Scale",
+      "imagery": [
+        "Dutch bridges, small to big, mapped to the four stages"
+      ],
+      "tagline": "Start to Scale (NL and EN)",
+      "stages": "Op orde · In control · Meer inzicht · Beter schaalbaar (the four bars)"
+    },
+    "reviewDecisions_2026_07_03": {
+      "favicon": "F1 (navy tile + amber)",
+      "symbolDefault": "navy",
+      "motif": "plain rail (no node)",
+      "shortFormLogo": true,
+      "monoLockup": "dropped",
+      "dataFace": "JetBrains Mono",
+      "heroDisplayWeight": "800",
+      "amberDiscipline": "one signal per surface"
+    },
+    "protected_assets": {
+      "heading_font": true,
+      "body_font": false,
+      "primary_color": true,
+      "accent_color": true,
+      "motif_family": true
+    },
+    "name": "ScaleUp Financial Management",
+    "tagline": "Start to Scale",
+    "headline_nl": "Van risico naar regie. Van intuïtie naar inzicht. Van start-up naar serieuze scale-up.",
+    "retiredTaglines": [
+      "Finance die met je meegroeit.",
+      "Finance that scales with you."
+    ],
+    "retiredNames": [
+      "Start to Scale Financial Management",
+      "Start2Scale"
+    ],
+    "workingNameNote": "Working name since 2026-10-13; the slug moved from starttoscale to scaleupfm on 2026-10-21 (PRJ-PLAN-026 C2b, operator decision). Revisable until go-live.",
+    "domainAliases": [
+      "scaleupfm.com",
+      "scaleupfm.eu"
+    ],
+    "domainNote": "Planned; not registered yet (ORG-PLAN-336 C9). Mailbox not live until then.",
+    "reviewDecisions_2026_10_13": {
+      "name": "ScaleUp Financial Management (working)",
+      "wordmark": "ScaleUp, one word, capital S and U, single colour, never two-tone",
+      "tagline": "Start to Scale replaces both supporting taglines",
+      "headline": "NL staircase stays the hero headline",
+      "favicon": "theme-adaptive SVG (lifted navy tile in dark, navy in light) + mask-icon + ico + PNG ladder",
+      "photo": "Dutch bridges only; never a photograph from another client's library; style chosen by Wilgert on the imagery board",
+      "website": "fluid container to 1600px, larger type",
+      "grammar": "visual-grammar dimensions signed off by William (operator) 2026-10-13"
+    }
+  },
+  "brand": {
+    "archetype": "Sage / Caregiver",
+    "essence": "Senior CFO leadership that builds the finance function a scale-up needs: compliant, in control and optimised for growth.",
+    "positioning": "ScaleUp Financial Management is the senior finance partner that takes a growing company from informal bookkeeping to a professional finance function, one stage at a time: op orde, in control, meer inzicht, beter schaalbaar. Diagnosis, roadmap, hands-on implementation and ongoing operation, led by Wilgert Hart with nearly 30 years of senior finance leadership and backed by a network of finance professionals.",
+    "audience": "Owners and boards of NL-based start-ups making the scale-up transition (€1M–€20M revenue, growing fast, finance still informal).",
+    "personality": [
+      "Senior",
+      "Calm",
+      "Structured",
+      "Pragmatic",
+      "Trustworthy"
+    ],
+    "toneOfVoice": "Plain Dutch. No jargon, no false urgency. Speaks like a senior CFO at a board table: direct, honest about what's broken, confident about how to fix it.",
+    "stages": [
+      {
+        "n": 1,
+        "key": "op-orde",
+        "nl": "Op orde",
+        "en": "In order",
+        "promise_nl": "Een administratie die klopt en aan de regels voldoet: boekhouding, btw, loonadministratie en jaarwerk op tijd en zonder verrassingen.",
+        "promise_en": "Books that are right and compliant: bookkeeping, VAT, payroll and year-end on time and without surprises.",
+        "bridges": "small: canal bridges, wooden drawbridges, Magere Brug"
+      },
+      {
+        "n": 2,
+        "key": "in-control",
+        "nl": "In control",
+        "en": "In control",
+        "promise_nl": "Een vaste maandafsluiting en rapportages waar je op kunt sturen.",
+        "promise_en": "A fixed month-end close and reporting you can steer on.",
+        "bridges": "medium: city cycle and footbridges"
+      },
+      {
+        "n": 3,
+        "key": "inzicht",
+        "nl": "Meer inzicht",
+        "en": "More insight",
+        "promise_nl": "Prognoses, kasstroom en KPI's die vooruitkijken in plaats van terug.",
+        "promise_en": "Forecasts, cash flow and KPIs that look ahead instead of back.",
+        "bridges": "large: river and harbour bridges"
+      },
+      {
+        "n": 4,
+        "key": "schaalbaar",
+        "nl": "Beter schaalbaar",
+        "en": "More scalable",
+        "promise_nl": "Een financiële functie die is ingericht op groei: marges en werkkapitaal geoptimaliseerd, klaar voor investeerders, banken en overnames.",
+        "promise_en": "A finance function built for growth: margins and working capital optimised, ready for investors, banks and acquisitions.",
+        "bridges": "biggest: the iconic spans (Erasmusbrug scale)"
+      }
+    ]
+  },
+  "colors": {
+    "primary": "#0A1F3D",
+    "primaryAlt": "#1A3358",
+    "secondary": "#1A3358",
+    "accent": "#E8A33D",
+    "accentHover": "#D08F2D",
+    "background": "#FAF8F3",
+    "backgroundAlt": "#FFFFFF",
+    "text": "#0A1F3D",
+    "textLight": "#6B7280",
+    "success": "#4A7A5A",
+    "warning": "#C28F3D",
+    "error": "#B85648",
+    "info": "#4A6390"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Archivo",
+      "weight": "700",
+      "embedFamily": "Archivo",
+      "fallback": "'Helvetica Neue', Arial, sans-serif",
+      "fallbackStack": [
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "webSafe": "Arial"
+    },
+    "body": {
+      "family": "Archivo",
+      "weight": "400",
+      "embedFamily": "Archivo",
+      "fallback": "-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif",
+      "fallbackStack": [
+        "Segoe UI",
+        "Arial",
+        "Helvetica",
+        "sans-serif"
+      ],
+      "webSafe": "Segoe UI"
+    },
+    "label": {
+      "family": "Archivo",
+      "weight": "600",
+      "embedFamily": "Archivo",
+      "case": "upper",
+      "tracking": "0.2em",
+      "fallback": "'Helvetica Neue', Arial, sans-serif",
+      "fallbackStack": [
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "webSafe": "Arial"
+    },
+    "mono": {
+      "family": "JetBrains Mono",
+      "weight": "400",
+      "embedFamily": "JetBrains Mono",
+      "fallback": "'SF Mono', Consolas, 'Liberation Mono', monospace",
+      "fallbackStack": [
+        "Consolas",
+        "Courier New",
+        "monospace"
+      ],
+      "webSafe": "Consolas"
+    },
+    "googleFontsImport": "https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+  },
+  "logo": {
+    "primary": "logos/logo.svg",
+    "white": "logos/logo_white.svg",
+    "symbol": "logos/symbol.svg",
+    "symbolWhite": "logos/symbol_white.svg",
+    "favicon": "logos/favicon.svg",
+    "iconDark": "logos/icon_dark.svg",
+    "png": "logos/logo.png",
+    "png2x": "logos/logo@2x.png",
+    "png3x": "logos/logo@3x.png",
+    "whitePng": "logos/logo_white.png",
+    "whitePng2x": "logos/logo_white@2x.png",
+    "symbolPng": "logos/symbol.png",
+    "symbolWhitePng": "logos/symbol_white.png",
+    "iconDarkPng": "logos/icon_dark.png",
+    "maxWidth": "180pt",
+    "maxHeight": "60pt",
+    "sizing": "contain",
+    "_note": "All wordmark text is outlined paths (Archivo 800 / 600 instances via fontTools + HarfBuzz), so SVG and PNG renders match on any machine. Descriptor tracking is solved so it spans the wordmark width.",
+    "short": "logos/logo_short.svg",
+    "shortWhite": "logos/logo_short_white.svg",
+    "shortPng": "logos/logo_short.png",
+    "shortWhitePng": "logos/logo_short_white.png",
+    "stacked": "logos/logo_stacked.svg",
+    "stackedWhite": "logos/logo_stacked_white.svg",
+    "stackedPng": "logos/logo_stacked.png",
+    "stackedWhitePng": "logos/logo_stacked_white.png",
+    "symbolMono": "logos/symbol_mono.svg"
+  },
+  "favicons": {
+    "svg": "logos/favicon.svg",
+    "maskIcon": "logos/mask-icon.svg",
+    "ico": "logos/favicon.ico",
+    "png16": "logos/favicon-16.png",
+    "png32": "logos/favicon-32.png",
+    "png48": "logos/favicon-48.png",
+    "png180": "logos/apple-touch-icon.png",
+    "png192": "logos/favicon-192.png",
+    "png512": "logos/favicon-512.png",
+    "appleTouch": "logos/apple-touch-icon.png",
+    "_note": "favicon.svg adapts to the browser theme; every raster is rendered from icon_dark.svg (the F1 tile)."
+  },
+  "images": {
+    "themes": [
+      {
+        "id": "s1",
+        "name": "Trede 1 · Op orde",
+        "keywords": [
+          "bridge",
+          "netherlands",
+          "structure"
+        ],
+        "roles": [
+          "hero",
+          "cover",
+          "closing",
+          "divider",
+          "background"
+        ],
+        "rationale": "Small canal and drawbridges: the finance basics put in order."
+      },
+      {
+        "id": "s2",
+        "name": "Trede 2 · In control",
+        "keywords": [
+          "bridge",
+          "netherlands",
+          "structure"
+        ],
+        "roles": [
+          "hero",
+          "cover",
+          "closing",
+          "divider",
+          "background"
+        ],
+        "rationale": "City and foot bridges: structure that carries the daily traffic."
+      },
+      {
+        "id": "s3",
+        "name": "Trede 3 · Meer inzicht",
+        "keywords": [
+          "bridge",
+          "netherlands",
+          "structure"
+        ],
+        "roles": [
+          "hero",
+          "cover",
+          "closing",
+          "divider",
+          "background"
+        ],
+        "rationale": "River bridges whose structure you can read: seeing how the whole spans."
+      },
+      {
+        "id": "s4",
+        "name": "Trede 4 · Beter schaalbaar",
+        "keywords": [
+          "bridge",
+          "netherlands",
+          "structure"
+        ],
+        "roles": [
+          "hero",
+          "cover",
+          "closing",
+          "divider",
+          "background"
+        ],
+        "rationale": "The great spans: a finance function built to carry growth."
+      }
+    ],
+    "manifest": "images/manifest.json",
+    "catalog": [],
+    "overlay": {
+      "color": "primary",
+      "opacity": 0.55
+    },
+    "logoVariantOnImage": "white",
+    "_note": "ScaleUp refresh 2026-10-14: 31 Dutch bridges in four stages (images/manifest.json library[]). Operator pass promoted as the provisional library; the client validation board (.build-history/boards/05-review.html) replaces it when answered."
+  },
+  "document": {
+    "paperSize": "A4",
+    "margins": {
+      "top": "1in",
+      "bottom": "1in",
+      "left": "1in",
+      "right": "1in"
+    },
+    "header": {
+      "content": "{{company.name}}",
+      "logo": true
+    },
+    "footer": {
+      "content": "Confidential",
+      "pageNumbers": true
+    },
+    "headingColor": "primary",
+    "tableHeaderColor": "primary"
+  },
+  "presentation": {
+    "slideMargin": "40pt",
+    "titleMargin": "30pt",
+    "contentMargin": "20pt",
+    "aspectRatio": "16:9",
+    "defaultTheme": "light"
+  },
+  "video": {
+    "resolution": "1920x1080",
+    "fps": 30
+  },
+  "website": {
+    "archetype": "sage",
+    "aesthetic": "minimalist",
+    "layout": {
+      "density": "balanced",
+      "symmetry": "symmetric",
+      "flowDirection": "linear",
+      "heroStyle": "typographic",
+      "gridSystem": "12col-fluid",
+      "maxWidth": "1600px",
+      "sectionSpacing": "generous",
+      "sectionDividers": "thin-line",
+      "footerStyle": "minimal",
+      "whitespaceStrategy": "breathing",
+      "containerPadding": "clamp(20px, 4vw, 80px)",
+      "readingWidth": "72ch",
+      "_note": "Wide, fluid layout: the content grows to 1600px on large screens (the client reads on a very wide screen at 125% zoom)."
+    },
+    "texture": {
+      "backgroundTreatment": "solid",
+      "surfaceFinish": "matte",
+      "borderStyle": "thin-line",
+      "shadowDepth": "subtle",
+      "cornerRadius": "slight",
+      "overlayStyle": "brand-tint",
+      "patternDensity": "none"
+    },
+    "typography": {
+      "headingStyle": "grotesque-display",
+      "headingScale": 1.25,
+      "bodyLineHeight": 1.7,
+      "letterSpacing": "normal",
+      "textTransform": "uppercase-labels",
+      "pullQuoteStyle": "bordered-left",
+      "listStyle": "standard",
+      "baseFontSize": "clamp(18px, 0.35vw + 16.5px, 20px)",
+      "_note": "Larger reading size than the 2026-07 build; display sizes follow the 1.25 scale."
+    },
+    "motion": {
+      "intensity": "subtle",
+      "revealStyle": "fade",
+      "scrollBehavior": "smooth",
+      "hoverBehavior": "color-shift",
+      "transitionSpeed": "relaxed",
+      "loadingAnimation": "stagger-fade",
+      "cursorStyle": "default",
+      "interactionMode": "hover-focus",
+      "ambientScope": "none",
+      "reducedMotionPolicy": "auto-disable-decorative"
+    },
+    "components": {
+      "navigation": "sticky-minimal",
+      "cards": "outlined",
+      "buttons": "rounded",
+      "forms": "minimal-underline",
+      "imagePresentation": "rectangular",
+      "testimonials": "simple-quote",
+      "ctaStyle": "inline",
+      "socialProof": "logo-strip",
+      "codeBlocks": "default"
+    },
+    "colorApplication": {
+      "darkSections": true,
+      "darkSectionFrequency": 2,
+      "accentUsage": "sparring",
+      "gradientDirection": "none",
+      "colorBlockSections": false,
+      "imageOverlayBehavior": "brand-tint"
+    },
+    "pages": {
+      "home": {
+        "enabled": true,
+        "sections": [
+          {
+            "type": "hero",
+            "variant": "typographic"
+          },
+          {
+            "type": "positioning",
+            "variant": "centered-statement"
+          },
+          {
+            "type": "stages",
+            "variant": "four-step-ladder"
+          },
+          {
+            "type": "services",
+            "variant": "alternating-rows"
+          },
+          {
+            "type": "approach",
+            "variant": "numbered-steps"
+          },
+          {
+            "type": "about",
+            "variant": "founder-bio"
+          },
+          {
+            "type": "cta",
+            "variant": "minimal"
+          }
+        ]
+      },
+      "diensten": {
+        "enabled": true,
+        "_note": "Services / What we do"
+      },
+      "aanpak": {
+        "enabled": true,
+        "_note": "Approach / Methodology"
+      },
+      "over": {
+        "enabled": true,
+        "_note": "About Wilgert + backers"
+      },
+      "contact": {
+        "enabled": true,
+        "layout": "mailto",
+        "_note": "No booking calendar: every CTA is 'neem contact op' to the email address."
+      }
+    },
+    "i18n": {
+      "enabled": true,
+      "defaultLocale": "nl",
+      "locales": [
+        "nl",
+        "en"
+      ],
+      "labels": {
+        "nl": "Nederlands",
+        "en": "English"
+      },
+      "routing": "prefix-default",
+      "fallbackLocale": "nl",
+      "localeDetection": true,
+      "translationWorkflow": "manual",
+      "translateContentCollections": true
+    },
+    "deployment": {
+      "platform": "azure-swa",
+      "domain": "scaleupfm.nl",
+      "analytics": "plausible",
+      "contactForm": "mailto"
+    }
+  },
+  "formatting": {
+    "headingThreshold": 24,
+    "accentCycleColors": [
+      "accent",
+      "primary",
+      "primaryAlt"
+    ],
+    "autoContrastText": true
+  },
+  "plotly": {
+    "categoricalPalette": [
+      "#0A1F3D",
+      "#E8A33D",
+      "#1A3358",
+      "#4A6390",
+      "#788BAF"
+    ],
+    "defaultHeight": 500,
+    "titleFontSize": 18,
+    "axisFontSize": 12,
+    "legendFontSize": 11,
+    "margins": {
+      "top": 80,
+      "bottom": 70,
+      "left": 60,
+      "right": 50
+    },
+    "gridColor": "#E5E2DA",
+    "secondaryTextColor": "#6B7280"
+  },
+  "excalidraw": {
+    "strokeColor": "#0A1F3D",
+    "backgroundColor": "#FAF8F3",
+    "fillColors": [
+      "#0A1F3D",
+      "#E8A33D",
+      "#1A3358",
+      "#4A6390",
+      "#788BAF"
+    ],
+    "textColor": "#0A1F3D",
+    "fontFamily": 2,
+    "fontSize": 16,
+    "strokeWidth": 2,
+    "roughness": 0,
+    "arrowColor": "#1A3358",
+    "labelFontSize": 14
+  },
+  "motif": {
+    "name": "Step Rail",
+    "rationale": "Four ruled bars in a fixed geometric ascent encode the brand promise: start → scale. Doubles as the standalone symbol, the section divider, and a data-bar language. Reads at any scale down to 16px.",
+    "files": {
+      "primary": "assets/svg/motif-step-rail.svg",
+      "divider": "assets/svg/divider-line.svg",
+      "dividerWhite": "assets/svg/divider-line-white.svg",
+      "patternTile": "assets/svg/pattern-tile.svg"
+    },
+    "rules": {
+      "barCount": "4",
+      "barWidthRatio": "16:6 (bar:gap)",
+      "heightProgression": "+18% per step (geometric ascent) — e.g. 38 / 56 / 74 / 94",
+      "cornerRadius": "1px (never rounded into 'bar-chart' cuteness)",
+      "colorRules": "amber on navy (hero) · navy on paper (marks) · single-colour always",
+      "microRule": "at 16–18px keep all four bars — the ascent must survive"
+    }
+  },
+  "templates": {
+    "html": {
+      "email-signature": "templates/html/email-signature.html",
+      "signature": "templates/html/email-signature.html"
+    },
+    "docx": {
+      "styles": "templates/docx/styles.docx",
+      "letterhead": "templates/docx/letterhead.docx"
+    },
+    "pptx": {
+      "cover": "templates/pptx/cover.html",
+      "section-divider": "templates/pptx/section-divider.html",
+      "content": "templates/pptx/content.html",
+      "closing": "templates/pptx/closing.html",
+      "footer-bar": "templates/pptx/footer-bar.html"
+    }
+  },
+  "pptxAssets": {
+    "manifest": "pptx-assets/manifest.json",
+    "gradients": [
+      "pptx-assets/gradients/navy-hero.png",
+      "pptx-assets/gradients/paper-soft.png",
+      "pptx-assets/gradients/navy-amber-diag.png",
+      "pptx-assets/gradients/navy-vignette.png"
+    ],
+    "motifs": [
+      "pptx-assets/motifs/step-rail-on-dark.png",
+      "pptx-assets/motifs/step-rail-on-light.png",
+      "pptx-assets/motifs/pattern-full-navy.png",
+      "pptx-assets/motifs/pattern-full-paper.png"
+    ],
+    "overlays": [],
+    "_note": "Regenerated 2026-07-04 off Amber Ascent (Step Rail + Archivo). Per-image navy-tint overlays are no longer pre-baked — image styling is downstream via expression.treatments + render-MCP runtime compositing (images.overlay = primary @55%), per ORG-PLAN-045. Full list in pptx-assets/manifest.json."
+  },
+  "boilerplate": "boilerplate.json",
+  "identity": {
+    "archetype": {
+      "primary": "sage",
+      "secondary": "caregiver",
+      "status": "approved",
+      "rationale": "Primary Sage: Wilgert Hart's 30-year CFO background is expressed as structured, diagnostic wisdom — turning gut-feel finance into professional rigour. Caregiver is secondary and structural: the brand installs a finance function and stays on to operate it, a hands-on support role grounded in structure rather than emotional warmth. Confirmed by Wilgert 2026-06-01 (charter.json meta.archetype + BUILD_LOG Phase 0 decision)."
+    },
+    "essence": "Senior CFO leadership that builds the finance function a scale-up needs: compliant, in control and optimised for growth.",
+    "positioning": "ScaleUp Financial Management is the senior finance partner that takes a growing company from informal bookkeeping to a professional finance function, one stage at a time: op orde, in control, meer inzicht, beter schaalbaar. Diagnosis, roadmap, hands-on implementation and ongoing operation, led by Wilgert Hart with nearly 30 years of senior finance leadership and backed by a network of finance professionals.",
+    "personalityTraits": [
+      "Senior",
+      "Calm",
+      "Structured",
+      "Pragmatic",
+      "Trustworthy"
+    ],
+    "personalityAxes": {
+      "warmth_vs_authority": 0.3,
+      "expressive_vs_restrained": 0.15,
+      "innovative_vs_traditional": 0.35,
+      "playful_vs_serious": 0.1,
+      "accessible_vs_exclusive": 0.4
+    }
+  },
+  "expression": {
+    "source": "co_created",
+    "confidence": "approved",
+    "status": "approved",
+    "principles": [
+      "Amber is a signal, not decoration — one amber element per surface (logo cap, CTA button, or data accent), never both a button and a link amber on the same page.",
+      "Body text is navy, not black — warmth and authority together; pure black reads cold and impersonal for a finance partner.",
+      "Backgrounds default to warm Paper (#FAF8F3), not pure white — paper reads as a professional partner, white reads as a software product.",
+      "The Step Rail motif is a signature, not a pattern — used once per visible surface, never tiled at full opacity outside the background pattern tile (≤8% opacity).",
+      "Board-table voice: name what is broken, then say what fixes it. No jargon, no false urgency, no brochure register.",
+      "One name, one tagline, one headline: the ScaleUp wordmark, 'Start to Scale' as the sign-off in NL and EN, and the NL staircase ('Van risico naar regie. Van intuïtie naar inzicht. Van start-up naar serieuze scale-up.') as the hero headline on covers and the home page.",
+      "The four bars are four stages (Op orde, In control, Meer inzicht, Beter schaalbaar). Services, site sections, deck chapters and the bridge imagery are ordered on that ladder, small to big."
+    ],
+    "visualAxes": {
+      "density": "spacious",
+      "contrast": "high",
+      "symmetry": "symmetric",
+      "geometry": "rectilinear",
+      "typeExpression": "utilitarian",
+      "imageTreatment": "documentary-muted",
+      "motifProminence": "accent",
+      "colorRhythm": "light-dominant",
+      "ornament": "restrained"
+    },
+    "treatments": {
+      "default": "navy-duotone",
+      "note": "Named house looks applied DOWNSTREAM (format-MCP render + website CSS), never pre-baked into the library. Navy Duotone is the house look for the bridge library (operator pick D2, 2026-10-14; Warme schemer was the alternative on the client board): heroes, covers, dividers. Daylight for the rare natural-colour moment; amber-graded for one warm section at most; paper-mono for textures only. The navy scrim (images.overlay) is a separate text-safety layer.",
+      "looks": {
+        "daylight": {
+          "label": "Daylight",
+          "usage": "Natural colour, slightly muted, warm paper lift in the highlights. Calm and factual; for the rare natural-colour moment (Navy Duotone is the house look).",
+          "css_filter": "saturate(0.85) contrast(1.03) brightness(1.02)",
+          "duotone": {
+            "shadows": "#0A1F3D",
+            "mid": "#5A6B80",
+            "highlights": "#FAF8F3",
+            "strength": 0.12
+          }
+        },
+        "paper-mono": {
+          "label": "Paper Mono",
+          "usage": "Black-and-white with fine grain, for background textures (deck planks, steps, railings) only, never the house look for whole bridges.",
+          "css_filter": "grayscale(1) contrast(1.08)",
+          "grain": {
+            "opacity": 0.08,
+            "blend": "overlay"
+          }
+        },
+        "navy-duotone": {
+          "label": "Navy Duotone",
+          "usage": "Signature deep-navy wash for covers + hero moments — navy shadows through slate mids to warm-paper highlights, applied transparently so the photo breathes. The structured-authority signature.",
+          "css_filter": "grayscale(1) contrast(1.06) brightness(1.06)",
+          "duotone": {
+            "shadows": "#06152A",
+            "mid": "#1A3358",
+            "highlights": "#FAF8F3",
+            "strength": 0.42
+          },
+          "grain": {
+            "opacity": 0.07,
+            "blend": "overlay"
+          },
+          "overlay": {
+            "color": "#1A3358",
+            "opacity": 0.72,
+            "blend": "color"
+          },
+          "scrim": "linear-gradient(0deg, rgba(10,31,61,0.8), transparent 62%)"
+        },
+        "amber-graded": {
+          "label": "Amber Graded",
+          "usage": "Restrained cinematic grade for section imagery — mostly neutral, a whisper of Signal Amber in the shadows and warm paper in the highlights. Kept subtle — the single amber accent per surface.",
+          "css_filter": "saturate(0.4) contrast(1.05)",
+          "duotone": {
+            "shadows": "#2A1E10",
+            "mid": "#585349",
+            "highlights": "#FBF3E2",
+            "strength": 0.3
+          },
+          "grain": {
+            "opacity": 0.08,
+            "blend": "overlay"
+          }
+        }
+      }
+    },
+    "signatureElements": [
+      "Step Rail — four bars in a fixed +18% geometric ascent (relative heights ≈ 0.40 / 0.59 / 0.79 / 1.00, bar width 16, gap 6, 1px radius), single-colour (amber on navy, navy on paper); the ascent itself is the signature — no two-tone cap.",
+      "Warm Paper background (#FAF8F3) as default surface, not pure white — distinguishes the advisory register from a software product.",
+      "Navy-90 / amber-10 horizontal divider (thin 1.5px line with amber terminal at right) — encodes the 'ascend' direction, structural punctuation between sections.",
+      "NL three-line tagline staircase as typographic hero — structurally echoes the Step Rail ascent and is never translated literally to English.",
+      "Archivo Bold (700, or 800 for display) with -0.02em tracking for all display and heading — an engineered grotesque that carries the Sage register as diagnostic clarity rather than literary warmth.",
+      "Archivo Semibold (600) overline caps at 0.20em tracking, 11px — labels sections, wordmark caption 'FINANCIAL MANAGEMENT', badges; hierarchy comes from weight + case + tracking within one family, not a second typeface.",
+      "JetBrains Mono reserved exclusively for numbers, tables, and data-adjacent contexts — signals that figures are decision-grade, not decoration.",
+      "Dutch bridges from small to big, one register per stage: canal and drawbridges for Op orde up to the iconic spans for Beter schaalbaar. Calm daylight or blue hour, never dramatic high-contrast black and white.",
+      "The stage ladder: four numbered steps that reuse the Step Rail proportions, used for services, process and deck chapters."
+    ],
+    "antiPatterns": [
+      "Multiple amber elements on a single surface (amber is a single-use signal per page).",
+      "Pure black (#000000) or pure white (#FFFFFF) as primary background or body text — both break the warm advisory register.",
+      "Gradients on body sections (gradientDirection is 'none' by design; gradient only appears in nav-amber-diag pptx asset).",
+      "Tilted, rotated, or two-tone Step Rail motif — must be upright, single-colour bars (amber on navy, navy on paper), no exceptions.",
+      "Dropping a bar or adding a fifth — four bars in a +18% ascent is load-bearing meaning.",
+      "Mountains, Alpine or Dolomite scenery, or generic Dutch landscape (polders, tulips, windmills); bridges are the one landscape subject.",
+      "Handshake or suits-in-meeting stock photography — contra the architectural and data-clarity direction.",
+      "Mixed NL+EN within the same sentence in copy.",
+      "Buzzwords: 'synergy', 'next-level', 'agile', or any phrase that sounds like a brochure.",
+      "Pattern tile at full opacity on reading surfaces — restricted to 6–8% opacity on slide/section backgrounds only.",
+      "Bridges outside the Netherlands, or any photograph already used in another client's library.",
+      "Dramatic high-contrast black-and-white bridge photography as the house style.",
+      "A two-tone wordmark (Scale in one colour, Up in another)."
+    ],
+    "requiredMotifs": [
+      "Step Rail (four ascending bars) on all deliverable covers (small, left-aligned over section title in decks; as hero accent below the NL tagline on web).",
+      "Navy-90 / amber-10 thin-line divider as section rule on web and documents.",
+      "Warm Paper (#FAF8F3) as the default background surface on all light-mode deliverables.",
+      "White wordmark variant on all navy or image-overlay surfaces.",
+      "55% navy tint overlay on all hero and cover photograph treatments."
+    ],
+    "evidence": [
+      {
+        "path": "clients/scaleupfm/guidelines.md",
+        "kind": "brand_guidelines",
+        "sourceAuthority": "co_created",
+        "confidence": "approved",
+        "surface": "all",
+        "freshness": "current"
+      },
+      {
+        "path": "clients/scaleupfm/charter.json",
+        "kind": "brand_guidelines",
+        "sourceAuthority": "co_created",
+        "confidence": "approved",
+        "surface": "all",
+        "freshness": "current"
+      },
+      {
+        "path": "clients/scaleupfm/tokens.css",
+        "kind": "design_tokens",
+        "sourceAuthority": "co_created",
+        "confidence": "approved",
+        "surface": "all",
+        "freshness": "current"
+      },
+      {
+        "path": "clients/scaleupfm/content/website.json",
+        "kind": "website",
+        "sourceAuthority": "co_created",
+        "confidence": "high",
+        "surface": "all",
+        "freshness": "current"
+      },
+      {
+        "kind": "co_created_visual_direction",
+        "sourceAuthority": "co_created",
+        "confidence": "approved",
+        "surface": "all",
+        "freshness": "current",
+        "note": "Amber Ascent refresh (Mode C) — William froze A1 amber + Archivo all-sans + Step Rail motif, 2026-07-03. Artifact not preserved after the build (was _build/reviews/BRAND-Refined-Identity.html)."
+      }
+    ],
+    "visual_grammar": {
+      "backgrounds": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "proposed",
+          "source": "seeded from identity.personalityAxes (Senior·Calm·Structured·Pragmatic·Trustworthy) + expression.visualAxes + palette (navy #0A1F3D, gold #E8A33D, warm paper #FAF8F3, Archivo grotesque); GATE A 2026-07-01 (William)"
+        },
+        "selected": "report-light",
+        "candidates": [
+          {
+            "id": "report-light",
+            "label": "Report light",
+            "spec": {
+              "canvases": [
+                {
+                  "name": "navy",
+                  "role": "primary-dark",
+                  "css": "#0A1F3D"
+                },
+                {
+                  "name": "paper",
+                  "role": "primary-light",
+                  "css": "#FAF8F3"
+                },
+                {
+                  "name": "white",
+                  "role": "surface-light",
+                  "css": "#FFFFFF"
+                }
+              ],
+              "rhythm": "light-dominant editorial — warm paper is the default surface; navy reserved for the cover, section dividers, and 'key figures' panels",
+              "darkFrequency": 1,
+              "photo": {
+                "treatment": "documentary-muted, navy-tinted full-bleed hero",
+                "overlay": "structural navy #0A1F3D scrim, never gold"
+              }
+            },
+            "tokens": [
+              "--canvas-navy",
+              "--canvas-paper",
+              "--canvas-white"
+            ],
+            "evidence": {
+              "tier": "proposed"
+            }
+          },
+          {
+            "id": "navy-ledger",
+            "label": "Navy ledger",
+            "spec": {
+              "rhythm": "balanced dark-light indexed ~3:2 (navy heroes/dividers alternate with warm paper)",
+              "darkFrequency": 3
+            }
+          },
+          {
+            "id": "two-paper",
+            "label": "Two-tier paper",
+            "spec": {
+              "rhythm": "warm-paper #FAF8F3 prose + crisp white #FFFFFF tables/cards; navy covers only",
+              "darkFrequency": 1
+            }
+          }
+        ],
+        "cssTokens": {
+          "--canvas-navy": "#0A1F3D",
+          "--canvas-paper": "#FAF8F3",
+          "--canvas-white": "#FFFFFF"
+        },
+        "review": {
+          "by": "William Masquelier (operator)",
+          "at": "2026-10-13",
+          "note": "signed off in the ScaleUp refresh; rendered surfaces reviewed in the brand book"
+        }
+      },
+      "gradients": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "proposed",
+          "source": "seeded from identity.personalityAxes (Senior·Calm·Structured·Pragmatic·Trustworthy) + expression.visualAxes + palette (navy #0A1F3D, gold #E8A33D, warm paper #FAF8F3, Archivo grotesque); GATE A 2026-07-01 (William)"
+        },
+        "selected": "flat-structural",
+        "candidates": [
+          {
+            "id": "flat-structural",
+            "label": "Flat structural",
+            "spec": {
+              "policy": "no decorative canvas gradients; depth via the gold hairline rule + navy/paper contrast only",
+              "canvasGradients": "none"
+            },
+            "tokens": [],
+            "evidence": {
+              "tier": "proposed"
+            }
+          },
+          {
+            "id": "warm-paper-wash",
+            "label": "Warm paper wash",
+            "spec": {
+              "gradients": [
+                {
+                  "name": "paper-wash",
+                  "stops": "linear-gradient(180deg,#FAF8F3 0%,#F3ECE0 100%)",
+                  "usage": "large content fields, subtle warmth"
+                }
+              ]
+            }
+          },
+          {
+            "id": "navy-depth",
+            "label": "Navy depth",
+            "spec": {
+              "gradients": [
+                {
+                  "name": "navy-depth",
+                  "stops": "linear-gradient(180deg,#0A1F3D 0%,#06152A 100%)",
+                  "usage": "hero only; gold rule caps"
+                }
+              ],
+              "geometry": "vertical depth, never bright/directional"
+            }
+          }
+        ],
+        "review": {
+          "by": "William Masquelier (operator)",
+          "at": "2026-10-13",
+          "note": "signed off in the ScaleUp refresh; rendered surfaces reviewed in the brand book"
+        }
+      },
+      "grid": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "proposed",
+          "source": "seeded from identity.personalityAxes (Senior·Calm·Structured·Pragmatic·Trustworthy) + expression.visualAxes + palette (navy #0A1F3D, gold #E8A33D, warm paper #FAF8F3, Archivo grotesque); GATE A 2026-07-01 (William)"
+        },
+        "selected": "ruled-editorial",
+        "candidates": [
+          {
+            "id": "ruled-editorial",
+            "label": "Ruled editorial",
+            "spec": {
+              "columns": "12-col symmetric",
+              "gutter": "generous",
+              "rules": "thin navy ledger rules between columns",
+              "dividers": "gold hairline under section heads",
+              "maxWidth": "measured editorial",
+              "margins": "wide",
+              "symmetry": "symmetric"
+            },
+            "tokens": [],
+            "evidence": {
+              "tier": "proposed"
+            }
+          },
+          {
+            "id": "broadsheet-columns",
+            "label": "Broadsheet columns",
+            "spec": {
+              "columns": "2 Archivo grotesque text columns with a hairline rule between",
+              "symmetry": "symmetric"
+            }
+          },
+          {
+            "id": "structured-plain",
+            "label": "Structured plain",
+            "spec": {
+              "columns": "12-col symmetric, generous whitespace, minimal rules (gold divider under section heads only)"
+            }
+          }
+        ],
+        "cssTokens": {
+          "--grid-max": "72rem",
+          "--grid-gutter": "2rem",
+          "--grid-margin": "6vw",
+          "--rule-column": "1px solid rgba(10,31,61,0.14)",
+          "--rule-divider": "1px solid #E8A33D"
+        },
+        "review": {
+          "by": "William Masquelier (operator)",
+          "at": "2026-10-13",
+          "note": "signed off in the ScaleUp refresh; rendered surfaces reviewed in the brand book"
+        }
+      },
+      "iconography": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "proposed",
+          "source": "seeded from identity.personalityAxes (Senior·Calm·Structured·Pragmatic·Trustworthy) + expression.visualAxes + palette (navy #0A1F3D, gold #E8A33D, warm paper #FAF8F3, Archivo grotesque); GATE A 2026-07-01 (William)"
+        },
+        "selected": "navy-gold-keyline",
+        "candidates": [
+          {
+            "id": "navy-gold-keyline",
+            "label": "Navy-gold keyline",
+            "spec": {
+              "style": "stroke-led geometric, keyline-weighted",
+              "strokeWeight": "1.75px",
+              "caps": "square",
+              "joins": "miter",
+              "fillVsLine": "navy line-dominant + ONE small gold filled checkpoint node per glyph",
+              "extensible": true,
+              "setPolicy": "OPEN set — icons drawn to this STYLE on demand per slide/section need; the sample is representative, not a closed set",
+              "sample": [
+                "roadmap-steps",
+                "gauge",
+                "checkpoint-tick",
+                "handshake",
+                "shield-check",
+                "trend-up"
+              ]
+            },
+            "tokens": [],
+            "evidence": {
+              "tier": "proposed"
+            }
+          },
+          {
+            "id": "grotesque-informed",
+            "label": "Grotesque-informed",
+            "spec": {
+              "style": "icons echoing Archivo's engineered grotesque — squared terminals, even stroke, no serif detailing",
+              "strokeWeight": "1.5px"
+            }
+          },
+          {
+            "id": "hairline-mono",
+            "label": "Hairline mono",
+            "spec": {
+              "style": "thin navy monoline, no gold",
+              "strokeWeight": "1.1px"
+            }
+          }
+        ],
+        "review": {
+          "by": "William Masquelier (operator)",
+          "at": "2026-10-13",
+          "note": "signed off in the ScaleUp refresh; rendered surfaces reviewed in the brand book"
+        }
+      },
+      "elevation": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "proposed",
+          "source": "seeded from identity.personalityAxes (Senior·Calm·Structured·Pragmatic·Trustworthy) + expression.visualAxes + palette (navy #0A1F3D, gold #E8A33D, warm paper #FAF8F3, Archivo grotesque); GATE A 2026-07-01 (William)"
+        },
+        "selected": "ledger-ruled",
+        "candidates": [
+          {
+            "id": "ledger-ruled",
+            "label": "Ledger ruled",
+            "spec": {
+              "shadows": "none/minimal",
+              "borders": "1px navy hairline border + a TOP gold hairline rule on cards (a statement/ledger header)",
+              "radius": "3px (crisp)",
+              "surface": "matte",
+              "depth": "via the top gold rule + hairline, never shadow"
+            },
+            "tokens": [],
+            "evidence": {
+              "tier": "proposed"
+            }
+          },
+          {
+            "id": "soft-statement",
+            "label": "Soft statement",
+            "spec": {
+              "shadows": "subtle 'printed document' soft shadow",
+              "radius": "6px",
+              "surface": "warm"
+            }
+          },
+          {
+            "id": "flat-bordered",
+            "label": "Flat bordered",
+            "spec": {
+              "shadows": "none",
+              "borders": "full navy hairline border, no gold",
+              "radius": "2px"
+            }
+          }
+        ],
+        "cssTokens": {
+          "--radius-card": "3px",
+          "--border-hairline": "1px solid rgba(10,31,61,0.16)",
+          "--rule-top": "2px solid #E8A33D"
+        },
+        "review": {
+          "by": "William Masquelier (operator)",
+          "at": "2026-10-13",
+          "note": "signed off in the ScaleUp refresh; rendered surfaces reviewed in the brand book"
+        }
+      },
+      "motifs": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "derived",
+          "source": "William froze M1 Step Rail (Amber Ascent refresh) 2026-07-03; realised in the Amber Ascent refresh board (not preserved)"
+        },
+        "selected": "scale-steps",
+        "candidates": [
+          {
+            "id": "scale-steps",
+            "label": "Step Rail",
+            "spec": {
+              "name": "step-rail",
+              "geometry": "four ruled bars, equal width and gap, in a fixed +18% geometric ascent; 1px corner radius",
+              "meaning": "start → scale — the stepped ascent from chaos to control to scale-up",
+              "marks": [
+                "step-ascent"
+              ]
+            },
+            "tokens": [],
+            "evidence": {
+              "tier": "derived"
+            }
+          },
+          {
+            "id": "ascent-line",
+            "label": "Ascent line",
+            "spec": {
+              "name": "ascent-line",
+              "geometry": "a single rising ruled line with gold nodes",
+              "meaning": "upward progression, abstract"
+            }
+          },
+          {
+            "id": "ledger-bracket",
+            "label": "Ledger bracket",
+            "spec": {
+              "name": "ledger-bracket",
+              "geometry": "corner ledger-rule bracket framing device"
+            }
+          }
+        ],
+        "cssTokens": {
+          "--checkpoint-node": "#E8A33D"
+        },
+        "review": {
+          "by": "William Masquelier (operator)",
+          "at": "2026-10-13",
+          "note": "signed off in the ScaleUp refresh; rendered surfaces reviewed in the brand book"
+        }
+      },
+      "motion": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "proposed",
+          "source": "seeded from identity.personalityAxes (Senior·Calm·Structured·Pragmatic·Trustworthy) + expression.visualAxes + palette (navy #0A1F3D, gold #E8A33D, warm paper #FAF8F3, Archivo grotesque); GATE A 2026-07-01 (William)"
+        },
+        "selected": "step-reveal",
+        "candidates": [
+          {
+            "id": "step-reveal",
+            "label": "Step reveal",
+            "spec": {
+              "behaviors": [
+                {
+                  "name": "step-build",
+                  "trigger": "cover/section entrance",
+                  "desc": "the four Step Rail bars build one at a time in ascent order (shortest → tallest); single-colour, no nodes, no bounce"
+                },
+                {
+                  "name": "rule-draw",
+                  "trigger": "section divider",
+                  "desc": "the gold hairline rule draws left→right"
+                }
+              ],
+              "intensity": "subtle",
+              "speed": "calm-measured"
+            },
+            "tokens": [],
+            "evidence": {
+              "tier": "proposed"
+            }
+          },
+          {
+            "id": "rule-draw",
+            "label": "Rule draw",
+            "spec": {
+              "behaviors": [
+                {
+                  "name": "rule-draw",
+                  "trigger": "entrance",
+                  "desc": "ruled lines draw left→right"
+                }
+              ],
+              "intensity": "subtle"
+            }
+          },
+          {
+            "id": "deferred-motion",
+            "label": "Deferred",
+            "spec": {
+              "behaviors": [],
+              "note": "reserve, no motion"
+            }
+          }
+        ],
+        "review": {
+          "by": "William Masquelier (operator)",
+          "at": "2026-10-13",
+          "note": "signed off in the ScaleUp refresh; rendered surfaces reviewed in the brand book"
+        }
+      },
+      "patterns": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "derived",
+          "source": "assets/svg/pattern-tile.svg — the four-bar Step Rail tiled at ~10% navy, referenced by expression.principles + requiredMotifs as the ≤8% background pattern tile"
+        },
+        "selected": "step-rail-tile",
+        "candidates": [
+          {
+            "id": "step-rail-tile",
+            "label": "Step Rail tile",
+            "spec": {
+              "motif": "step-rail",
+              "layout": "the four-bar Step Rail repeated on a staggered 120px grid",
+              "opacity": "6–8%, single-colour (navy on paper, or paper on navy)",
+              "usage": "slide and section backgrounds only — never reading or prose surfaces"
+            },
+            "assets": [
+              "assets/svg/pattern-tile.svg"
+            ],
+            "evidence": {
+              "tier": "derived"
+            }
+          }
+        ],
+        "review": {
+          "by": "William Masquelier (operator)",
+          "at": "2026-10-13",
+          "note": "signed off in the ScaleUp refresh; rendered surfaces reviewed in the brand book"
+        }
+      },
+      "photo": {
+        "status": "approved",
+        "required": true,
+        "evidence": {
+          "tier": "derived",
+          "source": "2026-10-13 call with Wilgert Hart (bridges small to big) + operator brief (Dutch only, never another client's photograph)"
+        },
+        "review": {
+          "by": "William Masquelier (operator)",
+          "at": "2026-10-13",
+          "note": "subject approved; the house look (treatment) is confirmed by Wilgert Hart on the imagery board"
+        },
+        "selected": "bridges-navy-duotone",
+        "candidates": [
+          {
+            "id": "bridges-daylight",
+            "label": "Bridges in daylight",
+            "spec": {
+              "subject": "Dutch bridges, small to big, mapped to the four stages",
+              "light": "soft daylight, overcast or blue hour",
+              "colour": "natural, slightly muted (saturation ~0.85), warm paper lift in the highlights",
+              "composition": "calm, level horizon, generous sky or water as text-safe space",
+              "text": "navy scrim only where a headline sits on the image",
+              "treatment": "daylight"
+            }
+          },
+          {
+            "id": "bridges-navy-duotone",
+            "label": "Bridges in navy duotone",
+            "spec": {
+              "subject": "same library",
+              "colour": "navy shadows to paper highlights",
+              "treatment": "navy-duotone",
+              "use": "covers and hero bands where the photo must recede behind type"
+            }
+          },
+          {
+            "id": "bridges-amber-dusk",
+            "label": "Bridges at warm dusk",
+            "spec": {
+              "subject": "same library",
+              "colour": "muted with a whisper of amber in the shadows",
+              "treatment": "amber-graded"
+            }
+          }
+        ],
+        "tokens": [
+          "--photo-treatment-default"
+        ]
+      }
+    },
+    "typography": {
+      "smallTitle": {
+        "face": "Archivo",
+        "case": "upper",
+        "tracking": "0.2em",
+        "marker": "none"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "spokespersons": [
+    {
+      "id": "spk-001",
+      "personId": "person-001",
+      "name": "Wilgert Hart",
+      "title": "Founder & Managing Partner, ScaleUp Financial Management",
+      "role": "primary",
+      "topics": [
+        "finance transformation for scale-ups",
+        "fractional CFO",
+        "interim CFO",
+        "financial management professionalisation",
+        "scale-up finance structuring",
+        "company milestones",
+        "financial diagnosis and roadmap",
+        "board reporting and KPIs"
+      ],
+      "quoteStyle": "Warm, steady senior-finance register; practical and people-oriented; plain Dutch over jargon; writes in Dutch and English.",
+      "email": "wilgert@scaleupfm.nl",
+      "phone": null,
+      "headshot": null,
+      "bio": "Wilgert Hart is founder and managing partner of ScaleUp Financial Management. He spent nearly three decades in senior finance, including CFO roles at Hill & Knowlton (WPP's global communications firm) and earlier finance roles at EMI Music Netherlands and Warner Music Benelux. ScaleUp Financial Management operates under Duke Strategy & Corporate Affairs B.V. (KvK 95849696)."
+    }
+  ]
+}

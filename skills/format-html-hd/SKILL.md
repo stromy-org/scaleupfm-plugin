@@ -1,7 +1,8 @@
 ---
 name: format-html-hd
-description: "Author a premium, fully self-contained branded HTML slide deck — ONE .html the agent writes directly on the client (no server render, no reveal.js): container-query 16:9 stages, scroll-snap + keyboard nav, inline-SVG brand motifs & diagrams, and the client's real fonts/logos base64-inlined so it opens offline and shares as a single file. Deeply brand-integrated from the invoking plugin's companies/<slug>/ overlay — a deterministic design system keeps every deck unmistakably THIS client's, while a seeded variance engine makes each deck fresh. USE THIS whenever someone wants an HTML / web / browser slide deck, a shareable single-file presentation, an interactive deck, a good-looking or on-brand web deck, or to turn a topic, brief, or report into branded slides — even if they don't say 'HTML'. Siblings: editable PowerPoint → format-pptx-hd; paginated print PDF → format-pdf-hd; the older server-rendered reveal.js deck → format-html-reveal."
-client_summary: "Build a polished slide deck as a single web page that opens offline and shares as one file."
+description: "Author a premium, self-contained branded HTML slide deck: ONE .html you hand-write, with responsive 16:9 stages, scroll-snap navigation, inline-SVG brand motifs and the client's fonts and logos embedded by the server at verification so it opens offline as a single file. Brand-integrated through the client overlay, with seeded variance so decks read as siblings, not clones. Use for an HTML, web or browser slide deck, a shareable single-file presentation, or turning a topic, brief or report into branded slides, even without saying 'HTML'. Not for a reveal.js deck with speaker notes (use format-html-reveal), an editable PowerPoint (use format-pptx-hd) or a paginated PDF (use format-pdf-hd)."
+metadata:
+  stromy-client-summary: "Build a polished slide deck as a single web page that opens offline and shares as one file."
 ---
 <!--
   GENERATED FILE — DO NOT EDIT.
