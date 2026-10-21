@@ -1,7 +1,8 @@
 ---
 name: format-i18n
-description: "Maintain a deliverable that exists in several languages without the versions drifting apart. Reports exactly which translation units are missing, stale, current or obsolete for a target locale; returns only the units that must be translated; validates a translated batch against the source's protected tokens, placeholders, URLs, figures and terminology; and hands back a replacement target state for the caller to persist. Use when asked to translate a deliverable, add a language version, check whether a translation is up to date, find out what changed since the last translation, or work out why an English copy still has source-language text in it. Triggers on \"translate this\", \"add an English version\", \"is the translation current\", \"what changed since we translated it\", \"the translation is out of date\", \"half of it is still in Dutch\", \"keep the language versions in sync\"."
-client_summary: "Keep a deliverable's language versions in step — translate only what changed, and never silently overwrite someone's correction."
+description: "Use when asked to translate a deliverable, add a language version, check whether a translation is current, find out what changed since the last translation, or work out why a copy still has source-language text in it. Maintain a deliverable that exists in several languages without the versions drifting apart: reports which translation units are missing, stale, current, or obsolete; returns only what must be translated; validates a translated batch against protected tokens, placeholders, URLs, figures, and terminology; and hands back a replacement target state to persist. Works on structured translation units a producer supplies, not a raw file. Not for translating a finished Word, PowerPoint or PDF file in place (use that format's skill)."
+metadata:
+  stromy-client-summary: "Keep a deliverable's language versions in step — translate only what changed, and never silently overwrite someone's correction."
 ---
 <!--
   GENERATED FILE — DO NOT EDIT.
