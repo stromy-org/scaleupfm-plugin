@@ -1,5 +1,5 @@
 /**
- * Shared workspace utilities for starttoscale.
+ * Shared workspace utilities for scaleupfm.
  *
  * Skills import this module via: require('../../src/workspace')
  */
@@ -14,7 +14,7 @@ function pluginRoot(...segments) {
 
 /** Read company data file as JSON */
 function readCompanyData(filename) {
-  const filePath = pluginRoot('companies', 'starttoscale', filename);
+  const filePath = pluginRoot('companies', 'scaleupfm', filename);
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
 }
 

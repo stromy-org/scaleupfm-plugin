@@ -1,6 +1,6 @@
-# Start to Scale Deliverables
+# ScaleUp Financial Management Deliverables
 
-Claude Code plugin for Start to Scale branded deliverables
+Claude Code plugin for ScaleUp Financial Management branded deliverables
 
 ## Prerequisites
 
@@ -12,14 +12,14 @@ Claude Code plugin for Start to Scale branded deliverables
 
 Via marketplace:
 ```bash
-/plugin marketplace add stromy-org/starttoscale-marketplace
-/plugin install starttoscale
+/plugin marketplace add stromy-org/scaleupfm-marketplace
+/plugin install scaleupfm
 ```
 
 For local development:
 ```bash
-git clone https://github.com/stromy-org/starttoscale-plugin.git
-cd starttoscale-plugin
+git clone https://github.com/stromy-org/scaleupfm-plugin.git
+cd scaleupfm-plugin
 npm install
 uv sync
 claude --plugin-dir .
@@ -35,7 +35,7 @@ See `skills/README.md` for the maintenance workflow; the maintainer skill
 ## Updating
 
 ```bash
-/plugin update starttoscale
+/plugin update scaleupfm
 ```
 
 ## License
