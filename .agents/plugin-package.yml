@@ -8,7 +8,7 @@ schema_version: 1
 identity:
   name: scaleupfm
   display_name: ScaleUp Financial Management
-  version: 0.5.5
+  version: 0.5.6
   description: Claude Code plugin for ScaleUp Financial Management branded deliverables
   author:
     name: stromy-org
