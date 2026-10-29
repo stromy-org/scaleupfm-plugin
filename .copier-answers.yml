@@ -12,7 +12,11 @@ include_mcp: false
 include_node: true
 include_python: true
 marketplace_slug: scaleupfm-marketplace
-mcp_servers: []
+mcp_servers:
+- connector: true
+  name: asset-broker
+  transport: http
+  url: https://asset-broker-mcp.redbeach-6781a121.northeurope.azurecontainerapps.io/mcp
 plugin_name: ScaleUp Financial Management Deliverables
 plugin_slug: scaleupfm
 provider_targets: claude
