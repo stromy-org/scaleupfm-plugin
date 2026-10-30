@@ -1983,6 +1983,29 @@
     "textMuted": "--color-text-light",
     "edge": "--border"
   },
+  "presentation": {
+    "backgrounds": {
+      "gradient-navy-hero": "pptx-assets/gradients/navy-hero.png",
+      "gradient-paper-soft": "pptx-assets/gradients/paper-soft.png",
+      "gradient-navy-amber-diag": "pptx-assets/gradients/navy-amber-diag.png",
+      "gradient-navy-vignette": "pptx-assets/gradients/navy-vignette.png",
+      "motif-step-rail-on-dark": "pptx-assets/motifs/step-rail-on-dark.png",
+      "motif-step-rail-on-light": "pptx-assets/motifs/step-rail-on-light.png",
+      "motif-pattern-full-navy": "pptx-assets/motifs/pattern-full-navy.png",
+      "motif-pattern-full-paper": "pptx-assets/motifs/pattern-full-paper.png"
+    },
+    "margins": {
+      "slide": "40pt",
+      "title": "30pt",
+      "content": "20pt"
+    },
+    "aspectRatio": "16:9",
+    "textFit": {
+      "lintFont": "Arial",
+      "widen": 1.04,
+      "lineHeight": 1.22
+    }
+  },
   "integrity": {
     "compiler": "brand_compile.py",
     "compiler_version": "1.0",
@@ -2000,6 +2023,7 @@
       "images",
       "logo",
       "plotly_theme",
+      "presentation",
       "schemaVersion",
       "surfaceExpression",
       "templates",
@@ -2023,6 +2047,6 @@
       "photo"
     ],
     "images_count": 31,
-    "sha256": "065a19b864a40e6552a13bcbf82376ccab65107601b7843c16799d9c2dc6cb40"
+    "sha256": "e27e22fd9f68b5a845d7850f302514de7031f202756696929a983c102648e585"
   }
 }
