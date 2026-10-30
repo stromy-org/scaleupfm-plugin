@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "version": "1.0",
   "generatedFrom": {
-    "charterSha": "73897fa68d6dc6dc478054de0813bcf55755fcae4baa1ab3336029acb18c713d",
+    "charterSha": "1078b923d8887e847ce0fb26d8cf870197e1230b0c0b2687710a9df74b519abf",
     "compiler": "1.0"
   },
   "tier": "producer",
@@ -712,7 +712,26 @@
       "pageNumbers": true
     },
     "headingColor": "primary",
-    "tableHeaderColor": "primary"
+    "tableHeaderColor": "primary",
+    "template": {
+      "file": "templates/docx/styles.docx",
+      "styleSpec": "templates/docx/styles.spec.json",
+      "styleMap": {
+        "title": "Title",
+        "h1": "Heading1",
+        "h2": "Heading2",
+        "h3": "Heading3",
+        "body": "BodyText",
+        "caption": "Caption",
+        "quote": "Quote"
+      },
+      "letterheadFile": "templates/docx/letterhead.docx",
+      "letterheadSpec": "templates/docx/letterhead.spec.json",
+      "source": {
+        "migratedFrom": "templates.docx",
+        "plan": "ORG-PLAN-506"
+      }
+    }
   },
   "images": {
     "manifest": [
@@ -1962,8 +1981,8 @@
   },
   "templates": {
     "docx": {
-      "styles": "templates/docx/styles.docx",
-      "letterhead": "templates/docx/letterhead.docx"
+      "letterhead": "templates/docx/letterhead.docx",
+      "styles": "templates/docx/styles.docx"
     }
   },
   "video": {
@@ -2006,11 +2025,87 @@
       "lineHeight": 1.22
     }
   },
+  "spreadsheet": {
+    "headerFill": "#0A1F3D",
+    "headerFont": "#FFFFFF",
+    "zebra": "#FFFFFF",
+    "numberFormats": {
+      "currency": "#,##0.00",
+      "percent": "0.0%",
+      "integer": "#,##0",
+      "decimal": "#,##0.00",
+      "date": "yyyy-mm-dd"
+    },
+    "inputStyle": {
+      "fontColor": "#1F3FBF",
+      "fill": "#FFFFFF"
+    },
+    "calcStyle": {
+      "fontColor": "#0A1F3D"
+    },
+    "outputStyle": {
+      "fontColor": "#0A1F3D",
+      "bold": true
+    },
+    "tableStyle": "TableStyleMedium2"
+  },
+  "charts": {
+    "palette": {
+      "categorical": [
+        "#0A1F3D",
+        "#4A6390",
+        "#1A3358",
+        "#B85648",
+        "#5E6B7D",
+        "#344B73"
+      ],
+      "sequential": [
+        "#D6D7D8",
+        "#B2B7BC",
+        "#828C98",
+        "#526074",
+        "#2E4058",
+        "#0A1F3D"
+      ],
+      "diverging": [
+        "#B85648",
+        "#CA9A92",
+        "#DDDEDD",
+        "#94AC9C",
+        "#4A7A5A"
+      ],
+      "sentiment": {
+        "positive": "#4A7A5A",
+        "negative": "#B85648",
+        "neutral": "#6B7280"
+      }
+    },
+    "font": {
+      "family": "Archivo",
+      "size": 12
+    },
+    "grid": {
+      "color": "#E5E2DA",
+      "width": 1
+    },
+    "highlight": "#B0823D",
+    "muted": "#6B7280",
+    "derivation": {
+      "tier": "tint",
+      "counts": {
+        "brand": 4,
+        "tint": 2,
+        "neutral": 0,
+        "fallback": 0
+      }
+    }
+  },
   "integrity": {
     "compiler": "brand_compile.py",
     "compiler_version": "1.0",
     "key_set": [
       "boilerplate",
+      "charts",
       "client_slug",
       "colors",
       "document",
@@ -2025,6 +2120,7 @@
       "plotly_theme",
       "presentation",
       "schemaVersion",
+      "spreadsheet",
       "surfaceExpression",
       "templates",
       "tier",
@@ -2047,6 +2143,6 @@
       "photo"
     ],
     "images_count": 31,
-    "sha256": "e27e22fd9f68b5a845d7850f302514de7031f202756696929a983c102648e585"
+    "sha256": "b0e16da1fd836358b592834b142a40dc29387b273c6beb8977e9d0d112be99df"
   }
 }
