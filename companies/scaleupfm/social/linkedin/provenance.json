@@ -1,0 +1,41 @@
+{
+  "brand": "scaleupfm",
+  "brandVersion": "1.0",
+  "generated": "2026-11-03",
+  "copy": {
+    "headline": "Start to Scale",
+    "statement": "Van risico naar regie.",
+    "overline": "Financial management voor ScaleUps",
+    "cta": "Rust, overzicht en financiële grip.",
+    "url": "scaleupfm.nl",
+    "transformation": "Start to Scale",
+    "capabilities": [
+      "Op orde",
+      "In control",
+      "Meer inzicht",
+      "Beter schaalbaar"
+    ]
+  },
+  "headers": {
+    "statement-profile": {
+      "image": null,
+      "x2": true,
+      "ground": "#F7EDD9"
+    },
+    "statement-company": {
+      "image": null,
+      "x2": true,
+      "ground": "#F7EDD9"
+    },
+    "motif-score-profile": {
+      "image": null,
+      "x2": true,
+      "ground": "#FAF8F3"
+    },
+    "motif-score-company": {
+      "image": null,
+      "x2": true,
+      "ground": "#FAF8F3"
+    }
+  }
+}

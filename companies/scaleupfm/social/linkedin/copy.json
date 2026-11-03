@@ -1,0 +1,27 @@
+{
+  "$comment": "Wording for the ScaleUp LinkedIn headers (brand-builder build-social-headers.py). Approved ScaleUp wording only: the charter tagline, messaging/pillars.json, narratives.json, and Wilgert's 2026-10-21 site review (pay-off and eyebrow).",
+  "families": [
+    "photo-led",
+    "motif-score",
+    "statement",
+    "abstract-cta"
+  ],
+  "headline": "Start to Scale",
+  "overline": "Financial management voor ScaleUps",
+  "capabilities": [
+    "Op orde",
+    "In control",
+    "Meer inzicht",
+    "Beter schaalbaar"
+  ],
+  "statement": "Van risico naar regie.",
+  "cta": "Rust, overzicht en financiële grip.",
+  "url": "scaleupfm.nl",
+  "grounds": {
+    "statement": "#F7EDD9"
+  },
+  "images": {
+    "photo-led": "S4-01",
+    "abstract-cta": "S4-07"
+  }
+}
