@@ -421,10 +421,18 @@
       "mime": "image/png"
     }
   ],
-  "templates": [],
+  "templates": [
+    {
+      "name": "styles.docx",
+      "sha256": "ed0ade8bb5b0f5ae9549bd20f3099790bdafc9aa63fb7bd4cb96f3f516fb93d9",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "role": "template",
+      "kind": "docx"
+    }
+  ],
   "brand_context": {
-    "sha256": "5cd2ab5358012122681a667c202ec986a51fdc752f7b9c6ec89e0805fe728981",
+    "sha256": "84dc046ae784305a63ee8843496f3db8b3ac4d89b220629016b31a1ee5a221e0",
     "mime": "application/json",
-    "bytes": 88377
+    "bytes": 106716
   }
 }
