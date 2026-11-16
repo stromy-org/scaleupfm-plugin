@@ -772,7 +772,9 @@
           "page": "https://commons.wikimedia.org/wiki/File:Haarlem_Gravestenenbrug_3.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Haarlem_Gravestenenbrug_3.jpg/3840px-Haarlem_Gravestenenbrug_3.jpg"
         },
-        "hero": true
+        "hero": true,
+        "sha256": "b36d029eadae6a7b0a81a37c2a2e107a45ab6e5b18e465938b888db63c06c2bc",
+        "mime": "image/jpeg"
       },
       {
         "id": "S1-02",
@@ -812,7 +814,9 @@
           "page": "https://commons.wikimedia.org/wiki/File:Kinderdijk_M%C3%BChlen_von_Kinderdijk_26.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Kinderdijk_M%C3%BChlen_von_Kinderdijk_26.jpg/3840px-Kinderdijk_M%C3%BChlen_von_Kinderdijk_26.jpg"
         },
-        "hero": true
+        "hero": true,
+        "sha256": "ab542915c3e1fe1609efea6b03faaa43f994a20da4c08ce621eab4951f9c618a",
+        "mime": "image/jpeg"
       },
       {
         "id": "S1-04",
@@ -850,7 +854,9 @@
           "licence": "CC BY-SA 4.0",
           "page": "https://commons.wikimedia.org/wiki/File:Waver,_ophaalbrug_Jac_C_Keabrug_foto7_2015-08-28.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Waver%2C_ophaalbrug_Jac_C_Keabrug_foto7_2015-08-28.jpg/3840px-Waver%2C_ophaalbrug_Jac_C_Keabrug_foto7_2015-08-28.jpg"
-        }
+        },
+        "sha256": "8b94be243488ba995bfa40e53adbcbd1c9922c5ae0da24c47619acf2baa59fc6",
+        "mime": "image/jpeg"
       },
       {
         "id": "S1-05",
@@ -890,7 +896,9 @@
           "page": "https://commons.wikimedia.org/wiki/File:Amsterdam_Magere_Brug_3.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Amsterdam_Magere_Brug_3.jpg/3840px-Amsterdam_Magere_Brug_3.jpg"
         },
-        "hero": true
+        "hero": true,
+        "sha256": "5828ec911424b3c9ef59ca2d541a06471436d862f115fdc0a530251717a30637",
+        "mime": "image/jpeg"
       },
       {
         "id": "S1-07",
@@ -929,7 +937,9 @@
           "licence": "CC BY-SA 2.0",
           "page": "https://commons.wikimedia.org/wiki/File:Kinderdijk_2_(34288246754).jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kinderdijk_2_%2834288246754%29.jpg/3840px-Kinderdijk_2_%2834288246754%29.jpg"
-        }
+        },
+        "sha256": "899d1ffa05309b0e4f14ab0799a84d4d036e2ff3c298a340f57eb1cea6c7c1e0",
+        "mime": "image/jpeg"
       },
       {
         "id": "S1-08",
@@ -967,7 +977,9 @@
           "licence": "CC BY-SA 3.0",
           "page": "https://commons.wikimedia.org/wiki/File:Buizengatbrug_-_Rotterdam_-_Railing_(double_wooden_planks).jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Buizengatbrug_-_Rotterdam_-_Railing_%28double_wooden_planks%29.jpg/3840px-Buizengatbrug_-_Rotterdam_-_Railing_%28double_wooden_planks%29.jpg"
-        }
+        },
+        "sha256": "84973b25049ebea14e24ab7d8a37cbe38390293a8408b5bdd46b1d0cb449dafb",
+        "mime": "image/jpeg"
       },
       {
         "id": "S1-09",
@@ -1005,7 +1017,9 @@
           "licence": "CC BY-SA 4.0",
           "page": "https://commons.wikimedia.org/wiki/File:Bridges_in_Giethoorn_(August_2018)_01.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Bridges_in_Giethoorn_%28August_2018%29_01.jpg"
-        }
+        },
+        "sha256": "9ef8f4de8dd4e98c67bf8d66fe0560f3a64ecd995f3c628c910bfb61bd1cb95f",
+        "mime": "image/jpeg"
       },
       {
         "id": "S1-10",
@@ -1043,7 +1057,9 @@
           "licence": "CC0",
           "page": "https://commons.wikimedia.org/wiki/File:Canal_view_in_Amsterdam_downtown_with_old_brick_bridge_over_the_water_of_Reguliersgracht;_free_photo_by_Fons_Heijnsbroek,_january_2022.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Canal_view_in_Amsterdam_downtown_with_old_brick_bridge_over_the_water_of_Reguliersgracht%3B_free_photo_by_Fons_Heijnsbroek%2C_january_2022.jpg/3840px-Canal_view_in_Amsterdam_downtown_with_old_brick_bridge_over_the_water_of_Reguliersgracht%3B_free_photo_by_Fons_Heijnsbroek%2C_january_2022.jpg"
-        }
+        },
+        "sha256": "e98fbd50a9ec2d31620cace83c9502d73a566282a7f48c39b8a38fd22c09c4fd",
+        "mime": "image/jpeg"
       },
       {
         "id": "S2-01",
@@ -1083,7 +1099,9 @@
           "page": "https://commons.wikimedia.org/wiki/File:Hoge_brug-Maastricht.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Hoge_brug-Maastricht.jpg"
         },
-        "hero": true
+        "hero": true,
+        "sha256": "550092fc7fe577b70a486d89f5bd414f1099b528b04ad9d1bb3e97174ebed5f4",
+        "mime": "image/jpeg"
       },
       {
         "id": "S2-02",
@@ -1123,7 +1141,9 @@
           "page": "https://commons.wikimedia.org/wiki/File:Maastricht_-_Hoge_Brug_en_C%C3%A9ramique_-_2022-11-11.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Maastricht_-_Hoge_Brug_en_C%C3%A9ramique_-_2022-11-11.jpg/3840px-Maastricht_-_Hoge_Brug_en_C%C3%A9ramique_-_2022-11-11.jpg"
         },
-        "hero": true
+        "hero": true,
+        "sha256": "4d5ad9083387f1c20baf1bc20a1ee66922447cdc94b8e7fa860881f4a7b54c3a",
+        "mime": "image/jpeg"
       },
       {
         "id": "S2-05",
@@ -1163,7 +1183,9 @@
           "page": "https://commons.wikimedia.org/wiki/File:Maastricht,_de_Servaasbrug_RM28026_en_de_Sint-Martinuskerk_RM27823_IMG_0965_2022-04-03_12.44.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Maastricht%2C_de_Servaasbrug_RM28026_en_de_Sint-Martinuskerk_RM27823_IMG_0965_2022-04-03_12.44.jpg/3840px-Maastricht%2C_de_Servaasbrug_RM28026_en_de_Sint-Martinuskerk_RM27823_IMG_0965_2022-04-03_12.44.jpg"
         },
-        "hero": true
+        "hero": true,
+        "sha256": "d655a18055edf874c9d41cea35a5127e83918cd19866dc8481b96f994a55f634",
+        "mime": "image/jpeg"
       },
       {
         "id": "S2-06",
@@ -1201,7 +1223,9 @@
           "licence": "CC BY 2.0",
           "page": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Pythonbrug_(29669141864).jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Amsterdam_-_Pythonbrug_%2829669141864%29.jpg/3840px-Amsterdam_-_Pythonbrug_%2829669141864%29.jpg"
-        }
+        },
+        "sha256": "768cc1f0b456213bdbd58f03d8450fd5a962fe1c3f997b07f1fec07ef72b3888",
+        "mime": "image/jpeg"
       },
       {
         "id": "S2-07",
@@ -1239,7 +1263,9 @@
           "licence": "CC BY 2.0",
           "page": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_Pythonbrug_(30299539885).jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Amsterdam_-_Pythonbrug_%2830299539885%29.jpg/3840px-Amsterdam_-_Pythonbrug_%2830299539885%29.jpg"
-        }
+        },
+        "sha256": "a1758996cfa6d4d67d4f8454dc45daf39290037a6ca22477a2741dd792d669f6",
+        "mime": "image/jpeg"
       },
       {
         "id": "S2-08",
@@ -1277,7 +1303,9 @@
           "licence": "CC BY-SA 4.0",
           "page": "https://commons.wikimedia.org/wiki/File:Dafne_Schippersbrug_Utrecht_2019_2.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Dafne_Schippersbrug_Utrecht_2019_2.jpg/3840px-Dafne_Schippersbrug_Utrecht_2019_2.jpg"
-        }
+        },
+        "sha256": "26704e76bba0aa1b2a4c2fd59f219606c0308e02414ed608a59ca0996218ed1e",
+        "mime": "image/jpeg"
       },
       {
         "id": "S2-09",
@@ -1317,7 +1345,9 @@
           "page": "https://commons.wikimedia.org/wiki/File:Maastricht_Sint_Servaasbrug_17.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Maastricht_Sint_Servaasbrug_17.jpg/3840px-Maastricht_Sint_Servaasbrug_17.jpg"
         },
-        "hero": true
+        "hero": true,
+        "sha256": "ee303372ae037f91405bf536cb7bd615dfeb276d789d82404f675a1bd9fbaa3a",
+        "mime": "image/jpeg"
       },
       {
         "id": "S3-01",
@@ -1357,7 +1387,9 @@
           "page": "https://commons.wikimedia.org/wiki/File:GraphyArchy_-_Wikipedia_00829.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/GraphyArchy_-_Wikipedia_00829.jpg"
         },
-        "hero": true
+        "hero": true,
+        "sha256": "e3d4a6151eef3a20e4a8bc2b588785923747f21d057c3bf9a983d415bff4327d",
+        "mime": "image/jpeg"
       },
       {
         "id": "S3-02",
@@ -1397,7 +1429,9 @@
           "page": "https://commons.wikimedia.org/wiki/File:Nijmegen,_de_Waalbrug_RM523067_vanaf_Nijmegen_Bloxx_IMG_3943_2022-11-19_16.44.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Nijmegen%2C_de_Waalbrug_RM523067_vanaf_Nijmegen_Bloxx_IMG_3943_2022-11-19_16.44.jpg/3840px-Nijmegen%2C_de_Waalbrug_RM523067_vanaf_Nijmegen_Bloxx_IMG_3943_2022-11-19_16.44.jpg"
         },
-        "hero": true
+        "hero": true,
+        "sha256": "7ff096429d53414e67074f47673f3d7c25605d28251a1dea224432c70f9792eb",
+        "mime": "image/jpeg"
       },
       {
         "id": "S3-03",
@@ -1435,7 +1469,9 @@
           "licence": "CC BY 2.0",
           "page": "https://commons.wikimedia.org/wiki/File:Willemsbrug_-_Rotterdam_(36757381985).jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Willemsbrug_-_Rotterdam_%2836757381985%29.jpg/3840px-Willemsbrug_-_Rotterdam_%2836757381985%29.jpg"
-        }
+        },
+        "sha256": "bd80f64cef638e9410585321357ea8536dc46d705a180add470c1870fa1542fa",
+        "mime": "image/jpeg"
       },
       {
         "id": "S3-07",
@@ -1475,7 +1511,9 @@
           "page": "https://commons.wikimedia.org/wiki/File:Nijmegen_-_Waal_-_De_Oversteek_(26223244138).jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Nijmegen_-_Waal_-_De_Oversteek_%2826223244138%29.jpg"
         },
-        "hero": true
+        "hero": true,
+        "sha256": "f2adb6b99abf79428e48bddbe25d7e8409097a75b4ee0b624590576d30da2e4f",
+        "mime": "image/jpeg"
       },
       {
         "id": "S3-08",
@@ -1515,7 +1553,9 @@
           "page": "https://commons.wikimedia.org/wiki/File:Arnhem,_op_de_John_Frostbrug_RM529907_IMG_3813_2024-07-15_13.26.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Arnhem%2C_op_de_John_Frostbrug_RM529907_IMG_3813_2024-07-15_13.26.jpg/3840px-Arnhem%2C_op_de_John_Frostbrug_RM529907_IMG_3813_2024-07-15_13.26.jpg"
         },
-        "hero": true
+        "hero": true,
+        "sha256": "47712e0f6a3face055b2d6a6f3afd73c02497727e81ef45b8ba19933aec23ac7",
+        "mime": "image/jpeg"
       },
       {
         "id": "S4-01",
@@ -1555,7 +1595,9 @@
           "page": "https://commons.wikimedia.org/wiki/File:Rotterdam_erasmusbrug.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Rotterdam_erasmusbrug.jpg"
         },
-        "hero": true
+        "hero": true,
+        "sha256": "b0b8adc57bfd5eb2345a89c9b2eacbd93b53b37c0bf7637f1db32140e982bab2",
+        "mime": "image/jpeg"
       },
       {
         "id": "S4-03",
@@ -1595,7 +1637,9 @@
           "page": "https://commons.wikimedia.org/wiki/File:Rotterdam,_de_Erasmusbrug_en_de_Kop_van_Zuid_IMG_0684_2022-03-27_20.24.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Rotterdam%2C_de_Erasmusbrug_en_de_Kop_van_Zuid_IMG_0684_2022-03-27_20.24.jpg/3840px-Rotterdam%2C_de_Erasmusbrug_en_de_Kop_van_Zuid_IMG_0684_2022-03-27_20.24.jpg"
         },
-        "hero": true
+        "hero": true,
+        "sha256": "1f7e13561edf9f0b798d79f3c916d202dc9f48286a76f98cbc36fd524137eb60",
+        "mime": "image/jpeg"
       },
       {
         "id": "S4-04",
@@ -1635,7 +1679,9 @@
           "page": "https://commons.wikimedia.org/wiki/File:Around_zeelandbrug_(24).jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Around_zeelandbrug_%2824%29.jpg/3840px-Around_zeelandbrug_%2824%29.jpg"
         },
-        "hero": true
+        "hero": true,
+        "sha256": "a38f4960e88d7226bd4c8b8cd6cdc8713083e66c96ca55efc7f39f770115dbb4",
+        "mime": "image/jpeg"
       },
       {
         "id": "S4-05",
@@ -1673,7 +1719,9 @@
           "licence": "Public domain",
           "page": "https://commons.wikimedia.org/wiki/File:Van_Brienenoordbrug_2010_5.JPG",
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Van_Brienenoordbrug_2010_5.JPG"
-        }
+        },
+        "sha256": "88533654abe5e176b06df8208d7ad387a9a7bfb2eac8ea1af286d83c85e297af",
+        "mime": "image/jpeg"
       },
       {
         "id": "S4-06",
@@ -1713,7 +1761,9 @@
           "page": "https://commons.wikimedia.org/wiki/File:2016-07-27_Colijnsplaat_Zeelandbrug.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/2016-07-27_Colijnsplaat_Zeelandbrug.jpg/3840px-2016-07-27_Colijnsplaat_Zeelandbrug.jpg"
         },
-        "hero": true
+        "hero": true,
+        "sha256": "625e943f0f30e8f8d67ffb4772def04d1dbe82e8b296641fa700fa704655aee5",
+        "mime": "image/jpeg"
       },
       {
         "id": "S4-07",
@@ -1751,7 +1801,9 @@
           "licence": "CC BY-SA 4.0",
           "page": "https://commons.wikimedia.org/wiki/File:Rotterdam,_de_Erasmusbrug_vanaf_de_Holland-Amerikakade_IMG_1164_2022-04-17_19.32.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Rotterdam%2C_de_Erasmusbrug_vanaf_de_Holland-Amerikakade_IMG_1164_2022-04-17_19.32.jpg/3840px-Rotterdam%2C_de_Erasmusbrug_vanaf_de_Holland-Amerikakade_IMG_1164_2022-04-17_19.32.jpg"
-        }
+        },
+        "sha256": "fa33fb04a08d089a8f89216601d026615fac441407f4244896d72ca4ae7d556a",
+        "mime": "image/jpeg"
       },
       {
         "id": "S4-08",
@@ -1789,7 +1841,9 @@
           "licence": "CC BY-SA 4.0",
           "page": "https://commons.wikimedia.org/wiki/File:Erasmusbrug_-_Centrum_-_Rotterdam_-_Underside_of_the_bridge.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Erasmusbrug_-_Centrum_-_Rotterdam_-_Underside_of_the_bridge.jpg/3840px-Erasmusbrug_-_Centrum_-_Rotterdam_-_Underside_of_the_bridge.jpg"
-        }
+        },
+        "sha256": "27bc1493788efcba152dfc191770ab20411af0a1fa34fbe01b7c21562101b0f5",
+        "mime": "image/jpeg"
       },
       {
         "id": "S4-09",
@@ -1827,7 +1881,9 @@
           "licence": "Public domain",
           "page": "https://commons.wikimedia.org/wiki/File:Van_Brienenoordbrug_2010_3.JPG",
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Van_Brienenoordbrug_2010_3.JPG"
-        }
+        },
+        "sha256": "44af3ef6601805ceb1e8831308aed64598cacff98ff5f8744f085a82c8f2ce23",
+        "mime": "image/jpeg"
       },
       {
         "id": "S4-10",
@@ -1865,7 +1921,9 @@
           "licence": "CC BY-SA 2.0",
           "page": "https://commons.wikimedia.org/wiki/File:Around_zeelandbrug_(50).jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Around_zeelandbrug_%2850%29.jpg/3840px-Around_zeelandbrug_%2850%29.jpg"
-        }
+        },
+        "sha256": "cc8a69ff8d0a1f2d160cbbdceb096e19558a52542c3dcc86804a38b1f5d95eb6",
+        "mime": "image/jpeg"
       },
       {
         "id": "S4-11",
@@ -1903,7 +1961,9 @@
           "licence": "CC BY-SA 4.0",
           "page": "https://commons.wikimedia.org/wiki/File:Rotterdam,_kabels_van_de_Erasmusbrug_IMG_0435_2025-09-14_00.22.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Rotterdam%2C_kabels_van_de_Erasmusbrug_IMG_0435_2025-09-14_00.22.jpg/3840px-Rotterdam%2C_kabels_van_de_Erasmusbrug_IMG_0435_2025-09-14_00.22.jpg"
-        }
+        },
+        "sha256": "c550c9bac00abf953aa17f6a77f8303974881262eebfb6bc2543ab6cfe7e2b98",
+        "mime": "image/jpeg"
       },
       {
         "id": "S4-12",
@@ -1941,7 +2001,9 @@
           "licence": "CC BY-SA 4.0",
           "page": "https://commons.wikimedia.org/wiki/File:Zierikzee_Zeelandsbrug_3.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Zierikzee_Zeelandsbrug_3.jpg/3840px-Zierikzee_Zeelandsbrug_3.jpg"
-        }
+        },
+        "sha256": "32ccf7bf49468e64ac9eb3fb6e27944cbcebb7830ef470116e98deb0f8ab8ed7",
+        "mime": "image/jpeg"
       }
     ],
     "overlay": {
@@ -2100,6 +2162,404 @@
       }
     }
   },
+  "libraryHandles": [
+    {
+      "path": "business-cards/print/c01-eu-print.pdf",
+      "sha256": "86b1fc3fd1838667afc86ebbcc7c0eb8393f98ff9020c59c58ca3a5fbf505563",
+      "mime": "application/pdf",
+      "libraryId": "business-cards-print-c01-eu-print.pdf"
+    },
+    {
+      "path": "business-cards/source/c01-eu-back.svg",
+      "sha256": "0c434ea0616c0695d9f9d994fe9bf8b2797dccd93d2640eb542f860536521a02",
+      "mime": "image/svg+xml",
+      "libraryId": "business-cards-source-c01-eu-back.svg"
+    },
+    {
+      "path": "business-cards/source/c01-eu-front.svg",
+      "sha256": "fd580898652d2c1b5f55cde2dbb283dfe3db0ffa89a024e3e0709932a1396b2f",
+      "mime": "image/svg+xml",
+      "libraryId": "business-cards-source-c01-eu-front.svg"
+    },
+    {
+      "path": "images/source/S1-01.jpg",
+      "sha256": "b36d029eadae6a7b0a81a37c2a2e107a45ab6e5b18e465938b888db63c06c2bc",
+      "mime": "image/jpeg",
+      "libraryId": "S1-01"
+    },
+    {
+      "path": "images/source/S1-02.jpg",
+      "sha256": "ab542915c3e1fe1609efea6b03faaa43f994a20da4c08ce621eab4951f9c618a",
+      "mime": "image/jpeg",
+      "libraryId": "S1-02"
+    },
+    {
+      "path": "images/source/S1-04.jpg",
+      "sha256": "8b94be243488ba995bfa40e53adbcbd1c9922c5ae0da24c47619acf2baa59fc6",
+      "mime": "image/jpeg",
+      "libraryId": "S1-04"
+    },
+    {
+      "path": "images/source/S1-05.jpg",
+      "sha256": "5828ec911424b3c9ef59ca2d541a06471436d862f115fdc0a530251717a30637",
+      "mime": "image/jpeg",
+      "libraryId": "S1-05"
+    },
+    {
+      "path": "images/source/S1-07.jpg",
+      "sha256": "899d1ffa05309b0e4f14ab0799a84d4d036e2ff3c298a340f57eb1cea6c7c1e0",
+      "mime": "image/jpeg",
+      "libraryId": "S1-07"
+    },
+    {
+      "path": "images/source/S1-08.jpg",
+      "sha256": "84973b25049ebea14e24ab7d8a37cbe38390293a8408b5bdd46b1d0cb449dafb",
+      "mime": "image/jpeg",
+      "libraryId": "S1-08"
+    },
+    {
+      "path": "images/source/S1-09.jpg",
+      "sha256": "9ef8f4de8dd4e98c67bf8d66fe0560f3a64ecd995f3c628c910bfb61bd1cb95f",
+      "mime": "image/jpeg",
+      "libraryId": "S1-09"
+    },
+    {
+      "path": "images/source/S1-10.jpg",
+      "sha256": "e98fbd50a9ec2d31620cace83c9502d73a566282a7f48c39b8a38fd22c09c4fd",
+      "mime": "image/jpeg",
+      "libraryId": "S1-10"
+    },
+    {
+      "path": "images/source/S2-01.jpg",
+      "sha256": "550092fc7fe577b70a486d89f5bd414f1099b528b04ad9d1bb3e97174ebed5f4",
+      "mime": "image/jpeg",
+      "libraryId": "S2-01"
+    },
+    {
+      "path": "images/source/S2-02.jpg",
+      "sha256": "4d5ad9083387f1c20baf1bc20a1ee66922447cdc94b8e7fa860881f4a7b54c3a",
+      "mime": "image/jpeg",
+      "libraryId": "S2-02"
+    },
+    {
+      "path": "images/source/S2-05.jpg",
+      "sha256": "d655a18055edf874c9d41cea35a5127e83918cd19866dc8481b96f994a55f634",
+      "mime": "image/jpeg",
+      "libraryId": "S2-05"
+    },
+    {
+      "path": "images/source/S2-06.jpg",
+      "sha256": "768cc1f0b456213bdbd58f03d8450fd5a962fe1c3f997b07f1fec07ef72b3888",
+      "mime": "image/jpeg",
+      "libraryId": "S2-06"
+    },
+    {
+      "path": "images/source/S2-07.jpg",
+      "sha256": "a1758996cfa6d4d67d4f8454dc45daf39290037a6ca22477a2741dd792d669f6",
+      "mime": "image/jpeg",
+      "libraryId": "S2-07"
+    },
+    {
+      "path": "images/source/S2-08.jpg",
+      "sha256": "26704e76bba0aa1b2a4c2fd59f219606c0308e02414ed608a59ca0996218ed1e",
+      "mime": "image/jpeg",
+      "libraryId": "S2-08"
+    },
+    {
+      "path": "images/source/S2-09.jpg",
+      "sha256": "ee303372ae037f91405bf536cb7bd615dfeb276d789d82404f675a1bd9fbaa3a",
+      "mime": "image/jpeg",
+      "libraryId": "S2-09"
+    },
+    {
+      "path": "images/source/S3-01.jpg",
+      "sha256": "e3d4a6151eef3a20e4a8bc2b588785923747f21d057c3bf9a983d415bff4327d",
+      "mime": "image/jpeg",
+      "libraryId": "S3-01"
+    },
+    {
+      "path": "images/source/S3-02.jpg",
+      "sha256": "7ff096429d53414e67074f47673f3d7c25605d28251a1dea224432c70f9792eb",
+      "mime": "image/jpeg",
+      "libraryId": "S3-02"
+    },
+    {
+      "path": "images/source/S3-03.jpg",
+      "sha256": "bd80f64cef638e9410585321357ea8536dc46d705a180add470c1870fa1542fa",
+      "mime": "image/jpeg",
+      "libraryId": "S3-03"
+    },
+    {
+      "path": "images/source/S3-07.jpg",
+      "sha256": "f2adb6b99abf79428e48bddbe25d7e8409097a75b4ee0b624590576d30da2e4f",
+      "mime": "image/jpeg",
+      "libraryId": "S3-07"
+    },
+    {
+      "path": "images/source/S3-08.jpg",
+      "sha256": "47712e0f6a3face055b2d6a6f3afd73c02497727e81ef45b8ba19933aec23ac7",
+      "mime": "image/jpeg",
+      "libraryId": "S3-08"
+    },
+    {
+      "path": "images/source/S4-01.jpg",
+      "sha256": "b0b8adc57bfd5eb2345a89c9b2eacbd93b53b37c0bf7637f1db32140e982bab2",
+      "mime": "image/jpeg",
+      "libraryId": "S4-01"
+    },
+    {
+      "path": "images/source/S4-03.jpg",
+      "sha256": "1f7e13561edf9f0b798d79f3c916d202dc9f48286a76f98cbc36fd524137eb60",
+      "mime": "image/jpeg",
+      "libraryId": "S4-03"
+    },
+    {
+      "path": "images/source/S4-04.jpg",
+      "sha256": "a38f4960e88d7226bd4c8b8cd6cdc8713083e66c96ca55efc7f39f770115dbb4",
+      "mime": "image/jpeg",
+      "libraryId": "S4-04"
+    },
+    {
+      "path": "images/source/S4-05.jpg",
+      "sha256": "88533654abe5e176b06df8208d7ad387a9a7bfb2eac8ea1af286d83c85e297af",
+      "mime": "image/jpeg",
+      "libraryId": "S4-05"
+    },
+    {
+      "path": "images/source/S4-06.jpg",
+      "sha256": "625e943f0f30e8f8d67ffb4772def04d1dbe82e8b296641fa700fa704655aee5",
+      "mime": "image/jpeg",
+      "libraryId": "S4-06"
+    },
+    {
+      "path": "images/source/S4-07.jpg",
+      "sha256": "fa33fb04a08d089a8f89216601d026615fac441407f4244896d72ca4ae7d556a",
+      "mime": "image/jpeg",
+      "libraryId": "S4-07"
+    },
+    {
+      "path": "images/source/S4-08.jpg",
+      "sha256": "27bc1493788efcba152dfc191770ab20411af0a1fa34fbe01b7c21562101b0f5",
+      "mime": "image/jpeg",
+      "libraryId": "S4-08"
+    },
+    {
+      "path": "images/source/S4-09.jpg",
+      "sha256": "44af3ef6601805ceb1e8831308aed64598cacff98ff5f8744f085a82c8f2ce23",
+      "mime": "image/jpeg",
+      "libraryId": "S4-09"
+    },
+    {
+      "path": "images/source/S4-10.jpg",
+      "sha256": "cc8a69ff8d0a1f2d160cbbdceb096e19558a52542c3dcc86804a38b1f5d95eb6",
+      "mime": "image/jpeg",
+      "libraryId": "S4-10"
+    },
+    {
+      "path": "images/source/S4-11.jpg",
+      "sha256": "c550c9bac00abf953aa17f6a77f8303974881262eebfb6bc2543ab6cfe7e2b98",
+      "mime": "image/jpeg",
+      "libraryId": "S4-11"
+    },
+    {
+      "path": "images/source/S4-12.jpg",
+      "sha256": "32ccf7bf49468e64ac9eb3fb6e27944cbcebb7830ef470116e98deb0f8ab8ed7",
+      "mime": "image/jpeg",
+      "libraryId": "S4-12"
+    },
+    {
+      "path": "pptx-assets/gradients/navy-amber-diag.png",
+      "sha256": "961e147c99fe5a9964f3327d5b9a7e7a4851a68a7bd4fd2c0be528b60c3e1f93",
+      "mime": "image/png",
+      "libraryId": "pptx-assets-gradients-navy-amber-diag.png"
+    },
+    {
+      "path": "pptx-assets/gradients/navy-hero.png",
+      "sha256": "1cd4302bf25d490e82560c1e8b65118c5674343549ab312771751d7cce80805d",
+      "mime": "image/png",
+      "libraryId": "pptx-assets-gradients-navy-hero.png"
+    },
+    {
+      "path": "pptx-assets/gradients/navy-vignette.png",
+      "sha256": "2fa58fd7ca9d6042f780300573c45e8da8651c3f81abda362c1effedbdef9ddb",
+      "mime": "image/png",
+      "libraryId": "pptx-assets-gradients-navy-vignette.png"
+    },
+    {
+      "path": "pptx-assets/gradients/paper-soft.png",
+      "sha256": "14fd3b0ea0085730cef34a82f9382d0aa00b484304a524eaff84bc03578c589c",
+      "mime": "image/png",
+      "libraryId": "pptx-assets-gradients-paper-soft.png"
+    },
+    {
+      "path": "pptx-assets/motifs/pattern-full-navy.png",
+      "sha256": "14c28b9fd916c7506c491c88931d2239d222670919d3ad0fe84bf7739a699046",
+      "mime": "image/png",
+      "libraryId": "pptx-assets-motifs-pattern-full-navy.png"
+    },
+    {
+      "path": "pptx-assets/motifs/pattern-full-paper.png",
+      "sha256": "06e64bfa5c573d005496fa9c5db94b2fad87716672810e2fb824b99fb0a2813c",
+      "mime": "image/png",
+      "libraryId": "pptx-assets-motifs-pattern-full-paper.png"
+    },
+    {
+      "path": "pptx-assets/motifs/step-rail-on-dark.png",
+      "sha256": "d5083ae089f7e52e42333da2f730c63c17ad31fcf8c45c2895cf497dd37d1abd",
+      "mime": "image/png",
+      "libraryId": "pptx-assets-motifs-step-rail-on-dark.png"
+    },
+    {
+      "path": "pptx-assets/motifs/step-rail-on-light.png",
+      "sha256": "792322a205f4d0f7d3832d53ae2f0d63616b50bb2a7736207b569d0fecfbf9ed",
+      "mime": "image/png",
+      "libraryId": "pptx-assets-motifs-step-rail-on-light.png"
+    },
+    {
+      "path": "social/linkedin/_preview/abstract-cta-company.jpg",
+      "sha256": "d63e492deee86b9de89d898f227224a6589edbe9e1a927831bb0d602c88f291c",
+      "mime": "image/jpeg",
+      "libraryId": "social-linkedin-_preview-abstract-cta-company.jpg"
+    },
+    {
+      "path": "social/linkedin/_preview/abstract-cta-profile.jpg",
+      "sha256": "9e3dd2343c7294b1e00eba276905da3a92bec64843a55a97be95961c07208a60",
+      "mime": "image/jpeg",
+      "libraryId": "social-linkedin-_preview-abstract-cta-profile.jpg"
+    },
+    {
+      "path": "social/linkedin/_preview/motif-score-company.jpg",
+      "sha256": "cbcd5bdf7edd45d9e71d829f394b49198c596697e42a557bc31c6cc917bc030c",
+      "mime": "image/jpeg",
+      "libraryId": "social-linkedin-_preview-motif-score-company.jpg"
+    },
+    {
+      "path": "social/linkedin/_preview/motif-score-profile.jpg",
+      "sha256": "73b4b80f5bb42b62ed2a2a05f44d492399c704aad4ca1d35e122d0d2be2ec254",
+      "mime": "image/jpeg",
+      "libraryId": "social-linkedin-_preview-motif-score-profile.jpg"
+    },
+    {
+      "path": "social/linkedin/_preview/photo-led-company.jpg",
+      "sha256": "9ec4e6095e9f9cbbfff2ddd630153847ba5951c92736240209b446ce8b631a24",
+      "mime": "image/jpeg",
+      "libraryId": "social-linkedin-_preview-photo-led-company.jpg"
+    },
+    {
+      "path": "social/linkedin/_preview/photo-led-profile.jpg",
+      "sha256": "ae94555e5ded94c6006cebb0aa169b48bda1328de0adbd601891b6da04f14bd5",
+      "mime": "image/jpeg",
+      "libraryId": "social-linkedin-_preview-photo-led-profile.jpg"
+    },
+    {
+      "path": "social/linkedin/_preview/statement-company.jpg",
+      "sha256": "b8c0b97f02dd42bc285fb4f2b5b561dc896dc3170b44a2295e4238089bbf7c90",
+      "mime": "image/jpeg",
+      "libraryId": "social-linkedin-_preview-statement-company.jpg"
+    },
+    {
+      "path": "social/linkedin/_preview/statement-profile.jpg",
+      "sha256": "1b24ee932376d506436a243efc2a867882eb0cac80ffd063f0e4ef202310599b",
+      "mime": "image/jpeg",
+      "libraryId": "social-linkedin-_preview-statement-profile.jpg"
+    },
+    {
+      "path": "social/linkedin/abstract-cta-company.png",
+      "sha256": "bbf8d6a0d55d8538b230cb52b7112a79ec735a4149c2e2510231c62afd083779",
+      "mime": "image/png",
+      "libraryId": "social-linkedin-abstract-cta-company.png"
+    },
+    {
+      "path": "social/linkedin/abstract-cta-company@2x.png",
+      "sha256": "799eb15e579ce5311abeefd8cecd82dc6075e159f78081abc794663232fdcf1d",
+      "mime": "image/png",
+      "libraryId": "social-linkedin-abstract-cta-company-2x.png"
+    },
+    {
+      "path": "social/linkedin/abstract-cta-profile.png",
+      "sha256": "b3242548eca8ec4734e3979a99af31ae3f31e2b5baee267ddd151afca63ccc1b",
+      "mime": "image/png",
+      "libraryId": "social-linkedin-abstract-cta-profile.png"
+    },
+    {
+      "path": "social/linkedin/motif-score-company.png",
+      "sha256": "ca468d377bac45885eb67bf37dd0c3505a14416a4eaba75ac89633d215c6b9ad",
+      "mime": "image/png",
+      "libraryId": "social-linkedin-motif-score-company.png"
+    },
+    {
+      "path": "social/linkedin/motif-score-company@2x.png",
+      "sha256": "781a462446e33cafc33bee906d151f71e23df2ba5526339ceab6dbf1d120d05b",
+      "mime": "image/png",
+      "libraryId": "social-linkedin-motif-score-company-2x.png"
+    },
+    {
+      "path": "social/linkedin/motif-score-profile.png",
+      "sha256": "070cd01c1030419ba4aa02d49f5b03fc31b74057b263e8bfb1c076de6ba32351",
+      "mime": "image/png",
+      "libraryId": "social-linkedin-motif-score-profile.png"
+    },
+    {
+      "path": "social/linkedin/motif-score-profile@2x.png",
+      "sha256": "03f0d6f3f1df33ab161f5fd3c60018be0116aa18ea50b1201ff543956a187a69",
+      "mime": "image/png",
+      "libraryId": "social-linkedin-motif-score-profile-2x.png"
+    },
+    {
+      "path": "social/linkedin/photo-led-company.png",
+      "sha256": "1355f7ee5c929896c044fee430cd684dd05656252f5221c411f21f362200a761",
+      "mime": "image/png",
+      "libraryId": "social-linkedin-photo-led-company.png"
+    },
+    {
+      "path": "social/linkedin/photo-led-company@2x.png",
+      "sha256": "37fbcd921033cadff5e3c6f2fc71c21a4ade6bf781cd7154c1c9e5b667e1c869",
+      "mime": "image/png",
+      "libraryId": "social-linkedin-photo-led-company-2x.png"
+    },
+    {
+      "path": "social/linkedin/photo-led-profile.png",
+      "sha256": "a396fb0047e26e6bb38d0007ea015d8b2ec15dc6c83635d4581a89ab25d35a01",
+      "mime": "image/png",
+      "libraryId": "social-linkedin-photo-led-profile.png"
+    },
+    {
+      "path": "social/linkedin/statement-company.png",
+      "sha256": "295a24f45d0b21dc86200bd65ed13c19cb1a12217f29fdf4a92779a25f625ea9",
+      "mime": "image/png",
+      "libraryId": "social-linkedin-statement-company.png"
+    },
+    {
+      "path": "social/linkedin/statement-company@2x.png",
+      "sha256": "67671942d721da74d71bf15b68da2b055c3105b2b4c2edad089745cde1fca954",
+      "mime": "image/png",
+      "libraryId": "social-linkedin-statement-company-2x.png"
+    },
+    {
+      "path": "social/linkedin/statement-profile.png",
+      "sha256": "18fde49610a0e834d4e9db6ccb2ce83c719612583a225ab108dfdfc665615f46",
+      "mime": "image/png",
+      "libraryId": "social-linkedin-statement-profile.png"
+    },
+    {
+      "path": "social/linkedin/statement-profile@2x.png",
+      "sha256": "e78beeccea945c78780d5bd56f8f70ecf0b5e104017540cbc86c8962b739661b",
+      "mime": "image/png",
+      "libraryId": "social-linkedin-statement-profile-2x.png"
+    },
+    {
+      "path": "templates/docx/letterhead.docx",
+      "sha256": "484dc5c7b70f88612166a566166230dc078c1c4f27fea3d4e9b12d2a13190bbc",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "libraryId": "templates-docx-letterhead.docx"
+    },
+    {
+      "path": "templates/docx/styles.docx",
+      "sha256": "ed0ade8bb5b0f5ae9549bd20f3099790bdafc9aa63fb7bd4cb96f3f516fb93d9",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "libraryId": "templates-docx-styles.docx"
+    }
+  ],
   "integrity": {
     "compiler": "brand_compile.py",
     "compiler_version": "1.0",
@@ -2116,6 +2576,7 @@
       "generatedFrom",
       "identity",
       "images",
+      "libraryHandles",
       "logo",
       "plotly_theme",
       "presentation",
@@ -2143,6 +2604,6 @@
       "photo"
     ],
     "images_count": 31,
-    "sha256": "b0e16da1fd836358b592834b142a40dc29387b273c6beb8977e9d0d112be99df"
+    "sha256": "511a5889def2d41640a43486442005a67a6ca4b2335e956d1ac3ee5191d8671e"
   }
 }
