@@ -14,7 +14,7 @@
     "supportLanguages": [
       "en"
     ],
-    "domain": "scaleupfm.nl",
+    "domain": "scaleupfm.com",
     "backers": "Duke Strategies (Ingo Heijnen, Ariën Stuijt — silent partners)",
     "archetype": {
       "primary": "Sage",
@@ -513,7 +513,7 @@
     },
     "deployment": {
       "platform": "azure-swa",
-      "domain": "scaleupfm.nl",
+      "domain": "scaleupfm.com",
       "analytics": "plausible",
       "contactForm": "mailto"
     }

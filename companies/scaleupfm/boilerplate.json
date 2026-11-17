@@ -3,8 +3,8 @@
   "version": "1.0",
   "description": "Fixed cross-deliverable strings for ScaleUp Financial Management. Single source of truth for the pptx/pptx-hd/docx/pdf/pdf-hd/xlsx format skills. Company facts live in profile.json. Edit here when wording changes; downstream skills re-read on each generation.",
   "$comment": "TBC: legal.trademark needs counsel review before external use; primary phone number to be added across deliverables once registered.",
-  "website": "scaleupfm.nl",
-  "email": "wilgert@scaleupfm.nl",
+  "website": "scaleupfm.com",
+  "email": "wilgert@scaleupfm.com",
   "confidentiality": {
     "default": "Confidential",
     "default_nl": "Vertrouwelijk",
@@ -35,7 +35,7 @@
     "formal_en": "Yours sincerely,"
   },
   "contact_block": {
-    "default_nl": "Wilgert Hart · Managing Partner\nScaleUp Financial Management\nwilgert@scaleupfm.nl · scaleupfm.nl",
-    "default_en": "Wilgert Hart · Managing Partner\nScaleUp Financial Management\nwilgert@scaleupfm.nl · scaleupfm.nl"
+    "default_nl": "Wilgert Hart · Managing Partner\nScaleUp Financial Management\nwilgert@scaleupfm.com · scaleupfm.com",
+    "default_en": "Wilgert Hart · Managing Partner\nScaleUp Financial Management\nwilgert@scaleupfm.com · scaleupfm.com"
   }
 }

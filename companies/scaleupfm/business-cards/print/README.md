@@ -11,8 +11,8 @@ trim, 3 mm bleed, crop marks, CMYK, fonts embedded, PDF/X-1a:2003.
   photo's subject box so the whole arch shows, baked at ~363 ppi. The white
   lockup ("ScaleUp Financial Management") and "Start to Scale" sit in the open
   sky above the bridge, never over it. One bird was removed from the sky.
-- **Placeholders:** `wilgert@scaleupfm.nl` and `scaleupfm.nl` until the domain
-  and mailbox exist; `linkedin.com/in/wilgerthart` until Wilgert sets that
+- **Placeholders:** `wilgert@scaleupfm.com` until the mailbox exists (the
+  domain `scaleupfm.com` is live since 2026-11-16); `linkedin.com/in/wilgerthart` until Wilgert sets that
   custom profile URL on LinkedIn. No phone line until there is a real number.
 
 The converter's preflight (text ≥ 8 pt, safe area, photos ≥ 300 ppi) passes.
