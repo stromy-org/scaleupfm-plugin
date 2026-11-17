@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "version": "1.0",
   "generatedFrom": {
-    "charterSha": "1078b923d8887e847ce0fb26d8cf870197e1230b0c0b2687710a9df74b519abf",
+    "charterSha": "8c81437974cfe0739ad657b4ba18afaba70b48ae7164e2c93bbc81c1d4e53425",
     "compiler": "1.0"
   },
   "tier": "producer",
@@ -163,8 +163,8 @@
       "formal_en": "Yours sincerely,"
     },
     "contact_block": {
-      "default_nl": "Wilgert Hart · Managing Partner\nScaleUp Financial Management\nwilgert@scaleupfm.nl · scaleupfm.nl",
-      "default_en": "Wilgert Hart · Managing Partner\nScaleUp Financial Management\nwilgert@scaleupfm.nl · scaleupfm.nl"
+      "default_nl": "Wilgert Hart · Managing Partner\nScaleUp Financial Management\nwilgert@scaleupfm.com · scaleupfm.com",
+      "default_en": "Wilgert Hart · Managing Partner\nScaleUp Financial Management\nwilgert@scaleupfm.com · scaleupfm.com"
     }
   },
   "expression": {
@@ -2604,6 +2604,6 @@
       "photo"
     ],
     "images_count": 31,
-    "sha256": "511a5889def2d41640a43486442005a67a6ca4b2335e956d1ac3ee5191d8671e"
+    "sha256": "428fac83dac466979b8afff0c6ffc055fcc822d71711b1d687d7d1d5c0545aaf"
   }
 }

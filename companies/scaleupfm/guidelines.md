@@ -18,7 +18,7 @@
 | Geography | Netherlands, international touchpoints |
 | Primary language | Dutch (`nl`) |
 | Supported languages | Dutch, English |
-| Domain | `scaleupfm.nl` (planned; `.com` and `.eu` redirect) |
+| Domain | `scaleupfm.com` (live; `.nl` and `.eu` redirect) |
 | Backers | Duke Strategies (silent partners) |
 | Archetype | Sage (primary) · Caregiver (secondary) |
 
